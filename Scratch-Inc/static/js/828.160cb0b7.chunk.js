@@ -1,0 +1,123 @@
+'use strict';
+
+function a4_0x6a3b(_0x59239d, _0x2b7698) {
+  const _0xba38f7 = a4_0xba38();
+  return a4_0x6a3b = function(_0x6a3b95, _0x4fb0bb) {
+    _0x6a3b95 = _0x6a3b95 - 0xcf;
+    let _0x317bbd = _0xba38f7[_0x6a3b95];
+    return _0x317bbd;
+  }, a4_0x6a3b(_0x59239d, _0x2b7698);
+}
+const a4_0x4a1f22 = a4_0x6a3b;
+(function(_0xc00d8a, _0x434c53) {
+  const _0xd3ff0c = a4_0x6a3b,
+    _0x1502d8 = _0xc00d8a();
+  while (!![]) {
+    try {
+      const _0x1862e7 = -parseInt(_0xd3ff0c(0xd6)) / 0x1 * (parseInt(_0xd3ff0c(0xd8)) / 0x2) + parseInt(_0xd3ff0c(0xe9)) / 0x3 + -parseInt(_0xd3ff0c(0xf6)) / 0x4 + parseInt(_0xd3ff0c(0xd1)) / 0x5 * (parseInt(_0xd3ff0c(0xd7)) / 0x6) + -parseInt(_0xd3ff0c(0xf3)) / 0x7 + parseInt(_0xd3ff0c(0xec)) / 0x8 * (parseInt(_0xd3ff0c(0xe2)) / 0x9) + parseInt(_0xd3ff0c(0xda)) / 0xa * (parseInt(_0xd3ff0c(0xf4)) / 0xb);
+      if (_0x1862e7 === _0x434c53) break;
+      else _0x1502d8['push'](_0x1502d8['shift']());
+    } catch (_0x178768) {
+      _0x1502d8['push'](_0x1502d8['shift']());
+    }
+  }
+}(a4_0xba38, 0xc459d));
+
+function a4_0xba38() {
+  const _0x580367 = ['get', 'impl', '394695oJYMwD', 'key', 'map', 'CapacitorStorage', 'clear', '370822yqEkAF', '66ZfPqKx', '4qXGbmX', 'string', '11150VtAJyD', 'removeOld', 'push', 'remove', 'group', 'value', 'substring', 'setItem', '2169fBhfmH', 'indexOf', 'configure', '_cap_', 'removeItem', 'prefix', 'webpackChunkapps', '2202162eBxrGo', 'getItem', 'set', '51584wVJfgD', 'filter', 'keys', 'length', 'localStorage', 'NativeStorage', 'applyPrefix', '6206893vAJeFF', '7502XTFZRP', 'rawKeys', '5936740hGExhs'];
+  a4_0xba38 = function() {
+    return _0x580367;
+  };
+  return a4_0xba38();
+}(self[a4_0x4a1f22(0xe8)] = self['webpackChunkapps'] || [])[a4_0x4a1f22(0xdc)]([
+  [0x33c], {
+    0x20ff: (_0x5f3a48, _0xae792, _0x308eb9) => {
+      const _0x5e0e15 = a4_0x4a1f22;
+      _0x308eb9['r'](_0xae792), _0x308eb9['d'](_0xae792, {
+        'PreferencesWeb': () => _0x1a03ad
+      });
+      var _0x38232f = _0x308eb9(0x151b);
+      class _0x1a03ad extends _0x38232f['E_'] {
+        constructor() {
+          const _0x2a1add = a4_0x6a3b;
+          super(...arguments), this['group'] = _0x2a1add(0xd4);
+        }
+        async [_0x5e0e15(0xe4)](_0x2bf723) {
+          const _0x38703d = _0x5e0e15;
+          let {
+            group: _0x15c0b3
+          } = _0x2bf723;
+          _0x38703d(0xd9) === typeof _0x15c0b3 && (this['group'] = _0x15c0b3);
+        }
+        async [_0x5e0e15(0xcf)](_0x5c3fae) {
+          const _0x437fe1 = _0x5e0e15;
+          return {
+            'value': this[_0x437fe1(0xd0)][_0x437fe1(0xea)](this[_0x437fe1(0xf2)](_0x5c3fae[_0x437fe1(0xd2)]))
+          };
+        }
+        async [_0x5e0e15(0xeb)](_0x26a86a) {
+          const _0x583c2a = _0x5e0e15;
+          this[_0x583c2a(0xd0)][_0x583c2a(0xe1)](this[_0x583c2a(0xf2)](_0x26a86a['key']), _0x26a86a[_0x583c2a(0xdf)]);
+        }
+        async [_0x5e0e15(0xdd)](_0x21a2c1) {
+          const _0x23ab4c = _0x5e0e15;
+          this['impl'][_0x23ab4c(0xe6)](this['applyPrefix'](_0x21a2c1['key']));
+        }
+        async [_0x5e0e15(0xee)]() {
+          const _0x142e16 = _0x5e0e15;
+          return {
+            'keys': this[_0x142e16(0xf5)]()[_0x142e16(0xd3)](_0x271662 => _0x271662[_0x142e16(0xe0)](this['prefix'][_0x142e16(0xef)]))
+          };
+        }
+        async [_0x5e0e15(0xd5)]() {
+          const _0x2982bd = _0x5e0e15;
+          for (const _0x192cac of this['rawKeys']()) this[_0x2982bd(0xd0)]['removeItem'](_0x192cac);
+        }
+        async ['migrate']() {
+          const _0xc2d235 = _0x5e0e15;
+          var _0x5108a3;
+          const _0x27eaf0 = [],
+            _0x18c5b2 = [],
+            _0x3c0c7e = _0xc2d235(0xe5),
+            _0x27b274 = Object[_0xc2d235(0xee)](this[_0xc2d235(0xd0)])[_0xc2d235(0xed)](_0x5b77b2 => 0x0 === _0x5b77b2[_0xc2d235(0xe3)](_0x3c0c7e));
+          for (const _0x2d819f of _0x27b274) {
+            const _0xb261ff = _0x2d819f[_0xc2d235(0xe0)](0x5),
+              _0x18d4ca = null !== (_0x5108a3 = this[_0xc2d235(0xd0)][_0xc2d235(0xea)](_0x2d819f)) && void 0x0 !== _0x5108a3 ? _0x5108a3 : '',
+              {
+                value: _0x930222
+              } = await this[_0xc2d235(0xcf)]({
+                'key': _0xb261ff
+              });
+            _0xc2d235(0xd9) === typeof _0x930222 ? _0x18c5b2[_0xc2d235(0xdc)](_0xb261ff) : (await this[_0xc2d235(0xeb)]({
+              'key': _0xb261ff,
+              'value': _0x18d4ca
+            }), _0x27eaf0[_0xc2d235(0xdc)](_0xb261ff));
+          }
+          return {
+            'migrated': _0x27eaf0,
+            'existing': _0x18c5b2
+          };
+        }
+        async [_0x5e0e15(0xdb)]() {
+          const _0x3acb40 = _0x5e0e15,
+            _0x156502 = Object['keys'](this[_0x3acb40(0xd0)])['filter'](_0x310fb7 => 0x0 === _0x310fb7[_0x3acb40(0xe3)](_0x3acb40(0xe5)));
+          for (const _0x32c0c3 of _0x156502) this[_0x3acb40(0xd0)][_0x3acb40(0xe6)](_0x32c0c3);
+        }
+        get['impl']() {
+          const _0x442057 = _0x5e0e15;
+          return window[_0x442057(0xf0)];
+        }
+        get[_0x5e0e15(0xe7)]() {
+          const _0x22fa5a = _0x5e0e15;
+          return _0x22fa5a(0xf1) === this[_0x22fa5a(0xde)] ? '' : '' ['concat'](this['group'], '.');
+        } [_0x5e0e15(0xf5)]() {
+          const _0x280cb4 = _0x5e0e15;
+          return Object[_0x280cb4(0xee)](this[_0x280cb4(0xd0)])[_0x280cb4(0xed)](_0x1b118a => 0x0 === _0x1b118a[_0x280cb4(0xe3)](this[_0x280cb4(0xe7)]));
+        } [_0x5e0e15(0xf2)](_0x2c01bf) {
+          const _0x39aeb7 = _0x5e0e15;
+          return this[_0x39aeb7(0xe7)] + _0x2c01bf;
+        }
+      }
+    }
+  }
+]);

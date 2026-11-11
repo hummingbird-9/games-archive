@@ -1,0 +1,5517 @@
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  src: url(../../static/media/Geist-VariableFont_wght.bb5c1662d94f85ffacb9.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: Satoshi;
+  font-style: normal;
+  font-weight: 100 900;
+  src: url(../../static/media/Satoshi-Variable.536fda9b164542087fc7.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: Satoshi;
+  font-style: italic;
+  font-weight: 100 900;
+  src: url(../../static/media/Satoshi-VariableItalic.9519fea9567e2405bc08.ttf) format("truetype")
+}
+
+:root {
+  --Backer: linear-gradient(359deg, #121212 76.53%, #4a00e0bf 96.94%);
+  --ElementA: #1e1e1e;
+  --ElementB: #12121d;
+  --BorderColor: #444;
+  --AccentA: #8c52ff;
+  --BetterGradient: linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb);
+  --MainGradient: linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb 74.83%, #67e4fe);
+  --ButtonGradient: linear-gradient(103deg, #8c52ff 20.09%, #3d80ff 94.01%);
+  --NegativeGradient: linear-gradient(135deg, #f28b82, #f6c1b7)
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  align-items: center;
+  background: linear-gradient(359deg, #121212 76.53%, #4a00e0bf 96.94%);
+  background: var(--Backer);
+  display: flex;
+  font-family: Satoshi, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  width: 100vw
+}
+
+.ToBeLoaded {
+  display: none
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace
+}
+
+.App {
+  background: linear-gradient(359deg, #121212 76.53%, #4a00e0bf 96.94%);
+  background: var(--Backer);
+  height: 100vh;
+  width: 100vw
+}
+
+.Background {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden
+}
+
+.Background img {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: auto;
+  z-index: -100
+}
+
+.UI {
+  pointer-events: none;
+  z-index: 10
+}
+
+.SwipeablePage,
+.UI {
+  height: 100vh;
+  position: fixed;
+  width: 100vw
+}
+
+.SwipeablePage {
+  background: #0a0415;
+  left: 0;
+  top: 0;
+  z-index: 10000
+}
+
+.NavBar {
+  background: var(--Backer);
+  border-radius: 24px 24px 0 0;
+  border-top: .5px solid #444;
+  bottom: 0;
+  box-shadow: 0 0 25px 0 #0000000a;
+  box-sizing: border-box;
+  height: 90px;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+  pointer-events: all;
+  position: fixed;
+  width: 100vw;
+  z-index: 10
+}
+
+.NavBar,
+.NavItem {
+  align-items: center;
+  display: flex
+}
+
+.NavItem {
+  cursor: pointer;
+  flex: 1 1;
+  flex-direction: column;
+  margin-top: -10px;
+  text-align: center
+}
+
+.SpacerNav {
+  opacity: 0;
+  pointer-events: none
+}
+
+.NavIcon {
+  margin-bottom: 0
+}
+
+.NavText {
+  color: #9f9f9f;
+  font-size: 13px;
+  font-weight: 400
+}
+
+.NavText.Selected {
+  color: #fff;
+  font-weight: 600
+}
+
+.NavSubmit {
+  background: var(--Backer);
+  border: 4px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 0 20px #3a6ad247, 0 0 30px #7647d238, 0 0 40px #5e55d226;
+  height: 50px;
+  left: 50%;
+  position: absolute;
+  top: -17.5px;
+  transform: translateX(-50%);
+  width: 50px
+}
+
+.NavSubmit .NavIcon {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.KeyboardOpen .NavBar {
+  display: none
+}
+
+.Page {
+  box-sizing: border-box;
+  overflow-y: auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 70px
+}
+
+.GradientOverlay,
+.Page {
+  height: calc(100vh - 90px);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw
+}
+
+.GradientOverlay {
+  background: radial-gradient(circle at top, #3a3a7be6 0, #121212 60%);
+  pointer-events: none;
+  z-index: 0
+}
+
+.Page::-webkit-scrollbar {
+  display: none
+}
+
+.KeyboardOpen .Page {
+  height: calc(100vh - 75px);
+  top: 75px
+}
+
+.PageHeader {
+  left: 5vw;
+  position: absolute;
+  top: 70px;
+  width: 90vw
+}
+
+.PageTitle {
+  color: #fff;
+  font-size: 20px;
+  left: 0;
+  position: absolute;
+  top: 0
+}
+
+.ScrollTest {
+  height: 3000px
+}
+
+.Popups {
+  z-index: 1000
+}
+
+.PopupBackground,
+.Popups {
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw
+}
+
+.PopupBackground {
+  background: #00000080;
+  z-index: 0
+}
+
+.Popup {
+  background: linear-gradient(#1f1b2e, #1f1b2e) padding-box, linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb 74.83%, #67e4fe) border-box;
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 1px solid #0000;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  height: calc(100vh - 190px);
+  left: 50%;
+  max-width: 500px;
+  overflow: hidden;
+  padding: 20px;
+  position: fixed;
+  top: 70px;
+  transform: translateX(-50%);
+  width: 90vw;
+  z-index: 100
+}
+
+.PopupHeader {
+  background: linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb 74.83%, #67e4fe);
+  color: #ececec;
+  font-size: 20px;
+  font-weight: 600;
+  height: 55px;
+  left: 0;
+  line-height: 55px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%
+}
+
+.PopupClose {
+  height: 24px;
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  width: 24px
+}
+
+.PopupBody {
+  box-sizing: border-box;
+  height: calc(100% - 55px);
+  left: 0;
+  overflow-y: auto;
+  padding: 20px;
+  position: absolute;
+  top: 55px;
+  width: 100%
+}
+
+.PopupBody::-webkit-scrollbar {
+  display: none
+}
+
+.PopupButton {
+  background: #1e1e1e;
+  border-radius: 6px;
+  bottom: 25px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  left: 50%;
+  line-height: 40px;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 85%
+}
+
+.PopupButton.Ready {
+  background: linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb 74.83%, #67e4fe)
+}
+
+.Popup.Confirmed {
+  height: 220px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.Popup.Request .PopupHeader {
+  background: var(--Color);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #ececec;
+  font-size: 20px;
+  font-weight: 600;
+  height: 55px;
+  line-height: 55px;
+  position: relative;
+  text-align: center;
+  width: 100%
+}
+
+.Popup.Request .RequestBody {
+  font-size: 16px
+}
+
+.RequestButtons {
+  margin: 20px auto
+}
+
+.RequestButton {
+  background: #3948f9;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 42%
+}
+
+.RequestButton.Yes {
+  background: var(--Color)
+}
+
+.RequestButton.No {
+  background: #3f3f46
+}
+
+.Popup.Request {
+  background: linear-gradient(#1f1b2e, #1f1b2e) padding-box, var(--Color) border-box;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: auto;
+  left: 50%;
+  max-height: 90vh;
+  max-width: 500px;
+  overflow: visible;
+  padding: 0;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw
+}
+
+.Popup.Request .PopupBody {
+  box-sizing: border-box;
+  overflow: visible;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  width: 100%
+}
+
+.RequestButtons {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto 5px;
+  position: relative;
+  width: 90%
+}
+
+.Popup.Text {
+  background: linear-gradient(#1f1b2e, #1f1b2e) padding-box, var(--Color) border-box;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: auto !important;
+  left: 50% !important;
+  max-height: 90vh;
+  max-width: 500px;
+  overflow: visible;
+  padding: 0;
+  position: fixed !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 90vw
+}
+
+.Popup.Text .PopupHeader {
+  background: var(--Color);
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  color: #ececec;
+  font-size: 20px;
+  font-weight: 600;
+  height: 55px;
+  line-height: 55px;
+  position: relative;
+  text-align: center;
+  width: 100%
+}
+
+.Popup.Text .PopupBody {
+  box-sizing: border-box;
+  overflow: visible;
+  padding: 20px;
+  position: relative !important;
+  text-align: center;
+  top: 0 !important;
+  width: 100%
+}
+
+.TextBody {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 16px
+}
+
+.Popup.Text .PopupButton {
+  background: var(--Color);
+  border-radius: 6px;
+  bottom: auto;
+  color: #fff;
+  display: block;
+  font-weight: 500;
+  height: 40px;
+  left: auto;
+  line-height: 40px;
+  margin: 0 auto 5px;
+  position: relative;
+  text-align: center;
+  transform: none;
+  width: 85%
+}
+
+.Popup.Text.LockPlanet .PopupButton:before,
+.Popup.Text.LockPlanet .PopupHeader:before {
+  background-image: radial-gradient(1px 1px at 20% 30%, #fff, #0000), radial-gradient(1.5px 1.5px at 70% 20%, #fff, #0000), radial-gradient(1px 1px at 50% 60%, #fff, #0000), radial-gradient(2px 2px at 85% 80%, #fff, #0000), radial-gradient(1.2px 1.2px at 30% 75%, #fff, #0000), radial-gradient(1px 1px at 15% 10%, #fff, #0000), radial-gradient(1.5px 1.5px at 90% 10%, #fff, #0000), radial-gradient(1.3px 1.3px at 10% 85%, #fff, #0000), radial-gradient(2px 2px at 60% 90%, #fff, #0000), radial-gradient(1px 1px at 45% 40%, #fff, #0000);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: .3;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1
+  }
+}
+
+.Popup.Profile {
+  height: 85vh
+}
+
+.Popup.Profile .Spacer {
+  height: 20px
+}
+
+.ProfilePage .AvatarWrapper {
+  background: #292929;
+  border-radius: 100%;
+  height: 150px;
+  top: 25px;
+  width: 150px;
+  will-change: transform, opacity
+}
+
+.ProfilePage .AvatarWrapper,
+.ProfilePage .YourName {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%)
+}
+
+.ProfilePage .YourName {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+  top: 195px;
+  width: 90%
+}
+
+.ProfilePage .ChangeName {
+  box-sizing: border-box;
+  color: #9ca3af;
+  font-size: 24px;
+  margin-left: 3px;
+  padding-top: 7px
+}
+
+.ChangeAvatarTitle {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  height: 30px;
+  left: 50%;
+  line-height: 30px;
+  position: absolute;
+  top: 5px;
+  transform: translateX(-50%);
+  width: 90%
+}
+
+.ChangeAvatarBody {
+  height: calc(100% - 40px);
+  overflow-y: auto;
+  position: absolute;
+  top: 40px;
+  width: 100%
+}
+
+.ChangeAvatarBody::-webkit-scrollbar {
+  display: none
+}
+
+.ChangeAvatar {
+  border: 1px solid #2d2d35;
+  border-radius: 12px;
+  color: #9ca3af;
+  font-size: 14px;
+  font-weight: 500;
+  height: calc(100% - 265px);
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 245px;
+  transform: translateX(-50%);
+  width: 90%
+}
+
+.AspectChanger:first-child {
+  margin-top: 10px
+}
+
+.AspectChanger {
+  height: 25px;
+  left: 50%;
+  margin-top: 17px;
+  max-width: 250px;
+  position: relative;
+  transform: translateX(-50%);
+  width: 80%
+}
+
+.AspectLabel {
+  color: #9ca3af;
+  font-size: 10px;
+  height: 10px;
+  line-height: 10px;
+  top: -5px;
+  transform: translateX(-50%)
+}
+
+.AspectLabel,
+.AspectValue {
+  font-weight: 500;
+  left: 50%;
+  position: absolute;
+  width: calc(100% - 50px)
+}
+
+.AspectValue {
+  color: #fff;
+  font-size: 14px;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.AspectLeft {
+  left: 0;
+  transform: translateY(-50%)
+}
+
+.AspectLeft,
+.AspectRight {
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  width: 24px
+}
+
+.AspectRight {
+  right: 0;
+  transform: translateY(-50%) rotate(180deg)
+}
+
+.Popup.Payouts {
+  height: 400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.PayoutPage {
+  align-items: center;
+  display: flex;
+  flex-direction: column
+}
+
+.PayoutSectionLabel {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-top: 30px
+}
+
+.PayoutSectionLabel.First {
+  margin-top: 0
+}
+
+.PayoutIconsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 12px;
+  justify-content: center;
+  width: 100%
+}
+
+.PayoutIcon {
+  align-items: center;
+  display: flex;
+  flex-direction: column
+}
+
+.PayoutImage {
+  height: 25px;
+  object-fit: contain;
+  width: 25px
+}
+
+.PayoutDetails {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0
+}
+
+.PayoutDetail {
+  display: flex;
+  justify-content: space-between;
+  width: 220px
+}
+
+.PayoutDetailLabel {
+  color: #fff;
+  font-size: 16px
+}
+
+.PayoutDetailValue {
+  color: gold;
+  font-size: 16px
+}
+
+.PayoutEtc {
+  margin-top: 8px;
+  max-width: 100%;
+  text-align: center
+}
+
+.PayoutEtc .PayoutDetailLabel {
+  color: #ccc;
+  font-size: 14px
+}
+
+.Text .PopupButton:not(.Ready) {
+  background: #3f3f46
+}
+
+.EarnTitle {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600
+}
+
+.OfflineEarning.Savings,
+.OfflineEarning.Shares {
+  background: linear-gradient(120deg, #128728, #7df257);
+  -webkit-background-clip: text;
+  background-clip: text
+}
+
+.OfflineEarning.Points,
+.OfflineEarning.Savings,
+.OfflineEarning.Shares {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  color: none;
+  font-size: 16px;
+  font-weight: 600
+}
+
+.OfflineEarning.Points {
+  background: linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb 74.83%, #67e4fe);
+  -webkit-background-clip: text;
+  background-clip: text
+}
+
+.OfflineEarning.Loyalty {
+  background: linear-gradient(90deg, #602cbc, #c364ed);
+  -webkit-background-clip: text;
+  background-clip: text
+}
+
+.OfflineEarning.Corp,
+.OfflineEarning.Loyalty {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  color: none;
+  font-size: 16px;
+  font-weight: 600
+}
+
+.OfflineEarning.Corp {
+  background: linear-gradient(91deg, #4f4f4f, #6c6c6c 18.34%, #8b8b8b 36.23%, #afafaf);
+  -webkit-background-clip: text;
+  background-clip: text
+}
+
+.OfflineEarning.Mono {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: #1e3e5e;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none;
+  font-size: 16px;
+  font-weight: 600
+}
+
+.Timing {
+  background: linear-gradient(#1f1b2e, #1f1b2e) padding-box, linear-gradient(90deg, #5c5f73, #8a8da4) border-box;
+  height: auto;
+  left: 50%;
+  max-height: 90vh;
+  max-width: 500px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw
+}
+
+.Timing .PopupHeader {
+  background: linear-gradient(90deg, #5c5f73, #8a8da4)
+}
+
+.Timing .PopupBody {
+  box-sizing: border-box;
+  margin-top: 30px;
+  overflow: visible;
+  padding: 20px;
+  position: relative !important;
+  text-align: center;
+  top: 0 !important;
+  width: 100%
+}
+
+.Timing .TimingMetrics {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-bottom: 20px
+}
+
+.Timing .TimingMetric {
+  flex: 1 1;
+  text-align: center
+}
+
+.Timing .TimingMetricTitle {
+  font-size: 14px;
+  font-weight: 600
+}
+
+.Timing .TimingMetricValue {
+  font-size: 16px
+}
+
+.Timing .LevelOptions {
+  color: #9ca3af;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  width: 100%
+}
+
+.Timing .LevelOption {
+  background: #2d2d35;
+  border-radius: 10px;
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 12px;
+  white-space: nowrap
+}
+
+.Timing .LevelOption.Active {
+  background: var(--BetterGradient);
+  color: #fff;
+  font-weight: 600
+}
+
+.Timing .LastTenList {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 6px;
+  height: 370px;
+  margin-top: 5px
+}
+
+.Timing .LastTenEntry,
+.Timing .LastTenHeader {
+  align-items: center;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 40px 1fr 1.2fr 1fr;
+  height: 34px;
+  padding: 0 10px
+}
+
+.OfflineDescription {
+  bottom: 0;
+  font-size: 10px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%
+}
+
+.Timing .LastTenHeader {
+  background: #0000;
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 5px;
+  text-transform: uppercase
+}
+
+.Timing .LastTenEntry {
+  background: #262631;
+  color: #fff
+}
+
+.Timing .LastTenEntry .Auto {
+  color: #e4c388;
+  font-weight: 600;
+  justify-self: end
+}
+
+.Timing .LastTenList .Average {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: -8px;
+  text-transform: uppercase
+}
+
+.NextGoldInPop {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none;
+  font-weight: 800
+}
+
+.AvatarWrapper {
+  align-items: center;
+  background: #1f1b2e;
+  border-radius: 50%;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  left: 5vw;
+  overflow: hidden;
+  position: absolute;
+  top: 70px;
+  width: 45px
+}
+
+.Avatar {
+  height: 100%;
+  width: 100%
+}
+
+.Welcome {
+  color: #ececec;
+  font-size: 13.5px;
+  font-weight: 500;
+  max-width: calc(89vw - 175px);
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  top: 75.5px;
+  white-space: nowrap
+}
+
+.SubWelcome,
+.Welcome {
+  left: calc(5vw + 55px);
+  position: absolute
+}
+
+.SubWelcome {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  top: 95px
+}
+
+.TopIcons {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+  position: absolute;
+  right: 6vw;
+  top: 70px;
+  width: 110px
+}
+
+.TopIcon {
+  transform: scale(1.1)
+}
+
+.CurrencyBar {
+  left: 5vw;
+  position: absolute;
+  top: 135px;
+  width: 90vw
+}
+
+.CurrencyExpanded .CurrencyBar {
+  top: 125px
+}
+
+.PointBar {
+  background: #1f1b2e;
+  border: 1px solid #2d2d35;
+  border-radius: 8px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px
+}
+
+.PointLabel {
+  font-size: 14px;
+  left: 15px
+}
+
+.PointLabel,
+.PointValue {
+  color: #ececec;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.PointValue {
+  font-size: calc(min(14px, 75px / (6 * .65)));
+  font-size: calc(min(14px, 75px / (var(--char-count, 6) * .65)));
+  overflow: hidden;
+  right: 15px;
+  text-align: right;
+  white-space: nowrap;
+  width: 75px
+}
+
+.SmallMore {
+  background: #1f1b2e;
+  border: 1px solid #2d2d35;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #ececec;
+  font-size: 12px;
+  font-weight: 500;
+  height: 32px;
+  left: 160px;
+  line-height: 32px;
+  padding-left: 10px;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  width: 65px
+}
+
+.SmallMore .DownArrow {
+  height: 24px;
+  position: absolute;
+  right: 5px;
+  top: 55%;
+  transform: scale(.7) translateY(-50%);
+  transform-origin: top right;
+  width: 24px
+}
+
+.ExpandedCurrencies {
+  align-items: center;
+  background: #1f1b2e;
+  border: 1px solid #2d2d35;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  height: 42px;
+  justify-content: space-around;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 100%
+}
+
+.ExpandedCurrency {
+  flex: 1 1;
+  height: 100%;
+  position: relative
+}
+
+.ExpandedCurrency .ExpandedLabel {
+  font-size: 10px;
+  top: 5px
+}
+
+.ExpandedCurrency .ExpandedLabel,
+.ExpandedCurrency .ExpandedValue {
+  color: #ececec;
+  font-weight: 500;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%
+}
+
+.ExpandedCurrency .ExpandedValue {
+  bottom: 5px;
+  font-size: 14px
+}
+
+.ExpandedCurrencies .UpArrow {
+  height: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scale(.6) rotate(180deg);
+  width: 24px
+}
+
+.GoldBar {
+  border-radius: 8px;
+  height: 32px;
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.GoldBar .Coins {
+  height: 32px;
+  right: 45px;
+  width: 32px;
+  z-index: 2
+}
+
+.GoldBar .Coins,
+.GoldBar .GoldAmount {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.GoldBar .GoldAmount {
+  background: #1f1b2e;
+  border: 1px solid #2d2d35;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #e3c129;
+  font-size: 12px;
+  font-weight: 800;
+  height: 20px;
+  line-height: 17.5px;
+  padding-right: 15px;
+  right: 0;
+  text-align: right;
+  width: 60px;
+  z-index: 1
+}
+
+.GoldBar .GoldAmount .GoldValue {
+  box-sizing: border-box;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  width: 30px
+}
+
+.GoldBar .GoldPlus {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2
+}
+
+.ScratchcardWrapper {
+  background: #1f1b2e;
+  border-radius: 22px;
+  box-shadow: 0 4px 20px 0 #00000026;
+  box-sizing: border-box;
+  height: 90vw;
+  left: 50%;
+  max-height: 500px;
+  max-width: 500px;
+  overflow: hidden;
+  position: absolute;
+  top: 200px;
+  transform: translateX(-50%);
+  width: 90vw
+}
+
+.CurrencyExpanded .ScratchcardWrapper {
+  top: 220px
+}
+
+.ScratchcardWrapper .ScratchcardHeader {
+  background: #1f1b2e;
+  border-radius: 22px 22px 0 0;
+  font-size: 24px;
+  height: 65px;
+  left: 0;
+  line-height: 65px;
+  top: 0;
+  width: 100%
+}
+
+.EarnedPoints,
+.ScratchcardWrapper .ScratchcardHeader {
+  color: #ececec;
+  font-weight: 700;
+  position: absolute;
+  text-align: center
+}
+
+.EarnedPoints {
+  background: linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb 74.83%, #67e4fe) padding-box, linear-gradient(91deg, #f5ba06, #fced71 50%, #f9c615) border-box;
+  border: 3px solid #0000;
+  border-radius: 10px;
+  font-size: 18px;
+  height: 45px;
+  left: 50%;
+  line-height: 45px;
+  opacity: .9;
+  top: calc(50% + 35px);
+  transform: translate(-50%, -50%);
+  width: 180px;
+  z-index: 10
+}
+
+.EarnedPoints.Fail {
+  background: linear-gradient(#3f3f46, #3f3f46) padding-box, linear-gradient(91deg, #f28b82, #f6c1b7 50%, #f28b82) border-box
+}
+
+.EarnedPoints.AndLStar {
+  top: 50%
+}
+
+.EarnedLoyalty {
+  background: linear-gradient(90deg, #602cbc, #c364ed) padding-box, linear-gradient(91deg, #f5ba06, #fced71 50%, #f9c615) border-box;
+  border: 3px solid #0000;
+  border-radius: 10px;
+  color: #ececec;
+  font-size: 18px;
+  font-weight: 700;
+  height: 45px;
+  line-height: 45px;
+  opacity: .9;
+  text-align: center;
+  top: calc(50% + 60px);
+  transform: translate(-50%, -50%);
+  width: 180px;
+  z-index: 10
+}
+
+.EarnedLoyalty,
+.UnderCard {
+  left: 50%;
+  position: absolute
+}
+
+.UnderCard {
+  height: 50px;
+  max-width: 500px;
+  top: calc(205px + min(90vw, 500px));
+  transform: translateX(-50%);
+  width: 90vw
+}
+
+.CurrencyExpanded .UnderCard {
+  top: calc(225px + min(90vw, 500px))
+}
+
+.AutoScratchLabel {
+  color: #ececec;
+  font-size: 16px;
+  font-weight: 500;
+  left: 0;
+  text-align: left
+}
+
+.AutoScratchLabel,
+.AutoScratchSwitch {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.AutoScratchSwitch {
+  background-color: #868686;
+  border-radius: 20px;
+  height: 30px;
+  left: 105px;
+  transition: background-color .3s ease;
+  width: 55px
+}
+
+.AutoScratchSwitch.Active {
+  background-color: #3948f9
+}
+
+.AutoScratchSwitchCircle {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 26px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  transition: transform .3s ease;
+  width: 26px
+}
+
+.AutoScratchSwitch.Active .AutoScratchSwitchCircle {
+  transform: translateX(25px)
+}
+
+.AutoScratch.Unavailable .AutoScratchSwitch {
+  background-color: #868686
+}
+
+.AutoScratch.Unavailable .AutoScratchSwitchCircle {
+  background-color: #3f3f46
+}
+
+.ASLock {
+  color: #868686;
+  height: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15px;
+  z-index: 10
+}
+
+.ASLock,
+.PayoutInfo {
+  position: absolute;
+  top: 50%
+}
+
+.PayoutInfo {
+  color: #9ca3af;
+  font-size: 13px;
+  font-weight: 500;
+  right: 0;
+  transform: translateY(-50%)
+}
+
+.PayoutInfoIcon {
+  fill: #9ca3af;
+  stroke: #9ca3af;
+  height: 24px;
+  position: absolute;
+  right: calc(100% + 2.5px);
+  top: 60%;
+  transform: translateY(-50%);
+  width: 24px
+}
+
+.HomeDivider {
+  background: #2d2d35;
+  height: 1px;
+  left: 50%;
+  max-width: 500px;
+  position: absolute;
+  top: calc(260px + min(90vw, 500px));
+  transform: translateX(-50%);
+  width: 90vw
+}
+
+.CurrencyExpanded .HomeDivider,
+.NewCard {
+  top: calc(280px + min(90vw, 500px))
+}
+
+.NewCard {
+  background: linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb 74.83%, #67e4fe);
+  border-radius: 10px;
+  color: #ececec;
+  font-size: 18px;
+  font-weight: 500;
+  height: 50px;
+  left: 50%;
+  line-height: 50px;
+  max-width: 500px;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 90vw
+}
+
+.CurrencyExpanded .NewCard {
+  top: calc(300px + min(90vw, 500px))
+}
+
+.Navigation {
+  align-items: center;
+  background: #1f1b2e;
+  border-radius: 16px;
+  border-top: 1px solid #4a00e0;
+  bottom: 45px;
+  box-sizing: border-box;
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  left: 5vw;
+  padding: 0 20px;
+  position: fixed;
+  width: 90vw
+}
+
+.NavLevel {
+  position: relative
+}
+
+.Navigation .BottomIcon {
+  height: 24px;
+  width: 24px
+}
+
+.Navigation .NavLock {
+  background: #9ca3af;
+  border-radius: 50%;
+  height: 15px;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  width: 15px;
+  z-index: 10
+}
+
+.NavLock .Lock {
+  height: 10px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px
+}
+
+.NavAlert {
+  background: linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb 74.83%, #67e4fe);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px;
+  height: 15px;
+  line-height: 15px;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  width: 15px;
+  z-index: 10
+}
+
+.NavProgress {
+  background: #363141;
+  bottom: -7.5px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%
+}
+
+.NavProgress,
+.NavProgressBar {
+  border-radius: 2.5px;
+  height: 5px
+}
+
+@media (min-aspect-ratio:.65) {
+  .ScratchcardWrapper {
+    height: 55vh;
+    max-height: 55vh;
+    max-width: 55vh
+  }
+
+  .UnderCard {
+    max-width: 55vh;
+    top: calc(205px + min(55vh, 500px));
+    width: 55vh
+  }
+
+  .CurrencyExpanded .UnderCard {
+    top: calc(225px + 55vh)
+  }
+
+  .HomeDivider {
+    max-width: 55vh;
+    top: calc(260px + 55vh);
+    width: 55vh
+  }
+
+  .CurrencyExpanded .HomeDivider,
+  .NewCard {
+    top: calc(280px + 55vh)
+  }
+
+  .NewCard {
+    max-width: 55vh;
+    width: 55vh
+  }
+
+  .CurrencyExpanded .NewCard {
+    top: calc(300px + 55vh)
+  }
+}
+
+@media (min-aspect-ratio:.8) {
+  .UnderCard {
+    max-width: 42vh;
+    top: calc(205px + 42vh);
+    width: 42vh
+  }
+
+  .CurrencyExpanded .UnderCard {
+    top: calc(225px + 42vh)
+  }
+
+  .HomeDivider {
+    max-width: 42vh;
+    top: calc(260px + 42vh);
+    width: 42vh
+  }
+
+  .CurrencyExpanded .HomeDivider,
+  .NewCard {
+    top: calc(280px + 42vh)
+  }
+
+  .NewCard {
+    max-width: 42vh;
+    width: 42vh
+  }
+
+  .CurrencyExpanded .NewCard {
+    top: calc(300px + 42vh)
+  }
+
+  .ScratchcardWrapper {
+    height: 42vh;
+    max-height: 42vh;
+    max-width: 42vh
+  }
+}
+
+.HomeVersion {
+  bottom: 10px;
+  color: #9ca3af;
+  font-size: 8px;
+  font-weight: 500;
+  position: fixed;
+  right: 7vw
+}
+
+.Popup.Donations {
+  height: 82vh;
+  left: 50%;
+  min-height: 570px;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.DonationDescription {
+  color: #9ca3af;
+  font-size: 14px;
+  left: 50%;
+  position: absolute;
+  top: 10px;
+  transform: translateX(-50%);
+  width: 90%
+}
+
+.CurrentGold {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none;
+  font-size: 20px;
+  font-weight: 800;
+  height: 20px;
+  left: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 130px;
+  width: 100%
+}
+
+.BuyGoldButton {
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  height: 45px;
+  left: 50%;
+  line-height: 45px;
+  position: absolute;
+  top: 165px;
+  transform: translateX(-50%);
+  width: 90%
+}
+
+.DonationSectionBreak {
+  left: 0;
+  position: absolute;
+  top: 230px
+}
+
+.DonationRowBreak,
+.DonationSectionBreak {
+  background: #444;
+  height: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%
+}
+
+.DonationRowBreak {
+  margin-bottom: 15px;
+  position: relative
+}
+
+.DonationTitle {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  height: 20px;
+  left: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  width: 100%
+}
+
+.DonationsContent {
+  height: calc(100% - 315px);
+  left: 50%;
+  overflow-x: hidden;
+  position: absolute;
+  top: 295px;
+  transform: translateX(-50%);
+  width: calc(100% - 40px)
+}
+
+.DonationsContent::-webkit-scrollbar {
+  display: none
+}
+
+.DonationRow {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  width: 100%
+}
+
+.DonationRow.CenterRow {
+  justify-content: center;
+  margin-bottom: 10px
+}
+
+.DonationRow.CenterRow .DonationUpgradeHolder {
+  width: 100%
+}
+
+.DonationRow.CenterRow .DonationUpgradeHolder .DonationUpgrade {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 50%
+}
+
+.DonationUpgrade,
+.DonationUpgradeHolder {
+  position: relative;
+  width: 100%
+}
+
+.DonationUpgrade {
+  background: linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb 74.83%, #67e4fe);
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  height: 45px
+}
+
+.DonationUpgrade.Inactive {
+  background: #3f3f46
+}
+
+.DonationUpgrade.Maxed {
+  background: #000648
+}
+
+.DonationUpgrade.Cos {
+  background: linear-gradient(90deg, #602cbc, #c364ed)
+}
+
+.DonationLock {
+  color: #ececec;
+  height: 15px;
+  left: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px
+}
+
+.DonationLock.Lock2 {
+  left: auto;
+  right: 15px
+}
+
+.DonationName {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%
+}
+
+.DonationPrice {
+  color: #ececec;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 5px
+}
+
+.DonationDetails {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px
+}
+
+.Popup.Gold {
+  background: linear-gradient(#1f1b2e, #1f1b2e) padding-box, linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066) border-box;
+  height: 585px;
+  left: 50%;
+  max-width: 340px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw
+}
+
+.Popup.Gold .PopupHeader {
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066)
+}
+
+.GoldDescription {
+  color: #9ca3af;
+  font-size: 16px;
+  top: 10px;
+  width: 90%
+}
+
+.GoldDescription,
+.GoldOptions {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%)
+}
+
+.GoldOptions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  top: 78px
+}
+
+.GoldRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px
+}
+
+.CenterRow {
+  justify-content: center;
+  margin-bottom: 10px
+}
+
+.GoldHolder {
+  gap: 8px;
+  position: relative;
+  width: 140px
+}
+
+.GoldButton,
+.GoldHolder {
+  align-items: center;
+  display: flex;
+  flex-direction: column
+}
+
+.GoldButton {
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066);
+  border-radius: 12px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 67px;
+  justify-content: center;
+  padding: 8px;
+  text-align: center;
+  width: 75%
+}
+
+.GoldAmount {
+  font-size: 18px;
+  font-weight: 900
+}
+
+.GoldPrice {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 3px
+}
+
+.GoldSale {
+  color: #ffc400;
+  font-size: 14px;
+  font-weight: 600
+}
+
+.RestorePurchases {
+  background: linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb 74.83%, #67e4fe);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 15px;
+  position: relative;
+  width: 75%
+}
+
+.DonationsContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+  justify-content: center;
+  overflow-y: auto;
+  padding: 0 5px
+}
+
+.DonationUpgradeHolder {
+  align-items: center;
+  display: flex;
+  flex-basis: calc(50% - 7px);
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: calc(50% - 7px)
+}
+
+.DonationUpgradeHolder.full {
+  flex: 1 1 100%;
+  max-width: 100%
+}
+
+.DonationUpgradeHolder.center {
+  display: flex;
+  flex: 1 1 100%;
+  justify-content: center;
+  max-width: 100%
+}
+
+.DonationUpgradeHolder.center .DonationUpgrade {
+  width: 50%
+}
+
+.Warping {
+  height: 100vh;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 20099
+}
+
+.Warping:before {
+  animation: vortexZoom 3s linear infinite;
+  background: repeating-radial-gradient(circle, #602cbc66 0, #c364ed33 10px, #0000 20px);
+  content: "";
+  height: 300vh;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 300vw
+}
+
+@keyframes vortexZoom {
+  0% {
+    filter: blur(0);
+    transform: translate(-50%, -50%) scale(1)
+  }
+
+  to {
+    filter: blur(2px);
+    transform: translate(-50%, -50%) scale(3)
+  }
+}
+
+.BoardToggles {
+  align-items: center;
+  background: #000648;
+  display: flex;
+  font-size: 14px;
+  gap: 5px;
+  justify-content: space-between;
+  left: 50%;
+  position: absolute;
+  top: 15px;
+  transform: translateX(-50%)
+}
+
+.BoardToggle,
+.BoardToggles {
+  border-radius: 10px;
+  height: 20px
+}
+
+.BoardToggle {
+  color: #9ca3af;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  width: 80px
+}
+
+.BoardToggle.Active {
+  background: var(--BetterGradient);
+  color: #fff;
+  font-weight: 600
+}
+
+.BoardTabs {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  gap: 5px 5px;
+  justify-content: center;
+  left: 5%;
+  max-height: 60px;
+  overflow-y: auto;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 50px;
+  width: 90%
+}
+
+.BoardTab,
+.BoardTabs {
+  color: #9ca3af;
+  font-weight: 600
+}
+
+.BoardTab {
+  background: #2d2d35;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 5px;
+  white-space: nowrap
+}
+
+.BoardTab.Active {
+  background: var(--BetterGradient);
+  color: #fff;
+  font-weight: 600
+}
+
+.RankingTitle {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  left: 0;
+  line-height: 20px;
+  top: 120px;
+  width: 100%
+}
+
+.Leaderboard .You,
+.RankingTitle {
+  height: 20px;
+  position: absolute;
+  text-align: center
+}
+
+.Leaderboard .You {
+  align-items: center;
+  bottom: 15px;
+  color: #ececec;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%
+}
+
+.RankJump,
+.YouText {
+  display: inline-block;
+  height: 15px;
+  line-height: 15px
+}
+
+.RankJump {
+  background: var(--BetterGradient);
+  border-radius: 10px;
+  font-size: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+  width: 70px
+}
+
+.RankingList {
+  height: calc(100% - 210px);
+  left: 50%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 160px;
+  transform: translateX(-50%);
+  width: calc(100% - 40px)
+}
+
+.RankingList::-webkit-scrollbar {
+  display: none
+}
+
+.RankedUser {
+  background: #1f1b2e;
+  border: 1px solid #2d2d35;
+  border-radius: 16px;
+  box-sizing: border-box;
+  height: 50px;
+  margin-bottom: 7.5px;
+  position: relative;
+  width: 100%
+}
+
+.RankedUser.First {
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066)
+}
+
+.RankedUser.Second {
+  background: linear-gradient(91deg, #5a5a5a, #787878 18.34%, #9a9a9a 36.23%, #bfbfbf 56.65%, #dadada 79.23%, #f0f0f0)
+}
+
+.RankedUser.Third {
+  background: linear-gradient(91deg, #5a2e00, #7a3e08 18.34%, #9c5620 36.23%, #bd6e30 56.65%, #d88c4a 79.23%, #f2a768)
+}
+
+.RankedUser .Rank {
+  color: #ececec;
+  font-size: calc(min(14px, 30px / (2 * .65)));
+  font-size: calc(min(14px, 30px / (var(--char-count, 2) * .65)));
+  font-weight: 600;
+  left: 15px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+  width: 30px
+}
+
+.RankedUser .AvatarWrapper,
+.RankedUser .Rank {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.RankedUser .AvatarWrapper {
+  border-radius: 50%;
+  height: 35px;
+  left: 45px;
+  width: 35px
+}
+
+.RankedUser .UserName {
+  font-size: 13px;
+  left: 95px;
+  max-width: 135px;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  width: 135px
+}
+
+.RankedUser .UserName,
+.RankedUser .UserScore {
+  color: #ececec;
+  font-weight: 600;
+  position: absolute;
+  text-shadow: #1f1b2e 0 0 5px;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.RankedUser .UserScore {
+  font-size: 14px;
+  right: 15px
+}
+
+.SettingsPage {
+  background: #000;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 100
+}
+
+.SettingsBody {
+  background: var(--Backer);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1
+}
+
+.SettingsTitle {
+  color: #ececec;
+  font-size: 20px;
+  font-weight: 500;
+  left: 50%;
+  line-height: 32px;
+  transform: translateX(-50%)
+}
+
+.SettingsBack,
+.SettingsTitle {
+  height: 32px;
+  position: absolute;
+  top: 65px
+}
+
+.SettingsBack {
+  left: 5vw;
+  width: 32px
+}
+
+.ProfileSetting {
+  background: #2f2a38;
+  border-radius: 16px;
+  height: 80px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 90vw
+}
+
+.ProfileSetting .AvatarWrapper {
+  height: 50px;
+  left: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px
+}
+
+.ProfileSetting .ProfileName {
+  color: #ececec;
+  font-size: 18px;
+  font-weight: 500;
+  left: 100px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.TopBoxes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 90vw
+}
+
+.TopBox {
+  background: #1f1b2e;
+  border-radius: 16px;
+  height: 100px;
+  position: relative;
+  width: calc(50% - 10px)
+}
+
+.TopBoxTitle {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  left: 20px;
+  position: absolute;
+  top: 20px
+}
+
+.TopBoxDetails {
+  bottom: 20px;
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  left: 20px;
+  position: absolute
+}
+
+.TBValue {
+  font-size: 28px;
+  font-weight: 700
+}
+
+.Gold .TopBoxDetails {
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066);
+  -webkit-background-clip: text;
+  background-clip: text
+}
+
+.Ach .TopBoxDetails,
+.Gold .TopBoxDetails {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  color: none
+}
+
+.Ach .TopBoxDetails {
+  background: linear-gradient(91deg, #5a5a5a, #787878 18.34%, #9a9a9a 36.23%, #bfbfbf 56.65%, #dadada 79.23%, #f0f0f0);
+  -webkit-background-clip: text;
+  background-clip: text
+}
+
+.SettingsContent {
+  height: calc(100vh - 140px);
+  left: 50%;
+  overflow-y: auto;
+  position: absolute;
+  top: 120px;
+  transform: translateX(-50%);
+  width: 90vw
+}
+
+.SettingsContent::-webkit-scrollbar {
+  display: none
+}
+
+.SettingsGroup {
+  background: #1f1b2e;
+  border-radius: 16px;
+  box-sizing: border-box;
+  height: auto;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  padding-top: 40px;
+  position: relative;
+  width: 90vw
+}
+
+.SettingsGroupTitle {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  left: 20px;
+  position: absolute;
+  top: 20px
+}
+
+.SettingsItem {
+  border-bottom: 1px solid #444;
+  height: 50px;
+  margin-left: 5%;
+  position: relative;
+  width: 90%
+}
+
+.SettingsItem:last-child {
+  border-bottom: none
+}
+
+.SettingsItemTitle {
+  color: #fff;
+  font-size: 16px;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  width: calc(100% - 55px)
+}
+
+.SettingsItemSubtitle,
+.SettingsItemTitle {
+  font-weight: 400;
+  left: 45px;
+  position: absolute
+}
+
+.SettingsItemSubtitle {
+  color: #5f5f5f;
+  font-size: 12px;
+  top: 40px
+}
+
+.SettingIcon {
+  height: 18px;
+  width: 18px
+}
+
+.SettingIcon,
+.SettingsIcon {
+  left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.SettingsIcon {
+  color: #fff;
+  height: 24px;
+  width: 24px
+}
+
+.SettingsIcon svg {
+  height: 100%;
+  width: 100%
+}
+
+.SettingArrow {
+  height: 20px;
+  transform: translateY(-50%) scale(1.25);
+  width: 20px
+}
+
+.SettingArrow,
+.SettingToggle {
+  position: absolute;
+  right: 10px;
+  top: 50%
+}
+
+.SettingToggle {
+  background-color: #868686;
+  border-radius: 20px;
+  height: 23px;
+  transform: translateY(-50%);
+  transition: background-color .3s ease;
+  width: 46px
+}
+
+.SettingToggle.Active {
+  background-color: #8c52ff
+}
+
+.SettingToggle.Active.Disabled {
+  background-color: #30155f
+}
+
+.ToggleCircle {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 19px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  transition: transform .3s ease;
+  width: 19px
+}
+
+.SettingToggle.Active .ToggleCircle {
+  transform: translateX(23px)
+}
+
+.TempReset {
+  background: linear-gradient(120deg, #871212, #f57d7d);
+  margin-bottom: 15px;
+  margin-top: 40px
+}
+
+.TempReset,
+.TimingButton {
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  width: 100%
+}
+
+.TimingButton {
+  background: linear-gradient(90deg, #5c5f73, #8a8da4)
+}
+
+.TimingIcon {
+  height: 28px;
+  left: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px
+}
+
+.TimingIcon.B {
+  left: auto;
+  right: 40px
+}
+
+.DiscordButton,
+.SteamButton {
+  background: #7289da;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 15px;
+  position: relative;
+  width: 100%
+}
+
+.DiscordIcon1,
+.SteamIcon1 {
+  left: 40px
+}
+
+.DiscordIcon1,
+.DiscordIcon2,
+.SteamIcon1,
+.SteamIcon2 {
+  height: 28px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px
+}
+
+.DiscordIcon2,
+.SteamIcon2 {
+  right: 40px
+}
+
+.DiscordText,
+.SteamText {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.SteamButton {
+  background: linear-gradient(180deg, #111a30, #387ba5)
+}
+
+.SteamIcon1 {
+  color: #fff
+}
+
+.SettingsPage .Version {
+  color: #c2c2c2;
+  font-size: 10px;
+  left: 50%;
+  margin-bottom: 5vw;
+  margin-top: 5vw;
+  position: relative;
+  transform: translateX(-50%)
+}
+
+.NumberSelector {
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  width: 100%
+}
+
+.SelectorLabel {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px 0 10px 25px;
+  text-align: left
+}
+
+.NumberOptions {
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 3%;
+  margin-top: 5px;
+  padding: 0 25px;
+  width: 100%
+}
+
+.NumberOption {
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 11px;
+  font-weight: 500;
+  position: relative;
+  white-space: nowrap
+}
+
+.NumberOption input {
+  display: none
+}
+
+.RadioCircle {
+  border: 2px solid #8c52ff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 14px;
+  margin-right: 6px;
+  position: relative;
+  width: 14px
+}
+
+.NumberOption input:checked+.RadioCircle:after {
+  background: #8c52ff;
+  border-radius: 50%;
+  content: "";
+  height: 9px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 9px
+}
+
+.EarnedMilestone {
+  align-items: center;
+  background: #1a1a1a;
+  border: 1px solid #2f2a38;
+  border-radius: 20px;
+  box-shadow: 0 1px 8px 1px #2f2a3880;
+  box-sizing: border-box;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  left: 50%;
+  opacity: 0;
+  padding: 20px;
+  pointer-events: none;
+  position: fixed;
+  top: 60px;
+  transform: translate(-50%, -50px);
+  transition: opacity .5s ease, transform .5s ease;
+  width: 90vw;
+  z-index: 10000
+}
+
+.EarnedMilestone.Showing {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%);
+  transition: opacity .3s ease, transform .4s ease-out
+}
+
+.EarnedAchieveIcon {
+  height: 35px;
+  width: 35px
+}
+
+.EarnedAchieveIcon,
+.EarnedMilestoneIcon {
+  left: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.EarnedMilestoneIcon {
+  height: 50px;
+  width: 50px
+}
+
+.EarnedMilestoneIcon img {
+  height: 100%;
+  width: 100%
+}
+
+.EarnedIconText {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.EarnedMilestoneHead {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  left: 65px;
+  position: absolute;
+  top: 20px
+}
+
+.EarnedMilestoneTitle {
+  color: #fee86e;
+  font-size: 12px;
+  font-weight: 600;
+  left: 65px;
+  position: absolute;
+  text-align: left;
+  top: 40px
+}
+
+.EarnedMilestoneReward {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.AchievementsPage {
+  background: #121212;
+  height: 100vh;
+  left: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  touch-action: pan-y;
+  width: 100vw;
+  z-index: 100
+}
+
+.AchievementsPage::-webkit-scrollbar {
+  display: none
+}
+
+.AchievementsPage .Background {
+  background: linear-gradient(359deg, #121212 79.53%, #4a00e0bf 96.94%);
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: -1
+}
+
+.AchievementsTitle {
+  color: #ececec;
+  font-size: 20px;
+  font-weight: 500;
+  left: 50%;
+  line-height: 32px;
+  transform: translateX(-50%)
+}
+
+.AchievementsBack,
+.AchievementsTitle {
+  height: 32px;
+  position: absolute;
+  top: 65px
+}
+
+.AchievementsBack {
+  left: 5vw;
+  width: 32px
+}
+
+.AchievementsDescription {
+  color: #9ca3af;
+  font-size: 14px;
+  left: 50%;
+  position: absolute;
+  top: 110px;
+  transform: translateX(-50%);
+  width: 80%
+}
+
+.AchievementCurrency {
+  color: #cdcdcd;
+  font-size: 20px;
+  font-weight: 800;
+  height: 20px;
+  left: calc(50% - 100px);
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-align: left;
+  top: 175px;
+  width: 90%
+}
+
+.AchievementCurrency.B {
+  left: calc(50% - 77px);
+  top: 205px
+}
+
+.B .AchievementCurrencyAmount {
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066);
+  -webkit-background-clip: text;
+  background-clip: text
+}
+
+.A .AchievementCurrencyAmount,
+.B .AchievementCurrencyAmount {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  color: none
+}
+
+.A .AchievementCurrencyAmount {
+  background: linear-gradient(91deg, #5a5a5a, #787878 18.34%, #9a9a9a 36.23%, #bfbfbf 56.65%, #dadada 79.23%, #f0f0f0);
+  -webkit-background-clip: text;
+  background-clip: text
+}
+
+.AchievementsBody {
+  left: 50%;
+  padding-bottom: 40px;
+  position: absolute;
+  top: 255px;
+  transform: translateX(-50%);
+  width: 90%
+}
+
+.Achievement {
+  background: #1f1b2e;
+  border: 1px solid #2d2d35;
+  border-radius: 16px;
+  height: 80px;
+  margin-bottom: 7.5px;
+  position: relative;
+  width: 100%
+}
+
+.Achievement.Earned {
+  background: #06320e;
+  border: 1px solid #41414d;
+  opacity: .5
+}
+
+.Achievement.Earned .AchievementIcon {
+  height: 30px;
+  opacity: .5;
+  width: 30px
+}
+
+.Achievement.Earned .AchievementProgress {
+  opacity: .5
+}
+
+.AchievementIcon {
+  height: 35px;
+  left: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px
+}
+
+.AchievementTitle {
+  color: #ececec;
+  font-size: 14px;
+  font-weight: 500;
+  left: 63px;
+  overflow: hidden;
+  position: absolute;
+  text-align: left;
+  text-overflow: ellipsis;
+  top: 15px;
+  white-space: nowrap;
+  width: calc(100% - 73px)
+}
+
+.AchievementDescription {
+  top: 35px
+}
+
+.AchievementDescription,
+.AchievementProgress {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  left: 63px;
+  position: absolute
+}
+
+.AchievementProgress {
+  background: #9ca3af;
+  border-radius: 5px;
+  bottom: 13px;
+  height: 10px;
+  overflow: hidden;
+  width: 40%
+}
+
+.AchievementProgressBar {
+  background: linear-gradient(91deg, #3948f9, #6893fd 45.95%, #83bffb 74.83%, #67e4fe);
+  border-radius: 5px;
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 0
+}
+
+.AchievementReward {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.Achievement,
+.AchievementCurrency,
+.AchievementsBody,
+.AchievementsPage {
+  box-sizing: border-box
+}
+
+.CosmeticsDescription {
+  color: #9ca3af;
+  font-size: 14px;
+  left: 50%;
+  position: absolute;
+  top: 10px;
+  transform: translateX(-50%);
+  width: 90%
+}
+
+.Cosmetics .CurrentGold {
+  top: 60px
+}
+
+.Cosmetics .BuyGoldButton {
+  top: 90px
+}
+
+.CosmeticSectionBreak {
+  background: #444;
+  height: 1px;
+  left: 0;
+  left: 50%;
+  position: absolute;
+  top: 160px;
+  transform: translateX(-50%);
+  width: 90%
+}
+
+.CosmeticTabs {
+  display: flex;
+  font-size: 16px;
+  gap: 15px;
+  height: 30px;
+  justify-content: center;
+  left: 5%;
+  line-height: 30px;
+  position: absolute;
+  top: 175px;
+  width: 90%
+}
+
+.CosmeticTab,
+.CosmeticTabs {
+  color: #9ca3af;
+  font-weight: 600
+}
+
+.CosmeticTab {
+  background: #2d2d35;
+  border-radius: 10px;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  width: 80px
+}
+
+.CosmeticTab.Active {
+  background: var(--BetterGradient);
+  color: #fff;
+  font-weight: 600
+}
+
+.CosmeticsContent {
+  height: calc(100% - 200px);
+  left: 0;
+  left: 50%;
+  overflow-y: auto;
+  position: absolute;
+  top: 180px;
+  transform: translateX(-50%);
+  width: 90%
+}
+
+.CosmeticsContent::-webkit-scrollbar {
+  display: none
+}
+
+.CosmeticGroup {
+  border: 1px solid #2d2d35;
+  border-radius: 12px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  max-height: none;
+  padding-bottom: 15px;
+  width: 100%
+}
+
+.CosmeticTitle {
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 7.5px
+}
+
+.CosmeticSubtitle {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-left: 5%;
+  width: 90%
+}
+
+.CosmeticHolder {
+  display: inline-block;
+  width: 47.5%
+}
+
+.CosmeticItem {
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066);
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-left: 5%;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 0 0 2px #000;
+  width: 90%
+}
+
+.CosmeticItem.Selected {
+  background: #000648;
+  color: #fff;
+  font-weight: 600
+}
+
+.CosmeticImage {
+  background: #444;
+  border: 1px solid #2d2d35;
+  border-radius: 10px;
+  height: 19vw;
+  width: 19vw
+}
+
+.TestBackground {
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066);
+  bottom: 100px;
+  height: 150px;
+  position: fixed;
+  width: 300px
+}
+
+.CosmeticSetHolder {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  justify-content: center;
+  position: relative;
+  width: 100%
+}
+
+.CosmeticSetItem {
+  background: #2d2d35;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 0 2px #000;
+  width: 275px
+}
+
+.CosmeticSetItem.Selected {
+  background: #000648;
+  color: #fff;
+  font-weight: 600
+}
+
+.CosmeticSetItem.Owned:not(.Selected) {
+  background: var(--BetterGradient)
+}
+
+.CosmeticSetItem.Available {
+  background: linear-gradient(91deg, #7f5c00, #a6791b 18.34%, #c7961f 36.23%, #e0ad29 56.65%, #f6c742 79.23%, #ffe066)
+}
+
+.CosmeticSetImage {
+  background: #444;
+  border: 1px solid #2d2d35;
+  border-radius: 10px;
+  width: 100%
+}
+
+.CosmeticSetIcons {
+  align-items: center;
+  bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 200px
+}
+
+.CosmeticSetIcon {
+  background: #444444e1;
+  border: 1px solid #2d2d35;
+  border-radius: 5px;
+  height: 42.5px;
+  position: relative;
+  width: 42.5px
+}
+
+.CosmeticSetIcon img {
+  border-radius: 5px;
+  height: 110%;
+  left: -5%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: -5%;
+  width: 110%
+}
+
+.CosmeticSetName {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  width: calc(100% - 20px)
+}
+
+.CosmeticSetCost {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400
+}
+
+.Levels {
+  z-index: 1000
+}
+
+.LevelBackground,
+.Levels {
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw
+}
+
+.LevelBackground {
+  background: #00000080;
+  z-index: 0
+}
+
+.Level {
+  background: linear-gradient(#1f1b2e, #1f1b2e) padding-box, var(--LevelColor) border-box;
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 1px solid #0000;
+  border-radius: 20px
+}
+
+.Level,
+.Level.Transparent {
+  box-sizing: border-box;
+  color: #fff;
+  height: calc(100vh - 240px);
+  left: 50%;
+  max-width: 500px;
+  overflow: hidden;
+  padding: 20px;
+  position: fixed;
+  top: 120px;
+  transform: translateX(-50%);
+  width: 90vw;
+  z-index: 100
+}
+
+.Level.Transparent {
+  background: #1f1b2ecc;
+  border-radius: 20px
+}
+
+.Level.Transparent:before {
+  border-radius: 20px;
+  bottom: 0;
+  content: "";
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  padding: 2px;
+  pointer-events: none;
+  right: 0;
+  z-index: -1
+}
+
+.Level.Transparent:before,
+.LevelHeader {
+  background: var(--LevelColor);
+  left: 0;
+  position: absolute;
+  top: 0
+}
+
+.LevelHeader {
+  color: #ececec;
+  font-size: 20px;
+  font-weight: 600;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  width: 100%
+}
+
+.LevelClose {
+  height: 24px;
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  width: 24px
+}
+
+.LevelBody {
+  box-sizing: border-box;
+  height: calc(100% - 55px);
+  overflow-y: auto;
+  padding: 10px 20px 20px;
+  top: 55px
+}
+
+.LevelBody,
+.LevelCurrency {
+  left: 0;
+  position: absolute;
+  width: 100%
+}
+
+.LevelCurrency {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: var(--LevelColor);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none;
+  font-size: 20px;
+  font-weight: 800;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  top: 60px
+}
+
+.LevelDescription {
+  color: #9ca3af;
+  font-size: 14px;
+  left: 50%;
+  position: absolute;
+  top: 10px;
+  transform: translateX(-50%);
+  width: 90%
+}
+
+@media (max-width:350px) {
+  .Level.MonoLevel .LevelDescription {
+    font-size: 12px
+  }
+}
+
+.LevelContent {
+  height: calc(100% - 120px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 100px;
+  width: calc(100% - 40px)
+}
+
+.LevelContent::-webkit-scrollbar {
+  display: none
+}
+
+.UpgradeGroup {
+  border: 1px solid #2d2d35;
+  border-radius: 12px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  max-height: none;
+  padding-bottom: 15px;
+  width: 100%
+}
+
+.GroupTitle {
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 7.5px
+}
+
+.GroupSubtitle {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 5%;
+  width: 90%
+}
+
+.UpgradeHolder.HalfWidth {
+  display: inline-block;
+  width: 47.5%
+}
+
+.Upgrade,
+.UpgradeHolder.HalfWidth .Upgrade {
+  margin-left: 5%;
+  width: 90%
+}
+
+.Upgrade {
+  background: var(--LevelColor);
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: clamp(9px, 3vw, 16px);
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 15px;
+  overflow: hidden;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  white-space: nowrap
+}
+
+.Upgrade.TextFit {
+  font-size: clamp(8px, 2.6vw, 14px)
+}
+
+.Upgrade.TextFitSmall {
+  font-size: clamp(7px, 2.2vw, 12px)
+}
+
+.Upgrade.Unavailable {
+  background: var(--UnColor);
+  color: #9ca3af;
+  font-weight: 500
+}
+
+.Upgrade.CantBuy:not(.Unavailable) {
+  background: #2d2d35;
+  color: #9ca3af;
+  font-weight: 500
+}
+
+.Upgrade:has(.AutoSwitch) {
+  padding-left: 30px
+}
+
+.AutoText {
+  color: #9ca3af;
+  font-size: 8px;
+  font-weight: 600;
+  top: 10px
+}
+
+.AutoSwitch,
+.AutoText {
+  left: 12.5px;
+  position: absolute;
+  transform: translateY(-50%)
+}
+
+.AutoSwitch {
+  align-items: center;
+  border: 2px solid #9ca3af;
+  border-radius: 4px;
+  display: flex;
+  height: 20px;
+  height: 12px;
+  justify-content: center;
+  top: 25px;
+  transition: all .2s ease;
+  width: 20px;
+  width: 12px
+}
+
+.AutoSwitch.On {
+  background-color: #095016;
+  border-color: #095016
+}
+
+.AutoSwitch:after {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  content: "";
+  height: 14px;
+  opacity: 0;
+  transform: rotate(45deg) scale(.6);
+  transition: opacity .2s ease;
+  width: 5px
+}
+
+.AutoSwitch.On:after {
+  opacity: 1
+}
+
+.UpgradeDetails .Detail1 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 5px
+}
+
+.UpgradeDetails .Detail2,
+.UpgradeDetails .Detail3 {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: -2.5px
+}
+
+.CorpLevel .UpgradeDetails .Detail3 {
+  font-size: 10px
+}
+
+.FiveLevelTitle {
+  color: #cacaca;
+  font-size: 16px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 5px;
+  width: 90%;
+  width: 100%
+}
+
+.FiveLevelSubtitle {
+  color: #9ca3af;
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 7.5px;
+  margin-top: -7.5px
+}
+
+.FiveLevelContent {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  margin-left: 5%;
+  width: 90%
+}
+
+.OneFive {
+  background: #2d2d35;
+  border-radius: 8px;
+  color: #9ca3af;
+  flex: 1 1;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 22.5px;
+  text-align: center
+}
+
+.OneFive.Unavailable {
+  background: var(--UnColor);
+  color: #9ca3af;
+  font-weight: 500
+}
+
+.OneFive.Unavailable .fLevelDetails {
+  color: #9ca3af
+}
+
+.OneFive.CanBuy:not(.Unavailable) {
+  background: var(--LevelColor);
+  color: #fff;
+  font-weight: 600
+}
+
+.fLevelDetails {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 400;
+  margin-top: -7px
+}
+
+.PrestigeGroup {
+  left: 0;
+  position: absolute;
+  top: 110px;
+  width: 100%
+}
+
+.PrestigeButton {
+  background: var(--LevelColor);
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: clamp(10px, 3vw, 14px);
+  font-weight: 600;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 10%;
+  overflow: hidden;
+  padding-left: 8px;
+  padding-right: 8px;
+  white-space: nowrap;
+  width: 80%
+}
+
+.Unavailable .PrestigeButton {
+  background: #2d2d35;
+  color: #9ca3af;
+  font-weight: 500
+}
+
+.PrestigeGroup .Detail1 {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 5px
+}
+
+.LevelTabs {
+  display: flex;
+  font-size: 16px;
+  gap: 15px;
+  height: 30px;
+  justify-content: center;
+  left: 5%;
+  line-height: 30px;
+  position: absolute;
+  top: 195px;
+  width: 90%
+}
+
+.LevelTab,
+.LevelTabs {
+  color: #9ca3af;
+  font-weight: 600
+}
+
+.LevelTab {
+  background: #2d2d35;
+  border-radius: 10px;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  width: 80px
+}
+
+.LevelTab.Active {
+  background: var(--LevelColor);
+  color: #fff;
+  font-weight: 600
+}
+
+.Level.PointsLevel .LevelCurrency {
+  top: 55px
+}
+
+.Level.PointsLevel .LevelContent {
+  height: calc(100% - 110px);
+  top: 90px
+}
+
+:root {
+  --LevelBaseHeight: 10px;
+  --LevelDescriptionHeight: 38px;
+  --LevelCurrencyHeight: 25px;
+  --LevelCurrencyOffset: 10px
+}
+
+.Level.PointsLevel .LevelCurrency {
+  top: 58px;
+  top: calc(var(--LevelBaseHeight) + var(--LevelDescriptionHeight) + var(--LevelCurrencyOffset))
+}
+
+.Level.PointsLevel .LevelContent {
+  height: calc(100% - var(--LevelHeaderHeight) - 83px);
+  height: calc(100% - var(--LevelHeaderHeight) - var(--LevelDescriptionHeight) - var(--LevelCurrencyHeight) - var(--LevelCurrencyOffset) - var(--LevelCurrencyOffset));
+  top: 93px;
+  top: calc(var(--LevelBaseHeight) + var(--LevelDescriptionHeight) + var(--LevelCurrencyHeight) + var(--LevelCurrencyOffset) + var(--LevelCurrencyOffset))
+}
+
+.Level.LoyaltyLevel {
+  height: calc(100vh - 190px);
+  top: 70px
+}
+
+@media screen and (max-height:700px) {
+  .Level.LoyaltyLevel {
+    min-height: 610px;
+    top: 50%;
+    transform: translate(-50%, -50%)
+  }
+}
+
+.Level.LoyaltyLevel .Upgrade {
+  margin-top: 12px
+}
+
+.Level.LoyaltyLevel .LevelCurrency {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: linear-gradient(90deg, #602cbc, #c364ed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none;
+  font-size: 22px;
+  font-weight: 900;
+  height: 24px;
+  top: 75px
+}
+
+.LoyaltyLevel .LevelContent {
+  height: calc(100% - 245px);
+  padding-top: 5px;
+  top: 225px
+}
+
+.LoyaltyLevel.FullStar .PrestigeGroup {
+  display: none
+}
+
+.LoyaltyLevel.FullStar .LevelCurrency {
+  top: 90px
+}
+
+.LoyaltyLevel.FullStar .LevelTabs {
+  top: 135px
+}
+
+.LoyaltyLevel.FullStar .LevelContent {
+  height: calc(100% - 185px);
+  top: 165px
+}
+
+.Level.StoreLevel {
+  height: calc(100vh - 190px);
+  top: 70px
+}
+
+@media screen and (max-height:700px) {
+  .Level.StoreLevel {
+    min-height: 610px;
+    top: 50%;
+    transform: translate(-50%, -50%)
+  }
+}
+
+.StoreLevel .LevelCurrency:not(.Alt) {
+  display: none
+}
+
+.StoreLevel .LevelCurrency.Alt {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: linear-gradient(120deg, #128728, #7df257);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none;
+  font-size: 22px;
+  font-weight: 900;
+  height: 24px;
+  top: 75px
+}
+
+.StoreLevel .LevelContent {
+  height: calc(100% - 265px);
+  padding-top: 5px;
+  top: 245px
+}
+
+.StoreLevel .LevelTabs {
+  top: 215px
+}
+
+.StoreLevel .PrestigeGroup {
+  top: 130px;
+  width: 52.5%
+}
+
+.StoreLevel .PrestigeGroup.B {
+  left: auto;
+  right: 0
+}
+
+.StoreLevel .PrestigeButton {
+  font-size: 12px
+}
+
+.StoreLevel .Upgrade:has(.AutoSwitch) {
+  font-size: 11px
+}
+
+.AdjoinedAmount {
+  color: #cacaca;
+  font-size: 13px;
+  font-weight: 600;
+  left: 50%;
+  position: absolute;
+  top: -22.5px;
+  transform: translateX(-50%);
+  width: 100%
+}
+
+.AdjoinedAmount .TotalAMT {
+  color: #9ca3af;
+  font-size: 10px
+}
+
+.EmployeeHolder {
+  display: inline-block;
+  margin: 2.5%;
+  width: 45%
+}
+
+.Employee {
+  background: linear-gradient(120deg, #128728, #7df257);
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: clamp(9px, 2.8vw, 14px);
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 15px;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+  white-space: nowrap;
+  width: 100%
+}
+
+.EmployeeSeparator {
+  background: #444;
+  height: 1px;
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 90%
+}
+
+.EmployeeDetails .Detail1 {
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 5px
+}
+
+.EmployeeDetails .Detail2 {
+  color: #9ca3af;
+  font-size: 10px;
+  font-weight: 400;
+  margin-bottom: -2.5px
+}
+
+.Fireable .Employee {
+  background: linear-gradient(120deg, #871212, #f57d7d)
+}
+
+.Fireable.Retained .Employee {
+  background: #095016
+}
+
+.CantBuy .Employee {
+  background: #2d2d35;
+  color: #9ca3af;
+  font-weight: 500
+}
+
+.AutoPrestigeSwitchHolder {
+  height: calc(100% - 20px);
+  left: 10%;
+  position: absolute;
+  top: 0;
+  width: 50px
+}
+
+.AutoPrestigeSwitchText {
+  color: #9ca3af;
+  font-size: 8px;
+  font-weight: 600;
+  left: 12.5px;
+  position: absolute;
+  top: 15px;
+  transform: translateY(-50%)
+}
+
+.AutoPrestige .CurrentlyAvailable {
+  left: 40px;
+  width: calc(100% - 60px)
+}
+
+.AutoPrestige .CurrentlyAvailable,
+.AutoPrestigeEntry {
+  align-items: center;
+  display: flex;
+  gap: 3px;
+  height: calc(100% - 20px);
+  justify-content: center;
+  position: absolute;
+  top: 0
+}
+
+.AutoPrestigeEntry {
+  left: 50px;
+  width: calc(100% - 70px);
+  z-index: 2
+}
+
+.CorpLevel .CurrentlyAvailable,
+.MonoLevel .CurrentlyAvailable {
+  left: 70px;
+  width: calc(100% - 130px)
+}
+
+.CorpLevel .AutoPrestigeEntry,
+.MonoLevel .AutoPrestigeEntry {
+  left: 70px;
+  width: calc(100% - 100px)
+}
+
+.AutoPrestigeEntryInput {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  align-items: center;
+  background-color: #9ca3af;
+  background: var(--LevelColor);
+  -webkit-background-clip: text;
+  background-clip: text;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  color: none;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 800;
+  font-weight: 700;
+  height: 16px;
+  justify-content: center;
+  outline: none;
+  padding: 3px 5px 2px;
+  text-align: left;
+  transition: background-color .2s ease;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 30px
+}
+
+.AutoPrestigeSwitchHolder {
+  z-index: 3
+}
+
+.AutoPrestigeSwitch {
+  align-items: center;
+  border: 2px solid #9ca3af;
+  border-radius: 4px;
+  display: flex;
+  height: 20px;
+  height: 12px;
+  justify-content: center;
+  left: 12.5px;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  transition: all .2s ease;
+  width: 20px;
+  width: 12px
+}
+
+.AutoPrestigeSwitch.On {
+  background-color: #095016;
+  border-color: #095016
+}
+
+.AutoPrestigeSwitch:after {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  content: "";
+  height: 14px;
+  opacity: 0;
+  transform: rotate(45deg) scale(.6);
+  transition: opacity .2s ease;
+  width: 5px
+}
+
+.AutoPrestigeSwitch.On:after {
+  opacity: 1
+}
+
+.AutoPrestigeAmountHolder {
+  gap: 3px;
+  height: calc(100% - 20px);
+  left: 60px;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 80px)
+}
+
+.AmountButton,
+.AutoPrestigeAmountHolder {
+  align-items: center;
+  display: flex;
+  justify-content: center
+}
+
+.AmountButton {
+  background-color: #1f2937;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+  height: 12px;
+  padding: 2px 5px;
+  transition: background-color .2s ease;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 12px
+}
+
+.AmountButton:hover {
+  background-color: #374151
+}
+
+.AutoPrestigeAmount {
+  color: #10b981;
+  font-size: 12px;
+  font-weight: 700;
+  min-width: 15px;
+  text-align: center
+}
+
+.Level.CorpLevel {
+  height: calc(100vh - 190px);
+  top: 70px
+}
+
+@media screen and (max-height:700px) {
+  .Level.CorpLevel {
+    min-height: 610px;
+    top: 50%;
+    transform: translate(-50%, -50%)
+  }
+}
+
+.CorpLevel .LevelCurrency:not(.Alt) {
+  display: none
+}
+
+.CorpLevel .LevelContent {
+  height: calc(100% - 280px);
+  padding-top: 5px;
+  top: 260px
+}
+
+.CorpLevel .PrestigeGroup {
+  top: 145px
+}
+
+.Level.CorpLevel .FiveLevelTitle {
+  margin-top: 15px
+}
+
+.Level.CorpLevel .FiveLevel {
+  margin-bottom: 25px
+}
+
+.CorpLevel .Upgrade:has(.AutoSwitch) {
+  font-size: 11px
+}
+
+.CorpLevel .Upgrade.Income:has(.AutoSwitch) {
+  font-size: 14px
+}
+
+.CorpLevel .MarketShareBar {
+  background: #2d2d35;
+  border-radius: 12.5px;
+  font-size: 14px;
+  font-weight: 600;
+  height: 25px;
+  left: 10%;
+  line-height: 25px;
+  overflow: hidden;
+  position: absolute;
+  top: 102.5px;
+  width: 80%
+}
+
+.MarketShareBarFill {
+  background: var(--LevelColor);
+  border-radius: 12.5px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0
+}
+
+.MarketShareBarText {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  left: 50%;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translateX(-50%);
+  width: 100%
+}
+
+.CorpLevel .LevelTabs {
+  top: 230px
+}
+
+.UpgradeGroup:has(.Retainer) .GroupSubtitle {
+  margin-bottom: 7.5px
+}
+
+.RetainerHolder .UpgradeDetails {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  line-height: 20px;
+  margin-top: -2.5px
+}
+
+.Upgrade.Retainer {
+  margin-top: 12.5px
+}
+
+.Retainer .Detail2 {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: -5px;
+  margin-top: -5px
+}
+
+.Level.MonoLevel {
+  height: calc(100vh - 190px);
+  top: 70px
+}
+
+@media screen and (max-height:700px) {
+  .Level.MonoLevel {
+    min-height: 610px;
+    top: 50%;
+    transform: translate(-50%, -50%)
+  }
+}
+
+.MonoLevel .LevelDescription {
+  color: #9ca3af;
+  font-size: 13px;
+  top: 10px
+}
+
+.Level.MonoLevel .LevelCurrency:not(.Alt) {
+  display: none
+}
+
+.Level.MonoLevel .LevelCurrency.Alt {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: #1e3e5e;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none;
+  top: 90px
+}
+
+.Level.MonoLevel .PrestigeGroup {
+  top: 130px
+}
+
+.Level.MonoLevel .Upgrade:has(.AutoSwitch) {
+  font-size: 11px
+}
+
+.TabbedContainer {
+  background: #1f1b2e00;
+  border-radius: 20px;
+  height: calc(100% - 240px);
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 220px;
+  transform: translateX(-50%);
+  width: 95%
+}
+
+.TabbedContainer:before {
+  background: var(--LevelColor);
+  border-radius: 20px;
+  bottom: 0;
+  content: "";
+  left: 0;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  padding: 4px;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0
+}
+
+.TabbedContainer .Tabs {
+  color: #9ca3af;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  height: 30px;
+  justify-content: center;
+  left: 0;
+  line-height: 30px;
+  overflow: hidden;
+  padding-bottom: 4px;
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+
+.TabbedContainer .Tabs .Tab {
+  background: #2d2d35;
+  width: 100%
+}
+
+.TabbedContainer .Tabs .Tab.Active {
+  background: var(--LevelColor);
+  color: #fff;
+  font-weight: 600
+}
+
+.Milestones {
+  height: calc(100% - 30px);
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 30px;
+  width: 100%
+}
+
+.Milestones::-webkit-scrollbar {
+  display: none
+}
+
+.Milestone {
+  background: #2d2d35;
+  border-bottom: 1px solid #444;
+  color: #9ca3af;
+  font-size: 16px;
+  font-weight: 600;
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+  width: 100%
+}
+
+.Milestone.Gotten {
+  background: var(--LevelColor);
+  color: #fff
+}
+
+.Milestone .MilestoneLevel {
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  left: 10px;
+  line-height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px
+}
+
+.Milestone .MilestoneName {
+  font-size: 16px;
+  font-weight: 600;
+  top: 15px
+}
+
+.Milestone .MilestoneName,
+.Milestone .MilestoneReward {
+  height: 20px;
+  left: 55px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  width: calc(100% - 55px)
+}
+
+.Milestone .MilestoneReward {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  top: 32.5px
+}
+
+.Milestone .MilestoneExtra {
+  color: #9ca3af;
+  font-size: 10px;
+  font-weight: 600;
+  height: 24px;
+  line-height: 12px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  vertical-align: middle;
+  width: 40px
+}
+
+.Milestone:last-child {
+  border-bottom: none
+}
+
+.MonoLevel .Upgrades {
+  box-sizing: border-box;
+  height: calc(100% - 34px);
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 30px;
+  width: 100%
+}
+
+.MonoLevel .Upgrades::-webkit-scrollbar {
+  display: none
+}
+
+.MonoLevel .Upgrade {
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: clamp(10px, 3vw, 16px);
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 5%;
+  margin-top: 15px;
+  overflow: hidden;
+  padding-left: 8px;
+  padding-right: 8px;
+  white-space: nowrap;
+  width: 90%
+}
+
+.MonoLevel .Upgrade.Unavailable {
+  background: var(--UnColor);
+  color: #9ca3af;
+  font-weight: 500
+}
+
+.MonoLevel .Upgrade.CantBuy:not(.Unavailable) {
+  background: #2d2d35;
+  color: #9ca3af;
+  font-weight: 500
+}
+
+.UpgradeSeparator {
+  background: #162e46;
+  height: 1px;
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 90%
+}
+
+.MonopolyUpgradeLock.Active {
+  background: #2d2d35;
+  height: calc(100% + 2px);
+  left: 50%;
+  position: absolute;
+  top: 222px;
+  transform: translateX(-50%);
+  width: calc(100% - 8px);
+  z-index: -1
+}
+
+.MonopolyUpgradeLock:not(.Active) {
+  display: none
+}
+
+.MonopolyLock {
+  background: #2d2d35;
+  height: 20px;
+  top: 10px;
+  width: 20px
+}
+
+.MonopolyLock,
+.MonopolyLockText {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%)
+}
+
+.MonopolyLockText {
+  color: #9ca3af;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  line-height: 40px;
+  text-align: center;
+  top: 25px;
+  width: 100%
+}
+
+.MonopolyLockArea.Active {
+  position: relative;
+  z-index: -2
+}
+
+.MonoLevel .UpgradeHolder:has(.Spill) {
+  width: 100%
+}
+
+.MonoLevel .Upgrade.Spill {
+  margin-left: 25%;
+  width: 50%
+}
+
+.Level.PlanetLevel {
+  height: calc(100vh - 190px);
+  top: 70px
+}
+
+@media screen and (max-height:700px) {
+  .Level.PlanetLevel {
+    min-height: 610px;
+    top: 50%;
+    transform: translate(-50%, -50%)
+  }
+}
+
+.PlanetLevel .LevelDescription {
+  color: #9ca3af;
+  font-size: 13px;
+  top: 10px
+}
+
+.Level.PlanetLevel .LevelCurrency:not(.Alt) {
+  display: none
+}
+
+.Level.PlanetLevel .LevelCurrency.Alt {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: #34689d;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none;
+  top: 90px
+}
+
+.Level.PlanetLevel .PrestigeGroup {
+  top: 130px
+}
+
+.Level.PlanetLevel .PrestigeButton {
+  position: relative
+}
+
+.Level.PlanetLevel .LevelBody:before,
+.Level.PlanetLevel .LevelHeader:before,
+.Level.PlanetLevel .Planet.Gotten:before,
+.Level.PlanetLevel .PrestigeButton:not(.Unavailable):before,
+.Level.PlanetLevel .SubTab.Active:before,
+.Level.PlanetLevel .TabbedContainer .Tabs .Tab.Active:before,
+.Level.PlanetLevel .Upgrade.CanBuy:before {
+  background-image: radial-gradient(1px 1px at 20% 30%, #fff, #0000), radial-gradient(1.5px 1.5px at 70% 20%, #fff, #0000), radial-gradient(1px 1px at 50% 60%, #fff, #0000), radial-gradient(2px 2px at 85% 80%, #fff, #0000), radial-gradient(1.2px 1.2px at 30% 75%, #fff, #0000), radial-gradient(1px 1px at 15% 10%, #fff, #0000), radial-gradient(1.5px 1.5px at 90% 10%, #fff, #0000), radial-gradient(1.3px 1.3px at 10% 85%, #fff, #0000), radial-gradient(2px 2px at 60% 90%, #fff, #0000), radial-gradient(1px 1px at 45% 40%, #fff, #0000);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: .3;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0
+}
+
+.Planets {
+  height: calc(100% - 30px);
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 30px;
+  width: 100%
+}
+
+.Planets::-webkit-scrollbar {
+  display: none
+}
+
+.MilestoneDisclaimer {
+  bottom: 5px;
+  color: #fff;
+  color: #9ca3af;
+  font-size: 10px;
+  height: 10px;
+  left: 50%;
+  line-height: 10px;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 2
+}
+
+.Planet {
+  background: #2d2d35;
+  border-bottom: 1px solid #444;
+  color: #9ca3af;
+  font-size: 16px;
+  font-weight: 600;
+  height: 100px;
+  line-height: 60px;
+  position: relative;
+  width: 100%
+}
+
+.Planet .PlanetImage {
+  height: 60px;
+  left: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px
+}
+
+.Planet.Gotten {
+  background: var(--LevelColor);
+  color: #fff
+}
+
+.Planet .PlanetLevel {
+  display: none;
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  left: 10px;
+  line-height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px
+}
+
+.Planet .PlanetName {
+  font-size: 20px;
+  font-weight: 600;
+  height: 20px;
+  line-height: 20px;
+  top: 27.5px;
+  width: calc(100% - 55px)
+}
+
+.Planet .PlanetName,
+.Planet .PlanetReward {
+  left: 95px;
+  position: absolute;
+  text-align: left
+}
+
+.Planet .PlanetReward {
+  bottom: 30px;
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  line-height: 15px;
+  width: calc(100% - 140px)
+}
+
+.Planet .PlanetBonus,
+.Planet .PlanetExtra {
+  color: #9ca3af;
+  font-size: 10px;
+  font-weight: 600;
+  height: 24px;
+  line-height: 12px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  vertical-align: middle;
+  width: 40px
+}
+
+.Planet:last-child {
+  border-bottom: none
+}
+
+.Planet.Sun {
+  height: 330px
+}
+
+.Planet:not(.Gotten) {
+  filter: grayscale(1)
+}
+
+.Planet.Sun .PlanetImage {
+  height: 100px;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  width: 100px
+}
+
+.Planet.Sun .PlanetName {
+  font-size: 22px;
+  top: 110px
+}
+
+.Planet.Sun .PlanetName,
+.Planet.Sun .PlanetReward {
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%)
+}
+
+.Planet.Sun .PlanetReward {
+  font-size: 10px;
+  top: 140px;
+  width: 90%
+}
+
+.Planet.Sun .NewGamePlus {
+  animation: vortexMove 4s ease-in-out infinite;
+  background: radial-gradient(circle at center, #7f00ff, #e100ff);
+  background-size: 400% 400%;
+  border: none;
+  border-radius: 12px;
+  bottom: 30px;
+  box-shadow: 0 0 15px #e200ff66, 0 0 30px #7f00ff66;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  height: 60px;
+  left: 50%;
+  line-height: 50px;
+  overflow: hidden;
+  position: absolute;
+  transform: translateX(-50%);
+  transition: transform .2s ease;
+  width: 180px
+}
+
+.NewGamePlus:before {
+  animation: spinVortex 6s linear infinite;
+  background: conic-gradient(from 0deg, #7f00ff, #e100ff, #7f00ff);
+  content: "";
+  height: 200%;
+  left: -50%;
+  opacity: .4;
+  position: absolute;
+  top: -50%;
+  width: 200%;
+  z-index: 0
+}
+
+.NewGamePlus .MainText {
+  font-size: 16px;
+  top: 10px
+}
+
+.NewGamePlus .MainText,
+.NewGamePlus .SubText {
+  height: 20px;
+  left: 50%;
+  line-height: 20px;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%
+}
+
+.NewGamePlus .SubText {
+  color: #cacaca;
+  font-size: 10px;
+  top: 25px
+}
+
+.NewGamePlus:not(:has(.AlsoGold)) .MainText {
+  top: 15px
+}
+
+.NewGamePlus:not(:has(.AlsoGold)) .SubText {
+  top: 30px
+}
+
+.AlsoGold {
+  top: 42px
+}
+
+.AlsoGold,
+.NextGold {
+  color: #cacaca;
+  font-size: 10px;
+  height: 10px;
+  left: 50%;
+  line-height: 10px;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%
+}
+
+.NextGold {
+  bottom: 15px;
+  color: #9ca3af
+}
+
+@keyframes spinVortex {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(1turn)
+  }
+}
+
+@keyframes vortexMove {
+  0% {
+    background-position: 0 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  to {
+    background-position: 0 50%
+  }
+}
+
+.Request.NGPlus .PopupHeader,
+.Request.NGPlus .RequestButton.Yes {
+  animation: vortexMove 4s ease-in-out infinite;
+  background: radial-gradient(circle at center, #7f00ff, #e100ff);
+  background-size: 400% 400%;
+  box-shadow: 0 0 15px #e200ff66, 0 0 30px #7f00ff66;
+  overflow: hidden;
+  transition: transform .2s ease
+}
+
+.NGPlusing {
+  animation: warpPulse 2s ease-in-out infinite, fadeOutWarp 2s ease-in-out 6s forwards;
+  background: radial-gradient(circle at center, #7f00ffe6, #000);
+  background-size: 400% 400%;
+  height: 100vh;
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 9999
+}
+
+.NGPlusing:before {
+  animation: spinVortex 6s linear infinite;
+  background: conic-gradient(from 0deg, #7f00ff, #e100ff, #7f00ff);
+  content: "";
+  height: 200%;
+  left: -50%;
+  opacity: .4;
+  position: absolute;
+  top: -50%;
+  width: 200%
+}
+
+@keyframes warpPulse {
+
+  0%,
+  to {
+    background-position: 0 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+}
+
+@keyframes fadeOutWarp {
+  to {
+    opacity: 0;
+    visibility: hidden
+  }
+}
+
+.PlanetLevel .Upgrades {
+  box-sizing: border-box;
+  height: calc(100% - 34px);
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 10px;
+  padding-top: 35px;
+  position: absolute;
+  top: 30px;
+  width: 100%
+}
+
+.PlanetLevel .Upgrades::-webkit-scrollbar {
+  display: none
+}
+
+.PlanetLevel .Upgrade {
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: clamp(9px, 2.8vw, 13px);
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 5%;
+  margin-top: 15px;
+  overflow: hidden;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  white-space: nowrap;
+  width: 90%
+}
+
+.PlanetLevel .UpgradeDetails .Detail1 {
+  font-size: 11px
+}
+
+.PlanetLevel .Upgrade.Unavailable {
+  background: var(--UnColor);
+  color: #9ca3af;
+  font-weight: 500
+}
+
+.PlanetLevel .Upgrade.CantBuy:not(.Unavailable) {
+  background: #2d2d35;
+  color: #9ca3af;
+  font-weight: 500
+}
+
+.PlanetLevel .UpgradeGroup {
+  margin-left: 4%;
+  margin-top: 15px;
+  width: 92%
+}
+
+.PlanetLevel .Upgrades .SubTabs {
+  background: #1f1b2e;
+  display: flex;
+  font-size: 16px;
+  gap: 7.5px;
+  justify-content: center;
+  left: 5px;
+  line-height: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: fixed;
+  top: 30px;
+  width: calc(100% - 10px);
+  z-index: 3
+}
+
+.PlanetLevel .Upgrades .SubTabs,
+.SubTab {
+  color: #9ca3af;
+  font-weight: 600;
+  height: 20px;
+  overflow: hidden
+}
+
+.SubTab {
+  background: #2d2d35;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  position: relative;
+  text-align: center;
+  width: 80px
+}
+
+.SubTab.Active {
+  background: var(--LevelColor);
+  color: #fff;
+  font-weight: 600
+}
+
+.Desktop,
+body:has(.Desktop) {
+  background: linear-gradient(359deg, #121212 26.53%, #4a00e0bf 96.94%)
+}
+
+.Desktop .Page {
+  height: 100vh
+}
+
+.Desktop .Level {
+  height: calc(100vh - 150px);
+  max-width: 450px;
+  top: 40px
+}
+
+.Desktop .Level.PointsLevel {
+  height: calc(100vh - 250px);
+  max-height: 600px;
+  top: 140px
+}
+
+.Desktop .HomeDivider,
+.Desktop .TopAvatar {
+  display: none
+}
+
+.Desktop .Popup.Profile {
+  top: 35px
+}
+
+.Desktop .AspectLeft,
+.Desktop .AspectRight,
+.Desktop .Available .AutoScratchSwitch,
+.Desktop .Available .PrestigeButton,
+.Desktop .BoardTab,
+.Desktop .BuyGoldButton,
+.Desktop .ChangeName,
+.Desktop .DesktopNavigation .AvatarWrapper,
+.Desktop .DiscordButton,
+.Desktop .DonationUpgrade,
+.Desktop .Fireable .Employee,
+.Desktop .GoldButton,
+.Desktop .Hireable .Employee,
+.Desktop .LevelTab,
+.Desktop .OneFive.CanBuy:not(.Unavailable),
+.Desktop .PayoutInfo,
+.Desktop .PopupClose,
+.Desktop .ProfileSetting,
+.Desktop .RequestButton,
+.Desktop .RestorePurchases,
+.Desktop .SettingArrow,
+.Desktop .SettingToggle:not(.Disabled),
+.Desktop .TempReset,
+.Desktop .TimingButton,
+.Desktop .TopBox,
+.Desktop .Upgrade.CanBuy:not(.Unavailable),
+.LevelClose,
+.PopupButton {
+  cursor: pointer
+}
+
+.Desktop .BoardTabs {
+  left: 10%;
+  width: 80%
+}
+
+.Desktop .EarnedMilestone {
+  height: 100px;
+  top: 26.5px;
+  width: 430px
+}
+
+.Desktop .EarnedAchieveIcon {
+  height: 47px;
+  width: 47px
+}
+
+.Desktop .EarnedMilestoneHead {
+  font-size: 17px;
+  left: 77px;
+  top: 27px
+}
+
+.Desktop .EarnedMilestoneTitle {
+  font-size: 15px;
+  left: 77px;
+  top: 53px
+}
+
+.Desktop .EarnedMilestoneReward {
+  font-size: 15px
+}
+
+.DesktopNavigation {
+  background: #1f1b2e;
+  border-bottom: 1px solid #4a00e0;
+  border-radius: 16px;
+  border-bottom-left-radius: 0;
+  border-right: 1px solid #4a00e0;
+  border-top-left-radius: 0;
+  box-sizing: border-box;
+  height: calc(100vh - 120px);
+  left: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  position: fixed;
+  top: 20px;
+  width: 270px
+}
+
+.DesktopNavigation .AvatarWrapper {
+  background: #3c315b;
+  border-radius: 50%;
+  height: 100px;
+  left: 50%;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-50%);
+  width: 100px
+}
+
+.DesktopNavigation .Welcome {
+  color: #ececec;
+  font-size: 16px;
+  font-weight: 600;
+  top: 150px
+}
+
+.DesktopNavigation .SubWelcome,
+.DesktopNavigation .Welcome {
+  height: 20px;
+  left: 50%;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 100%
+}
+
+.DesktopNavigation .SubWelcome {
+  color: #9ca3af;
+  font-size: 14px;
+  font-weight: 400;
+  top: 175px
+}
+
+.DesktopNavigation .Levels {
+  height: calc(100% - 225px);
+  left: 0;
+  position: absolute;
+  top: 225px;
+  width: 100%
+}
+
+.DesktopNavigation .NavLevel {
+  border-top: 1px solid #444;
+  cursor: pointer;
+  display: block;
+  height: 16.5%;
+  position: relative;
+  width: 100%
+}
+
+.DesktopNavigation .InnerNav {
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  width: 220px
+}
+
+.DesktopNavigation .LevelIcon {
+  height: 40px;
+  left: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px
+}
+
+.DesktopNavigation .LevelName {
+  color: #ececec;
+  font-size: 18px;
+  font-weight: 600;
+  height: 20px;
+  left: 90px;
+  line-height: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.DesktopNavigation .IconAddons {
+  height: 40px;
+  left: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  z-index: 10
+}
+
+.DesktopNavigation .NavLock {
+  background: #9ca3af;
+  border-radius: 50%;
+  height: 15px;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  width: 15px;
+  z-index: 10
+}
+
+.DesktopNavigation .NavLock .Lock {
+  height: 10px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px
+}
+
+.DesktopNavigation .NavAlert {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px
+}
+
+.DesktopNavigation .NavAlert,
+.DesktopNavigation .NavLock {
+  height: 25px;
+  right: -7.5px;
+  top: -7.5px;
+  width: 25px
+}
+
+.DesktopNavigation .NavLock .Lock {
+  height: 17.5px;
+  width: 17.5px
+}
+
+.DesktopNavigation .NavProgress {
+  background: #363141;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%
+}
+
+.DesktopNavigation .NavProgress,
+.NavProgressBar {
+  border-radius: 3.25px;
+  height: 6.5px;
+  position: absolute
+}
+
+.NavProgressBar {
+  bottom: 0;
+  left: 0
+}
+
+.Desktop .CurrencyBar,
+.Desktop .TopIcons {
+  display: none
+}
+
+.Desktop .ScratchcardWrapper {
+  border: 2px solid #4a00e0;
+  box-sizing: border-box;
+  height: calc(100vh - 120px);
+  left: 50%;
+  max-height: calc(100vh - 120px);
+  max-width: calc(100vh - 120px);
+  top: 20px;
+  width: calc(100vh - 120px)
+}
+
+.Desktop .ScratchcardWrapper .ScratchcardHeader {
+  color: #cecccc;
+  font-size: 34px;
+  height: 110px;
+  line-height: 110px
+}
+
+.Desktop .UnderCard {
+  max-width: calc(100vh - 170px);
+  top: calc(100vh - 80px);
+  width: calc(100vh - 170px)
+}
+
+.Desktop .NewCard {
+  cursor: pointer;
+  left: 50.5%;
+  top: calc(100vh - 80px);
+  width: 320px
+}
+
+.Desktop .PayoutInfo {
+  font-size: 16px;
+  right: 20px
+}
+
+.Desktop .EarnedPoints {
+  font-size: 22px;
+  height: 75px;
+  line-height: 75px;
+  top: calc(50% + 55px);
+  width: 250px
+}
+
+.Desktop .EarnedPoints.AndLStar {
+  top: calc(50% - 5px)
+}
+
+.Desktop .EarnedLoyalty {
+  font-size: 22px;
+  height: 75px;
+  line-height: 75px;
+  top: calc(50% + 90px);
+  width: 250px
+}
+
+.DesktopRight {
+  height: calc(100vh - 120px);
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 250px
+}
+
+.Desktop .PointBar {
+  border: 1px solid #4a00e0;
+  border-radius: 13px;
+  height: 50px;
+  position: relative;
+  width: 250px
+}
+
+.Desktop .PointLabel {
+  font-size: 18px;
+  left: 20px
+}
+
+.Desktop .PointValue {
+  font-size: calc(min(18px, 75px / (6 * .65)));
+  font-size: calc(min(18px, 75px / (var(--char-count, 6) * .65)));
+  right: 20px;
+  width: 140px
+}
+
+.Desktop .ExpandedCurrencies {
+  background: #1f1b2e;
+  border: 1px solid #4a00e0;
+  border-radius: 13px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 10px;
+  position: relative;
+  top: auto;
+  width: 250px
+}
+
+.Desktop .ExpandedCurrencyRow {
+  align-items: center;
+  border-bottom: 1px solid #444;
+  color: #ececec;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  height: 65px;
+  justify-content: space-between;
+  position: relative;
+  width: 100%
+}
+
+.Desktop .ExpandedCurrencyRow:last-child {
+  border-bottom: none
+}
+
+.RowLabel {
+  font-weight: 500;
+  left: 20px
+}
+
+.RowLabel,
+.RowValue {
+  color: #ececec;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.RowValue {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: var(--valueColor);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none;
+  font-size: calc(min(16px, 75px / (6 * .65)));
+  font-size: calc(min(16px, 75px / (var(--char-count, 6) * .65)));
+  font-weight: 600;
+  overflow: hidden;
+  right: 20px;
+  text-align: right;
+  white-space: nowrap;
+  width: 80px
+}
+
+.Menus {
+  background: #1f1b2e;
+  border: 1px solid #4a00e0;
+  border-radius: 13px;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin-top: 10px
+}
+
+.Menu,
+.Menus {
+  display: flex;
+  position: relative;
+  width: 100%
+}
+
+.Menu {
+  align-items: center;
+  border-bottom: 1px solid #444;
+  color: #ececec;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  height: 97px;
+  justify-content: center
+}
+
+.Menu:last-child {
+  border-bottom: none
+}
+
+.Menu .MenuIcon {
+  height: 24px;
+  left: 20px;
+  position: absolute;
+  transform: scale(1.7);
+  transform-origin: left;
+  width: 24px
+}
+
+.Menu .MenuLabel {
+  color: #ececec;
+  font-size: 18px;
+  font-weight: 500;
+  left: 80px;
+  position: absolute
+}
+
+.DesktopGold {
+  cursor: pointer;
+  right: 50px;
+  top: 30px;
+  z-index: 10
+}
+
+.DesktopGold,
+.DesktopGold .Coins {
+  height: 50px;
+  position: absolute;
+  width: 50px
+}
+
+.DesktopGold .Coins {
+  right: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2
+}
+
+.DesktopGold .GoldAmount {
+  background: #262238;
+  border: 1px solid #2d2d35;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #e3c129;
+  font-size: 16px;
+  font-weight: 800;
+  height: 35px;
+  line-height: 35px;
+  padding-right: 28px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  z-index: 1
+}
+
+.DesktopGold .GoldAmount .GoldValue {
+  box-sizing: border-box;
+  position: absolute;
+  right: 25px;
+  text-align: center;
+  width: 42px
+}
+
+.DesktopGold .GoldPlus {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2
+}
+
+.DesktopAchievements {
+  cursor: pointer;
+  height: 50px;
+  left: 50px;
+  position: absolute;
+  top: 30px;
+  width: 50px;
+  z-index: 10
+}
+
+.DesktopAchievements .Achieve {
+  height: 55px;
+  left: 70px;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 55px;
+  z-index: 2
+}
+
+.DesktopAchievements .AchievementCounter {
+  background: #262238;
+  border: 1px solid #2d2d35;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #e3c129;
+  font-size: 18px;
+  font-weight: 800;
+  height: 35px;
+  left: 0;
+  line-height: 35px;
+  padding-left: 15px;
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  z-index: 1
+}
+
+.DesktopAchievements .AchievementCounter .AchievementCounterText {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  background: linear-gradient(91deg, #5a5a5a, #787878 33%, #9a9a9a 66%, #bfbfbf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: none
+}
+
+.Desktop .HomeVersion {
+  bottom: 10px;
+  color: #9ca3af;
+  font-size: 10px;
+  font-weight: 500;
+  position: fixed;
+  right: 20px
+}
+
+.Desktop .Popup {
+  width: 400px
+}
+
+.Desktop .Popup.Leaderboard {
+  height: 85vh;
+  top: 35px
+}
+
+.Desktop .SettingsPopup {
+  height: 85vh;
+  max-width: 500px;
+  top: 35px;
+  width: 500px
+}
+
+.SettingsPopup .PopupHeader {
+  z-index: 5
+}
+
+.SettingsPopup .SettingsBody {
+  background: #121212
+}
+
+.SettingsPopup .SettingsHeader {
+  display: none
+}
+
+.SettingsPopup .SettingsContent {
+  height: calc(100% - 95px);
+  top: 75px;
+  width: 90%
+}
+
+.SettingsPopup .ProfileSetting,
+.SettingsPopup .SettingsGroup,
+.SettingsPopup .TopBoxes {
+  width: 100%
+}
+
+.Desktop .AchievementsPopup {
+  height: 85vh;
+  max-width: 450px;
+  top: 35px;
+  width: 450px
+}
+
+.AchievementsPopup .PopupBody {
+  background: #121212
+}
+
+.AchievementsPopup .AchievementsHeader {
+  display: none
+}
+
+.AchievementsPopup .AchievementsDescription {
+  top: 20px
+}
+
+.AchievementsPopup .AchievementCurrency {
+  top: 80px
+}
+
+.AchievementsPopup .AchievementCurrency.B {
+  top: 105px
+}
+
+.AchievementsPopup .AchievementsBody {
+  height: calc(100% - 175px);
+  overflow-y: auto;
+  padding-bottom: 0;
+  top: 155px
+}
+
+.AchievementsPopup .AchievementsBody::-webkit-scrollbar {
+  display: none
+}
+
+.Desktop .Popup.Donations {
+  height: calc(100vh - 150px);
+  max-width: 400px;
+  top: 35px;
+  transform: translateX(-50%);
+  width: 400px
+}
+
+.Desktop .Popup.Gold {
+  top: 47%
+}
+
+.AppStoreButtons {
+  bottom: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+  left: 10px;
+  position: absolute;
+  width: 100%;
+  width: 230px
+}
+
+.AppStoreButtons img {
+  cursor: pointer;
+  height: 32px
+}
+
+.Desktop .Popup.Profile:has(.UseKongname) .ChangeAvatar {
+  height: calc(100% - 280px);
+  top: 260px
+}
+
+.Desktop .UseKongname {
+  color: #ececec;
+  color: #de5242;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 30px;
+  left: 50%;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  transform: translateX(-50%);
+  width: 200px
+}
+
+.Desktop .Achievement.Hidden {
+  display: none
+}
+
+.Desktop .AppStoreButtons:has(.SteamImage) img {
+  height: 24px
+}
+
+.Desktop .AppStoreButtons:has(.DiscordImage) img {
+  height: 42px
+}
+
+.Desktop .Popup.Cosmetics {
+  height: 85vh;
+  max-width: 70%;
+  top: 35px;
+  width: 800px
+}
+
+.Desktop .Popup.Cosmetics .CosmeticItems {
+  flex-wrap: wrap;
+  width: 100%
+}
+
+.Desktop .Popup.Cosmetics .CosmeticSetHolder {
+  box-sizing: border-box;
+  display: inline-block;
+  justify-content: center;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  padding: 10px;
+  text-align: center;
+  width: 320px
+}
+
+.Desktop .Popup.Cosmetics .CosmeticSetItem {
+  width: 100%
+}
+
+.Desktop .Popup.Cosmetics .BuyGoldButton {
+  width: 300px
+}
+
+.Desktop .Popup.Cosmetics .CosmeticSetIcons {
+  width: 250px
+}
+
+.Desktop .Popup.Cosmetics .CosmeticSetIcon {
+  height: 47.5px;
+  width: 47.5px
+}
+
+.Desktop .HomeCosmetics {
+  background: #7789d4;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 800;
+  height: 38px;
+  line-height: 38px;
+  margin-top: 2px;
+  position: relative;
+  width: 200px
+}
+
+.HomeCosmetics .cSubText {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  top: 5px;
+  width: 100%
+}
+
+.HomeCosmetics .cMainText,
+.HomeCosmetics .cSubText {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%)
+}
+
+.HomeCosmetics .cMainText {
+  font-size: 17px;
+  font-weight: 1000;
+  line-height: 24px;
+  top: 12px
+}
+
+.Desktop .AppStoreButtons:has(.DiscordImage) {
+  width: 250px
+}
+
+/*# sourceMappingURL=main.ab48d03c.css.map*/

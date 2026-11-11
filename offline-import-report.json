@@ -1,11 +1,11 @@
 {
   "branch": "html-error-audit-fixes-2026-11-10",
   "supported_host": "freeonlinewebtools.github.io",
-  "found_this_scan": 330,
-  "imported_this_batch": 31,
-  "imported": 115,
-  "downloaded_bytes_this_batch": 697073691,
-  "downloaded_bytes": 3486541189,
+  "found_this_scan": 299,
+  "imported_this_batch": 22,
+  "imported": 137,
+  "downloaded_bytes_this_batch": 728231165,
+  "downloaded_bytes": 4214772354,
   "limits": {
     "max_games": 75,
     "max_game_bytes": 157286400,
@@ -5948,6 +5948,17 @@
       ]
     },
     {
+      "game": "Madalin-Stunt-Cars-2",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Madalin-Stunt-Cars-2",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Madalin-Stunt-Cars-2/",
+      "files": 9,
+      "bytes": 42814257,
+      "remaining_external_references": []
+    },
+    {
       "game": "Magic-Tiles-3",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist14.github.io",
@@ -6028,6 +6039,38 @@
       ]
     },
     {
+      "game": "Melon-Sandbox",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Melon-Sandbox",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Melon-Sandbox/",
+      "files": 14,
+      "bytes": 61198826,
+      "remaining_external_references": [
+        {
+          "file": "Build/78_release-web-35.4-clear_melon_webgl_3c4b62ab1563af1bb917ae18f3e9f818d7e03cce_v35_4.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        },
+        {
+          "file": "Modules/Lame/lame.all.js",
+          "url": "http://www.mp3dev.org/"
+        },
+        {
+          "file": "Modules/Firebase/firebase-analytics-8.10.1.js",
+          "url": "https://firebaseinstallations.googleapis.com/v1"
+        },
+        {
+          "file": "Modules/Firebase/firebase-analytics-8.10.1.js",
+          "url": "https://firebase.googleapis.com/v1alpha/projects/-/apps/{app-id}/webConfig"
+        },
+        {
+          "file": "Modules/Firebase/firebase-analytics-8.10.1.js",
+          "url": "https://www.googletagmanager.com/gtag/js"
+        }
+      ]
+    },
+    {
       "game": "Midnight-Shift-12",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist12.github.io",
@@ -6065,6 +6108,111 @@
       "source_path": "Minecraft-1.21",
       "file_count": 5,
       "bytes": 189453200
+    },
+    {
+      "game": "Minesweeper-Plus",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Minesweeper-Plus",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Minesweeper-Plus/",
+      "files": 18,
+      "bytes": 91807573,
+      "remaining_external_references": []
+    },
+    {
+      "game": "Moto-X3M-Pool-Party",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Moto-X3M-Pool-Party",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Moto-X3M-Pool-Party/",
+      "files": 89,
+      "bytes": 8901659,
+      "remaining_external_references": [
+        {
+          "file": "motox3m.min.js",
+          "url": "http://kizi.com"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "http://yep10.com/?utm_source=x3m4_html5"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "https://play.google.com/store/apps/details?id=air.com.aceviral.motox3m&referrer=utm_source%3Dx3m4_html5"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "https://itunes.apple.com/us/app/moto-x3m-free/id1085088518/?referrer=utm_source%3Dx3m4_html5"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "http://yep10.com/moto-x3m-bike-race-game-2/"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "http://yep10.com/moto-x3m-4-winter-bike-race-game/"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "http://madpuffers.com/"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "https://vk.com/madpuffers"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "https://www.facebook.com/madpuffers"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "https://twitter.com/MadPuffers"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "https://cdn.jsdelivr.net/npm/@orange-games/phaser-cachebuster@2.0/build/phaser-cachebuster.min.js"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "https://cdn.jsdelivr.net/npm/@orange-games/phaser-super-storage@1.0/build/phaser-super-storage.min.js"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "https://fast.fonts.net/jsapi"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "https://fonts.googleapis.com/css"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "https://use.typekit.net"
+        },
+        {
+          "file": "motox3m.min.js",
+          "url": "https://f.fontdeck.com/s/css/js/"
+        }
+      ]
+    },
+    {
+      "game": "NTheWayOfTheNinja",
+      "status": "source-folder-not-found",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "source_path": "Nthewayoftheninja.swf",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Nthewayoftheninja.swf"
+    },
+    {
+      "game": "Ninja-vs-EVILCORP",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Ninja-vs-EVILCORP",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Ninja-vs-EVILCORP/",
+      "files": 1,
+      "bytes": 64762,
+      "remaining_external_references": []
     },
     {
       "game": "Noob-Steve-Parkour",
@@ -6159,6 +6307,58 @@
       ]
     },
     {
+      "game": "Om-Nom-Run",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Om-Nom-Run",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Om-Nom-Run/",
+      "files": 1351,
+      "bytes": 73080963,
+      "remaining_external_references": [
+        {
+          "file": "__game-scripts.js",
+          "url": "https://famobi.com/terms-of-service"
+        },
+        {
+          "file": "__game-scripts.js",
+          "url": "https://famobi.com/privacy"
+        },
+        {
+          "file": "__game-scripts.js",
+          "url": "https://games.cdn.famobi.com/html5games/branding/spielaffe/More_Games600x253_onWhite.png"
+        },
+        {
+          "file": "sdk_interface.js",
+          "url": "https://www.youtube.com/game_api/v0?key=NZIBOoHpSqde00vdlOjBM0RN2OTbAQHtlkEQuLFW"
+        },
+        {
+          "file": "__start__.js",
+          "url": "http://get.webgl.org"
+        },
+        {
+          "file": "__start__.js",
+          "url": "http://get.webgl.org/troubleshooting/"
+        },
+        {
+          "file": "files/assets/130282774/1/ammo.js",
+          "url": "https://////8="
+        },
+        {
+          "file": "files/assets/130285158/1/draco.js",
+          "url": "https://////////8="
+        },
+        {
+          "file": "files/assets/130285158/1/draco.js",
+          "url": "https://///wo="
+        },
+        {
+          "file": "html5games/gameapi/v1.js",
+          "url": "https://famobi.com"
+        }
+      ]
+    },
+    {
       "game": "Oneshot-Legacy",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist12.github.io",
@@ -6167,6 +6367,17 @@
       "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Oneshot-Legacy/",
       "files": 378,
       "bytes": 83493824,
+      "remaining_external_references": []
+    },
+    {
+      "game": "Outhold",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Outhold",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Outhold/",
+      "files": 1,
+      "bytes": 5302,
       "remaining_external_references": []
     },
     {
@@ -6252,6 +6463,26 @@
       "source_path": "PVZ-Fusion",
       "file_count": 7,
       "bytes": 227304551
+    },
+    {
+      "game": "Pac-Man",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Pac-Man",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Pac-Man/",
+      "files": 5,
+      "bytes": 147730,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "http://arandomurl.com/"
+        },
+        {
+          "file": "modernizr-1.5.min.js",
+          "url": "https://:"
+        }
+      ]
     },
     {
       "game": "Papery-Planes",
@@ -6366,12 +6597,55 @@
       ]
     },
     {
+      "game": "Parking-Rush",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Parking-Rush",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Parking-Rush/",
+      "files": 40,
+      "bytes": 2730785,
+      "remaining_external_references": [
+        {
+          "file": "sdk_interface.js",
+          "url": "https://www.youtube.com/game_api/v1?key=NZIBOoHpSqde00vdlOjBM0RN2OTbAQHtlkEQuLFW"
+        },
+        {
+          "file": "scripts/supportcheck.js",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.webview"
+        },
+        {
+          "file": "scripts/supportcheck.js",
+          "url": "https://www.google.com/chrome"
+        },
+        {
+          "file": "scripts/supportcheck.js",
+          "url": "https://www.mozilla.org/firefox"
+        },
+        {
+          "file": "html5games/gameapi/v1.js",
+          "url": "https://famobi.com"
+        }
+      ]
+    },
+    {
       "game": "People-Playground",
       "status": "source-too-large-or-empty",
       "repo": "freeonlinewebtools/gamelist2.github.io",
       "source_path": "people-playground",
       "file_count": 19,
       "bytes": 164880251
+    },
+    {
+      "game": "Pixel-Gun-Survival",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Pixel-Gun-Survival",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Pixel-Gun-Survival/",
+      "files": 15,
+      "bytes": 35808768,
+      "remaining_external_references": []
     },
     {
       "game": "Pizza-Tower-110-Web-Port",
@@ -6418,6 +6692,42 @@
         {
           "file": "index.html",
           "url": "https://github.com/indomit/progress_knight_2"
+        }
+      ]
+    },
+    {
+      "game": "Protektor",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Protektor",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Protektor/",
+      "files": 112,
+      "bytes": 7679008,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "http://www.whatbrowser.org"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.mozilla.com/firefox/"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.google.com/chrome/"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.apple.com/safari/download/"
+        },
+        {
+          "file": "data.js",
+          "url": "https://rujogames.itch.io/"
         }
       ]
     },
@@ -6490,6 +6800,70 @@
         {
           "file": "Build/v84.loader.js",
           "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Rainbow-Obby-v03x",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Rainbow-Obby-v03x",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Rainbow-Obby-v03x/",
+      "files": 1685,
+      "bytes": 94853870,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/gn-math/assets@main/poki-sdk.js"
+        },
+        {
+          "file": "files/assets/152207488/1/DiscordChest.js",
+          "url": "https://discord.gg/QnZx3pMwHU"
+        },
+        {
+          "file": "files/assets/164797930/1/LO-UIManager.js",
+          "url": "https://poki.com/en/g/rainbow-obby"
+        },
+        {
+          "file": "files/assets/152048961/1/co-discord-button.js",
+          "url": "https://discord.gg/QnZx3pMwHU"
+        },
+        {
+          "file": "files/assets/151982579/1/MenuController.js",
+          "url": "https://leveldata.poki.io/weebdetector"
+        },
+        {
+          "file": "files/assets/151992957/1/NetworkManager.js",
+          "url": "https://discord.gg/QnZx3pMwHU"
+        },
+        {
+          "file": "files/assets/152049617/1/ammo.js",
+          "url": "https://////8="
+        },
+        {
+          "file": "files/assets/158229318/1/BallObby_NetworkManager.js",
+          "url": "https://discord.gg/QnZx3pMwHU"
+        },
+        {
+          "file": "files/assets/171505156/1/ClassicUIManager.js",
+          "url": "https://discord.gg/QnZx3pMwHU"
+        }
+      ]
+    },
+    {
+      "game": "Rolling-Sky",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Rolling-Sky",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Rolling-Sky/",
+      "files": 9,
+      "bytes": 47322958,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
         }
       ]
     },
@@ -6600,6 +6974,378 @@
           "url": "https://github.com/3kh0/"
         }
       ]
+    },
+    {
+      "game": "Sandboxels-Experiment-with-Pixels",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Sandboxels-Experiment-with-Pixels",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Sandboxels-Experiment-with-Pixels/",
+      "files": 4,
+      "bytes": 829537,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://discord.gg/ejUc6YPQuS"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.R74n.com/license.txt"
+        },
+        {
+          "file": "index.html",
+          "url": "https://r74n.com"
+        },
+        {
+          "file": "index.html",
+          "url": "https://R74n.com"
+        },
+        {
+          "file": "index.html",
+          "url": "https://www.google.com/chrome/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://www.mozilla.org/firefox/new/"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.apple.com/safari/"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.opera.com/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://www.microsoft.com/edge"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.r74n.com/changelog"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.R74n.com/feedback"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.wiki.gg/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://twitter.com/R74nCom"
+        },
+        {
+          "file": "index.html",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSeYMbngtbBHZ7hkz8jpbHl7TiAItqukrhtntKgAHjH30fY08A/viewform?usp=sf_link"
+        },
+        {
+          "file": "index.html",
+          "url": "https://store.steampowered.com/app/3664820/Sandboxels/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://r74n.com/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.R74n.com/mod-list"
+        },
+        {
+          "file": "index.html",
+          "url": "https://github.com/R74nCom/sandboxels/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.R74n.com/translate"
+        },
+        {
+          "file": "index.html",
+          "url": "https://news.r74n.com/api/v1/free?nojs=true"
+        },
+        {
+          "file": "index.html",
+          "url": "https://R74n.com/cook/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://www.patreon.com/R74n"
+        },
+        {
+          "file": "index.html",
+          "url": "https://news.r74n.com/embed"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.R74n.com/education-use"
+        },
+        {
+          "file": "index.html",
+          "url": "https://www.paypal.com/donate/?hosted_button_id=GCX4VHQ7SZWTN"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cash.app/$emojiartist"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.R74n.com/help"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.R74n.com/tips"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.R74n.com/mobile-use"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.R74n.com/offline-use"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.R74n.com/presskit"
+        },
+        {
+          "file": "index.html",
+          "url": "https://R74n.com/privacy"
+        },
+        {
+          "file": "index.html",
+          "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8485284630785740"
+        },
+        {
+          "file": "index.html",
+          "url": "https://sandboxels.r74n.com/controls"
+        },
+        {
+          "file": "index.html",
+          "url": "https://www.googletagmanager.com/gtag/js?id=UA-93720349-9"
+        }
+      ]
+    },
+    {
+      "game": "Scary-Shawarma-3D",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Scary-Shawarma-3D",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Scary-Shawarma-3D/",
+      "files": 1,
+      "bytes": 6856,
+      "remaining_external_references": []
+    },
+    {
+      "game": "Scratch-Inc",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Scratch-Inc",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Scratch-Inc/",
+      "files": 15,
+      "bytes": 4803230,
+      "remaining_external_references": [
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://api.eu.amplitude.com/batch"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://sr-client-cfg.eu.amplitude.com/config"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://app.eu.amplitude.com"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://securetoken.google.com/"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://play.google.com/store/apps/details?id="
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://makopaz.com/Review/"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://store.steampowered.com/checkout/approvetxn/"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://play.google.com/store/apps/details?id=scratchinc.app&utm_source="
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://makopaz.com/ScratchInc/Privacy"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://discord.gg/TYem6nFBhH"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://#\\x20sourceURL="
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://api2.amplitude.com/batch"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://makopaz.com/ScratchInc/"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://makopaz.com/ScratchInc/TOS"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://sr-client-cfg.amplitude.com/config"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://app.amplitude.com"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://cdn.amplitude.com/libs/visual-tagging-selector-1.0.0-alpha.js.gz"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://apps.apple.com/app/id"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://apps.stag2.amplitude.com"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://sr-client-cfg.stag2.amplitude.com/config"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://apps.apple.com/app/apple-store/id6745529538?pt=120450796&ct="
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://www.google.com/images/cleardot.gif"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://store.steampowered.com/app/3788420/Scratch_Inc?utm_source="
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://cs9muqmgd7.execute-api.us-east-1.amazonaws.com/default/steam-microtransaction-handler"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://api2.amplitude.com/2/httpapi"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://api.eu.amplitude.com/2/httpapi"
+        },
+        {
+          "file": "static/js/main.b736aa08.js",
+          "url": "https://reactjs.org/docs/error-decoder.html?invariant="
+        }
+      ]
+    },
+    {
+      "game": "Shady-Bears",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Shady-Bears",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Shady-Bears/",
+      "files": 180,
+      "bytes": 36661027,
+      "remaining_external_references": [
+        {
+          "file": "patch/poki-sdk-core-v2.263.0.js",
+          "url": "https://game-cdn.poki.com/scripts/touchOverlayController.js"
+        },
+        {
+          "file": "patch/poki-sdk-core-v2.263.0.js",
+          "url": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/1053551/Pub-Poki-Generic&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url={url}&description_url={descriptionUrl}&correlator={timestamp}"
+        },
+        {
+          "file": "src/js/vendor/ruffle/ruffle.js",
+          "url": "https://github.com/ruffle-rs/ruffle/wiki/Frequently-Asked-Questions-For-Users#chrome-hardware-acceleration"
+        },
+        {
+          "file": "src/js/vendor/ruffle/ruffle.js",
+          "url": "https://example.com"
+        },
+        {
+          "file": "src/js/vendor/ruffle/ruffle.js",
+          "url": "https://ruffle.rs"
+        }
+      ]
+    },
+    {
+      "game": "Silksong",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "source_path": "Silksong",
+      "file_count": 294,
+      "bytes": 2428673726
+    },
+    {
+      "game": "Slender",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "slender",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/slender/",
+      "files": 19,
+      "bytes": 43197977,
+      "remaining_external_references": []
+    },
+    {
+      "game": "Slendytubbies-2D",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Slendytubbies-2D",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Slendytubbies-2D/",
+      "files": 7,
+      "bytes": 84603781,
+      "remaining_external_references": []
+    },
+    {
+      "game": "Slider",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Slider",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Slider/",
+      "files": 22,
+      "bytes": 37280261,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://bugs.webkit.org/show_bug.cgi?id=304810"
+        }
+      ]
+    },
+    {
+      "game": "SnowBattleio",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "SnowBattleio",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/SnowBattleio/",
+      "files": 15,
+      "bytes": 18737963,
+      "remaining_external_references": []
     },
     {
       "game": "Soccer-Bros",
@@ -6876,6 +7622,17 @@
           "url": "https://ninja-muffin24.itch.io/funkin"
         }
       ]
+    },
+    {
+      "game": "SonicExe",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "sonic.exe",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/sonic.exe/",
+      "files": 14,
+      "bytes": 35694072,
+      "remaining_external_references": []
     },
     {
       "game": "SpelunkyClassicHD",
