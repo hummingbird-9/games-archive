@@ -38,7 +38,7 @@ jobs:
       - name: Import self-hosted game folders
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REF_NAME: ${{ github.ref_name }}
+          OFFLINE_IMPORT_BRANCH: ${{ github.ref_name }}
           OFFLINE_IMPORT_MAX_GAMES: "75"
           OFFLINE_IMPORT_MAX_GAME_BYTES: "157286400"
           OFFLINE_IMPORT_MAX_TOTAL_BYTES: "734003200"
