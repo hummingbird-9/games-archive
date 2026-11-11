@@ -1,17 +1,96 @@
 {
   "branch": "html-error-audit-fixes-2026-11-10",
   "supported_host": "freeonlinewebtools.github.io",
-  "found_this_scan": 371,
-  "imported_this_batch": 25,
-  "imported": 68,
-  "downloaded_bytes_this_batch": 645144142,
-  "downloaded_bytes": 2069409764,
+  "found_this_scan": 346,
+  "imported_this_batch": 16,
+  "imported": 84,
+  "downloaded_bytes_this_batch": 720057734,
+  "downloaded_bytes": 2789467498,
   "limits": {
     "max_games": 75,
     "max_game_bytes": 157286400,
     "max_total_bytes": 734003200
   },
   "results": [
+    {
+      "game": "3D-Bowling",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "3D-Bowling",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/3D-Bowling/",
+      "files": 21,
+      "bytes": 12474010,
+      "remaining_external_references": [
+        {
+          "file": "game.js",
+          "url": "http://www.away3d.com"
+        }
+      ]
+    },
+    {
+      "game": "8-Ball-Billiards-Classic",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "8-Ball-Billiards-Classic",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/8-Ball-Billiards-Classic/",
+      "files": 131,
+      "bytes": 9962651,
+      "remaining_external_references": [
+        {
+          "file": "sdk_interface.js",
+          "url": "https://www.youtube.com/game_api/v0?key=NZIBOoHpSqde00vdlOjBM0RN2OTbAQHtlkEQuLFW"
+        },
+        {
+          "file": "assets/src/01phaser.js",
+          "url": "http://www.altdevblogaday.com/2011/05/13/contact-generation-between-3d-convex-meshes/"
+        },
+        {
+          "file": "assets/src/01phaser.js",
+          "url": "http://www.iforce2d.net/b2dtut/joints-prismatic"
+        },
+        {
+          "file": "assets/src/01phaser.js",
+          "url": "http://www8.cs.umu.se/kurser/5DV058/VT09/lectures/spooknotes.pdf"
+        },
+        {
+          "file": "assets/src/01phaser.js",
+          "url": "http://code.google.com/p/bullet/issues/detail?id=74"
+        },
+        {
+          "file": "assets/src/01phaser.js",
+          "url": "http://www.aurelienribon.com/blog/2011/07/box2d-tutorial-collision-filtering/"
+        },
+        {
+          "file": "assets/src/01phaser.js",
+          "url": "http://en.wikipedia.org/wiki/List_of_moments_of_inertia"
+        },
+        {
+          "file": "assets/src/01phaser.js",
+          "url": "http://stackoverflow.com/questions/1374126/how-to-append-an-array-to-an-existing-javascript-array/1374131#1374131"
+        },
+        {
+          "file": "assets/src/01phaser.js",
+          "url": "http://server.com/explode.png"
+        },
+        {
+          "file": "html5games/gameapi/v1.js",
+          "url": "https://famobi.com"
+        }
+      ]
+    },
+    {
+      "game": "A-Dance-of-Fire-and-Ice",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "A-Dance-of-Fire-and-Ice",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/A-Dance-of-Fire-and-Ice/",
+      "files": 10,
+      "bytes": 19732949,
+      "remaining_external_references": []
+    },
     {
       "game": "A-Dark-Room",
       "status": "imported",
@@ -119,6 +198,126 @@
       "source_path": "ABaF",
       "file_count": 24,
       "bytes": 351234767
+    },
+    {
+      "game": "Adventure",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "source_path": "Adventure",
+      "file_count": 21,
+      "bytes": 187434672
+    },
+    {
+      "game": "Adventure-Drivers",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Adventure-Drivers",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Adventure-Drivers/",
+      "files": 134,
+      "bytes": 10231166,
+      "remaining_external_references": [
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://game-cdn.poki.com/scripts/touchOverlayController.js"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://a.poki.com/images/thumb_anim_2x.gif"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/1053551/Pub-Poki-Generic&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url={url}&description_url={descriptionUrl}&correlator={timestamp}"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://t.poki.io/game-cookies"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://t.poki.io/adserver"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://prebid.adnxs.com/pbc/v1/cache"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://aax.amazon-adsystem.com/e/dtb/vast?b="
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://api.poki.com/ads/houseads/video/vast"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://onetag-sys.com/invocation/?key="
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://prebid-server.rubiconproject.com/cache?uuid="
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://search.spotxchange.com/ad/vast.html?key="
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://prebid.adnxs.com/pbc/v1/cache?uuid="
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu="
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://devs-api.poki.com/gameinfo/@sdk?href="
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://t.poki.io/l"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://geo.poki.io/"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://api.poki.com/ads/settings"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://a.poki.com/prebid/prebid6.12.0.js"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+        },
+        {
+          "file": "poki-sdk-core-v2.263.0.js",
+          "url": "https://t.poki.io/ge"
+        },
+        {
+          "file": "AdventureDrivers.min.js",
+          "url": "http://localhost:8000"
+        },
+        {
+          "file": "AdventureDrivers.min.js",
+          "url": "http://lagged.com/"
+        },
+        {
+          "file": "AdventureDrivers.min.js",
+          "url": "http://www.bikas.net"
+        }
+      ]
     },
     {
       "game": "Amanda-The-Adventurer",
@@ -304,6 +503,30 @@
       ]
     },
     {
+      "game": "Anton-Blast-Demo-v12",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Anton-Blast-Demo-v12",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Anton-Blast-Demo-v12/",
+      "files": 7,
+      "bytes": 39483497,
+      "remaining_external_references": [
+        {
+          "file": "index.js",
+          "url": "https://mrdoob.github.io/stats.js/build/stats.min.js"
+        },
+        {
+          "file": "index.js",
+          "url": "https://burnedwebsite.vercel.app/projects/"
+        },
+        {
+          "file": "index.js",
+          "url": "https://discord.gg/3dPTpruHhc"
+        }
+      ]
+    },
+    {
       "game": "Apotheon",
       "status": "source-too-large-or-empty",
       "repo": "freeonlinewebtools/gamelist10.github.io",
@@ -321,6 +544,738 @@
       "files": 14,
       "bytes": 86501927,
       "remaining_external_references": []
+    },
+    {
+      "game": "Backrooms",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Backrooms",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Backrooms/",
+      "files": 102,
+      "bytes": 60566346,
+      "remaining_external_references": [
+        {
+          "file": "adSense.js",
+          "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7321073664976914"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://html5.api.gamedistribution.com/blocked.html?"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://a@b"
+        },
+        {
+          "file": "main.min.js",
+          "url": "http://\u0442\u0435\u0441\u0442"
+        },
+        {
+          "file": "main.min.js",
+          "url": "http://a#\u0431"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://img.gamedistribution.com/play-black.svg"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://gamedistribution.com"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://gamedistribution.com/"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://msgrt.gamedistribution.com/collect"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://pm.gamedistribution.com/react/16.14.0/umd/react.production.min.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://pm.gamedistribution.com/react-dom/16.14.0/umd/react-dom.production.min.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://pm.gamedistribution.com/redux/4.0.5/dist/redux.min.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://pm.gamedistribution.com/react-redux/7.2.1/dist/react-redux.min.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://pm.gamedistribution.com/@material-ui/core/4.11.3/umd/material-ui.production.min.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://pm.gamedistribution.com/@bygd/gd-sdk-leaderboard/0.1.43/dist/default/iife/index.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://html5.gamedistribution.com"
+        },
+        {
+          "file": "main.min.js",
+          "url": "http://a"
+        },
+        {
+          "file": "main.min.js",
+          "url": "http://a/c%20d?a=1&c=3"
+        },
+        {
+          "file": "main.min.js",
+          "url": "http://x"
+        },
+        {
+          "file": "main.min.js",
+          "url": "http://www.iab.net/videosuite/vmap"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://hb.improvedigital.com/pbw/headerlift.min.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "http://hb.improvedigital.com/pbw/headerlift.min.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://tag.atom.gamedistribution.com/v1/atm?ar="
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://tag.atom.gamedistribution.com/v1/err?ar="
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://tag.atom.gamedistribution.com/v1/imp?ar="
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://tag.atom.gamedistribution.com/v1/rainbow/?"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://tag.atom.gamedistribution.com/v1/rainbow/blue"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://tag.atom.gamedistribution.com/v1/rainbow/green"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://tag.atom.gamedistribution.com/v1/skp?ar="
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://tag.atom.gamedistribution.com/v1/rainbow?ar="
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://imasdk.googleapis.com/js/sdkloader/ima3_debug.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "http://imasdk.googleapis.com/js/sdkloader/ima3_debug.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "http://imasdk.googleapis.com/js/sdkloader/ima3.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://pm.gamedistribution.com/@bygd/"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dredirectlinear&correlator="
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dredirecterror&correlator="
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://cdn.cookielaw.org/consent/tcf.stub.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://cookie-cdn.cookiepro.com/consent/"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://games.softgames.com"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://static.gamedistribution.com"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://tbg95.github.io/gamedock-sdk.min.js"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://html5.api.gamedistribution.com/deleted.html"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://play.google.com"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://itunes.apple.com"
+        },
+        {
+          "file": "main.min.js",
+          "url": "https://img.gamedistribution.com/"
+        },
+        {
+          "file": "js/ucbg_client_v1_1.js",
+          "url": "https://important.pages.dev/js/ucbg_server_v33_0.js"
+        },
+        {
+          "file": "js/ucbg-gitlab-io.js",
+          "url": "https://ucbg.github.io/category/clicker.html"
+        },
+        {
+          "file": "js/ucbg-gitlab-io.js",
+          "url": "https://ucbg.github.io/category/io.html"
+        },
+        {
+          "file": "js/ucbg-gitlab-io.js",
+          "url": "https://ucbg.github.io/category/running.html"
+        },
+        {
+          "file": "js/ucbg-gitlab-io.js",
+          "url": "https://ucbg.github.io/category/parkour.html"
+        },
+        {
+          "file": "js/ucbg-gitlab-io.js",
+          "url": "https://ucbg.github.io/category/trending.html"
+        },
+        {
+          "file": "js/ucbg-gitlab-io.js",
+          "url": "https://slopegame.gitlab.io\\"
+        },
+        {
+          "file": "js/analytics_ucbg_v1_4.js",
+          "url": "https://www.googletagmanager.com/gtag/js?id="
+        },
+        {
+          "file": "js/analytics_ucbg.js",
+          "url": "https://www.googletagmanager.com/gtag/js?id="
+        },
+        {
+          "file": "js/help.js",
+          "url": "https://ubg98.github.io\\"
+        },
+        {
+          "file": "js/ucbg_client_v1_2.js",
+          "url": "https://important.pages.dev/js/ucbg_server_v33_2.js"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://pagead2.googlesyndication.com"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://googleads.g.doubleclick.net/"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://adservice.google.com/"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://www.googletagservices.com"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://tpc.googlesyndication.com"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://ajax.googleapis.com"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://www.googletagmanager.com"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://fonts.googleapis.com"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://fonts.gstatic.com"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://cdnjs.cloudflare.com"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://www.google-analytics.com"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/assets/fonts/Inter-Regular.woff2?v=3.19"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/assets/fonts/Inter-SemiBold.woff2?v=3.19"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/assets/fonts/Inter-Medium.woff2?v=3.19"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/assets/fonts/Inter-Bold.woff2?v=3.19"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/assets/fonts/Inter-ExtraBold.woff2?v=3.19"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/app/theme/assets/css/theme.css?v=1.0.0"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/app/theme/assets/js/jquery.min.js?v=1.0.0"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/static/favicon.svg?v=1.0.0"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/static/logo_2.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/static/dark_logo.svg"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/assets/sprite/sprite.svg#search"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/games/"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/games/most-popular"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/search"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/leaderboard"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/assets/sprite/sprite.svg#leader"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/login"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/register"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/thumb-Jk1d2dIq7K.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/thumb-j16XLXOfDY.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/thumb-O9zAugk7ST.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/FwpHrxTnV8.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/thumb-33tcoTTz5b.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/thumb-7XFMTeGhgK.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/thumb-I15e7mHplb.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/thumb-Qki85fdkOU.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/thumb-EL4ZRx7fJr.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/thumb-PL0ba40q8r.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/thumb-H8Tp0MMGg6.png"
+        },
+        {
+          "file": "maintenance.js/index.html",
+          "url": "https://busqueda.me/public/upload/game/thumb-NpyQIL6YS5.png"
+        }
+      ]
+    },
+    {
+      "game": "Bad-Ice-Cream-2",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Bad-Ice-Cream-2",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Bad-Ice-Cream-2/",
+      "files": 15,
+      "bytes": 6563307,
+      "remaining_external_references": [
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_1.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_2.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_3.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_4.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_5.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_6.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_7.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2.0/static/hand_fingers_isolated.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/shadow_new_3.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/scripts/touchOverlayController.js"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin.woff2"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin.woff"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-a.woff2"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-a.woff"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-b.woff2"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-b.woff"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.comsa/scripts/prebid/2.44.4-0.js"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/1053551/Pub-Poki-Generic&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url={url}&description_url={descriptionUrl}&correlator={timestamp}"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://prebid.adnxs.com/pbc/v1/cache"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/21682198607/debug-video/"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/21682198607/"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://devs-api.poki.comsa/gameinfo/@sdk?href="
+        },
+        {
+          "file": "poki.js",
+          "url": "https://t.poki.iossss/l"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/prebid/prebid3.19.0.js"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://imasdk.googleapis.comsa/js/sdkloader/ima3.js"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://securepubads.g.doubleclick.netsa/tag/js/gpt.js"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://t.poki.io/ge"
+        },
+        {
+          "file": "js/BadIceCream.js",
+          "url": "http://localhost"
+        },
+        {
+          "file": "js/BadIceCream.js",
+          "url": "http://localhost:"
+        },
+        {
+          "file": "js/BadIceCream.js",
+          "url": "http://www.adobe.com/2006/actionscript/flash/proxy"
+        },
+        {
+          "file": "js/BadIceCream.js",
+          "url": "http://cdn.nitrome.com/components/NitromeAPI.pkg"
+        }
+      ]
+    },
+    {
+      "game": "Bad-Ice-Cream-3",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Bad-Ice-Cream-3",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Bad-Ice-Cream-3/",
+      "files": 15,
+      "bytes": 7356206,
+      "remaining_external_references": [
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_1.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_2.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_3.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_4.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_5.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_6.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_7.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2.0/static/hand_fingers_isolated.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/shadow_new_3.svg"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.com/scripts/touchOverlayController.js"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin.woff2"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin.woff"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-a.woff2"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-a.woff"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-b.woff2"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-b.woff"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://game-cdn.poki.comsa/scripts/prebid/2.44.4-0.js"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/1053551/Pub-Poki-Generic&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url={url}&description_url={descriptionUrl}&correlator={timestamp}"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://prebid.adnxs.com/pbc/v1/cache"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/21682198607/debug-video/"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/21682198607/"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://devs-api.poki.comsa/gameinfo/@sdk?href="
+        },
+        {
+          "file": "poki.js",
+          "url": "https://t.poki.iossss/l"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://a.poki.com/prebid/prebid3.19.0.js"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://imasdk.googleapis.comsa/js/sdkloader/ima3.js"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://securepubads.g.doubleclick.netsa/tag/js/gpt.js"
+        },
+        {
+          "file": "poki.js",
+          "url": "https://t.poki.io/ge"
+        },
+        {
+          "file": "js/BadIceCream.js",
+          "url": "http://localhost"
+        },
+        {
+          "file": "js/BadIceCream.js",
+          "url": "http://localhost:"
+        },
+        {
+          "file": "js/BadIceCream.js",
+          "url": "http://www.adobe.com/2006/actionscript/flash/proxy"
+        },
+        {
+          "file": "js/BadIceCream.js",
+          "url": "http://cdn.nitrome.com/components/NitromeAPI.pkg"
+        }
+      ]
+    },
+    {
+      "game": "Bad-Parenting-1",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Bad-Parenting-1",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Bad-Parenting-1/",
+      "files": 18,
+      "bytes": 77750257,
+      "remaining_external_references": [
+        {
+          "file": "Build/Build.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Bendy",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist2.github.io",
+      "branch": "fixed2",
+      "source_path": "bendy",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist2.github.io/bendy/",
+      "files": 14,
+      "bytes": 136025262,
+      "remaining_external_references": [
+        {
+          "file": "Build/UnityLoader.js",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/web-port@main/bendy/Build/"
+        }
+      ]
+    },
+    {
+      "game": "Blade-Ball",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Blade-Ball",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Blade-Ball/",
+      "files": 1,
+      "bytes": 20098,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/st39/sdk@main/sdkjs.js"
+        }
+      ]
     },
     {
       "game": "Block-Blast-Puzzle",
@@ -343,6 +1298,190 @@
         {
           "file": "index.html",
           "url": "https://cdn.jsdelivr.net/gh/genizy/bl/manifest.webmanifest"
+        }
+      ]
+    },
+    {
+      "game": "Blockpost",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist3.github.io",
+      "branch": "main",
+      "source_path": "Blockpost",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist3.github.io/Blockpost/",
+      "files": 54,
+      "bytes": 92655467,
+      "remaining_external_references": [
+        {
+          "file": "unity.js",
+          "url": "https://i.poki.com/q80,w100,h100,g29251,Default.jpg"
+        },
+        {
+          "file": "unity.js",
+          "url": "https://img.poki.com/"
+        },
+        {
+          "file": "unity.js",
+          "url": "https://img.poki.com/cdn-cgi/image/quality=78,width=40,height=40,fit=cover,g=0.5x0.5,f=auto/"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_1.svg"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_2.svg"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_3.svg"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_4.svg"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_5.svg"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_6.svg"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/Sparkle_7.svg"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://game-cdn.poki.com/loaders/v2.0/static/hand_fingers_isolated.svg"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/static/spinner/shadow_new_3.svg"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://game-cdn.poki.com/scripts/touchOverlayController.js"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin.woff2"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin.woff"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-a.woff2"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-a.woff"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-b.woff2"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://a.poki.com/fonts/proxima-nova-bold-latin-ext-b.woff"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/1053551/Pub-Poki-Generic&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url={url}&description_url={descriptionUrl}&correlator={timestamp}"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://prebid.adnxs.com/pbc/v1/cache"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/21682198607/debug-video/"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/21682198607/"
+        },
+        {
+          "file": "poki-sdk-core.js",
+          "url": "https://t.poki.io/ge"
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://game-cdn.poki.com/scripts/touchOverlayController.js"
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://a.poki.com/images/thumb_anim_2x.gif"
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://t.poki.io/game-cookies"
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://t.poki.io/adserver"
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://a.poki.com/houseads/duo_survival_3.xml"
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://a.poki.com/houseads/like_a_king.xml"
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://a.poki.com/houseads/merge_cyber_racers.xml"
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://a.poki.com/houseads/subway_surfers.xml"
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://a.poki.com/houseads/tower_crush_compressed.xml"
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://prebid.adnxs.com/pbc/v1/cache"
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://aax.amazon-adsystem.com/e/dtb/vast?b="
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://onetag-sys.com/invocation/?key="
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://prebid-server.rubiconproject.com/cache?uuid="
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://search.spotxchange.com/ad/vast.html?key="
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://prebid.adnxs.com/pbc/v1/cache?uuid="
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu="
+        },
+        {
+          "file": "poki-sdk-core-v2.234.2.js",
+          "url": "https://t.poki.io/ge"
+        },
+        {
+          "file": "master-loader.js",
+          "url": "https://game-cdn.poki.com/loaders/v2/unity/static/UnityLoader.js"
+        },
+        {
+          "file": "UnityLoader.js",
+          "url": "https://game-cdn.poki.com/"
         }
       ]
     },
@@ -889,6 +2028,26 @@
         {
           "file": "Build/DrawJoustAB.loader.js",
           "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Eaglercraft",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist2.github.io",
+      "branch": "fixed2",
+      "source_path": "minecraft-eagler",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist2.github.io/minecraft-eagler/",
+      "files": 17,
+      "bytes": 39154231,
+      "remaining_external_references": [
+        {
+          "file": "enableJSPIScreen.html",
+          "url": "https://developer.chrome.com/origintrials/#/view_trial/1603844417297317889"
+        },
+        {
+          "file": "enableJSPIScreen.html",
+          "url": "https://developer.microsoft.com/en-us/microsoft-edge/origin-trials/trials/cea04bbf-b9ff-4ae6-8ea8-454bef2f6e6b"
         }
       ]
     },
@@ -1888,6 +3047,17 @@
       ]
     },
     {
+      "game": "Jelly-Drift",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist2.github.io",
+      "branch": "fixed2",
+      "source_path": "jelly-drift",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist2.github.io/jelly-drift/",
+      "files": 9,
+      "bytes": 70855921,
+      "remaining_external_references": []
+    },
+    {
       "game": "Karate-Bros",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist14.github.io",
@@ -2144,6 +3314,26 @@
       "files": 21,
       "bytes": 55768082,
       "remaining_external_references": []
+    },
+    {
+      "game": "Minecraft",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist2.github.io",
+      "branch": "fixed2",
+      "source_path": "minecraft-eagler",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist2.github.io/minecraft-eagler/",
+      "files": 17,
+      "bytes": 39154231,
+      "remaining_external_references": [
+        {
+          "file": "enableJSPIScreen.html",
+          "url": "https://developer.chrome.com/origintrials/#/view_trial/1603844417297317889"
+        },
+        {
+          "file": "enableJSPIScreen.html",
+          "url": "https://developer.microsoft.com/en-us/microsoft-edge/origin-trials/trials/cea04bbf-b9ff-4ae6-8ea8-454bef2f6e6b"
+        }
+      ]
     },
     {
       "game": "Minecraft-1.21",
@@ -2453,12 +3643,28 @@
       ]
     },
     {
+      "game": "People-Playground",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist2.github.io",
+      "source_path": "people-playground",
+      "file_count": 19,
+      "bytes": 164880251
+    },
+    {
       "game": "Pizza-Tower-110-Web-Port",
       "status": "source-too-large-or-empty",
       "repo": "freeonlinewebtools/gamelist12.github.io",
       "source_path": "Pizza-Tower-110-Web-Port",
       "file_count": 20,
       "bytes": 287942100
+    },
+    {
+      "game": "Plants-Vs-Zombies-2",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist2.github.io",
+      "source_path": "Plants-Vs-Zombies-2",
+      "file_count": 7266,
+      "bytes": 1181168126
     },
     {
       "game": "Progress-Knight-Quest",
@@ -3036,6 +4242,30 @@
       ]
     },
     {
+      "game": "Ultrakill",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist2.github.io",
+      "branch": "fixed2",
+      "source_path": "ultrakill",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist2.github.io/ultrakill/",
+      "files": 17,
+      "bytes": 98072135,
+      "remaining_external_references": [
+        {
+          "file": "Build/ultrakill.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Undertale-Yellow",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist2.github.io",
+      "source_path": "undertale-yellow",
+      "file_count": 19,
+      "bytes": 269376422
+    },
+    {
       "game": "Unity-Web-Player-3",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist11.github.io",
@@ -3322,6 +4552,14 @@
           "url": "https://bluewizard.com/subscribe-to-bbros/"
         }
       ]
+    },
+    {
+      "game": "hollowknight",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist2.github.io",
+      "source_path": "hollow-knight",
+      "file_count": 58,
+      "bytes": 957824098
     },
     {
       "game": "journey-downhill",
