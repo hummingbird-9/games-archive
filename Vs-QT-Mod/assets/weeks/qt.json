@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Carefree", "qt", [249, 64, 148]],
+		["Careless", "qt", [100, 90, 90]],
+		["Censory-Overload", "qt", [69, 69, 69]],
+		["Terminate", "qt", [255, 83, 23]]
+	],
+
+	"weekCharacters": [
+		"qt",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "alleyway",
+
+	"storyName": "Cutie",
+	"weekBefore": "tutorial",
+	"weekName": "QT",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": true
+}

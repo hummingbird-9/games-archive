@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="robot_404.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="KB_DanceLeft0000" x="2.0" y="2.0" width="438.0" height="337.5" frameX="-19.0" frameY="0.0" frameWidth="476.5" frameHeight="338.0"/>
+	<SubTexture name="KB_DanceLeft0001" x="441.0" y="2.0" width="447.5" height="333.5" frameX="-13.5" frameY="-4.5" frameWidth="476.5" frameHeight="338.0"/>
+	<SubTexture name="KB_DanceLeft0002" x="889.5" y="2.0" width="467.0" height="327.5" frameX="-1.5" frameY="-10.0" frameWidth="476.5" frameHeight="338.0"/>
+	<SubTexture name="KB_DanceLeft0003" x="1357.5" y="2.0" width="470.0" height="326.5" frameX="-1.5" frameY="-11.0" frameWidth="476.5" frameHeight="338.0"/>
+	<SubTexture name="KB_DanceLeft0004" x="1828.5" y="2.0" width="462.0" height="326.5" frameX="-14.5" frameY="-11.0" frameWidth="476.5" frameHeight="338.0"/>
+	<SubTexture name="KB_DanceLeft0005" x="2291.5" y="2.0" width="469.0" height="327.0" frameX="-0.5" frameY="-10.5" frameWidth="476.5" frameHeight="338.0"/>
+	<SubTexture name="KB_DanceLeft0006" x="2761.5" y="2.0" width="461.5" height="328.0" frameX="0.0" frameY="-9.5" frameWidth="476.5" frameHeight="338.0"/>
+	<SubTexture name="KB_DanceLeft0007" x="3224.0" y="2.0" width="452.5" height="326.5" frameX="-4.5" frameY="-11.0" frameWidth="476.5" frameHeight="338.0"/>
+	<SubTexture name="KB_DanceLeft0008" x="2.0" y="340.5" width="446.0" height="325.0" frameX="-8.0" frameY="-12.5" frameWidth="476.5" frameHeight="338.0"/>
+	<SubTexture name="KB_DanceLeft0009" x="449.0" y="340.5" width="423.5" height="324.5" frameX="-29.0" frameY="-13.0" frameWidth="476.5" frameHeight="338.0"/>
+	<SubTexture name="KB_DanceRight0000" x="873.5" y="340.5" width="403.0" height="326.0" frameX="-29.0" frameY="-16.0" frameWidth="438.5" frameHeight="342.5"/>
+	<SubTexture name="KB_DanceRight0001" x="1277.5" y="340.5" width="405.0" height="328.5" frameX="-24.0" frameY="-14.0" frameWidth="438.5" frameHeight="342.5"/>
+	<SubTexture name="KB_DanceRight0002" x="1683.5" y="340.5" width="401.5" height="328.0" frameX="-23.0" frameY="-14.0" frameWidth="438.5" frameHeight="342.5"/>
+	<SubTexture name="KB_DanceRight0003" x="2086.0" y="340.5" width="401.5" height="329.0" frameX="-21.0" frameY="-13.0" frameWidth="438.5" frameHeight="342.5"/>
+	<SubTexture name="KB_DanceRight0004" x="2488.5" y="340.5" width="402.5" height="334.5" frameX="-22.0" frameY="-7.5" frameWidth="438.5" frameHeight="342.5"/>
+	<SubTexture name="KB_DanceRight0005" x="2892.0" y="340.5" width="403.0" height="338.5" frameX="-26.5" frameY="-3.5" frameWidth="438.5" frameHeight="342.5"/>
+	<SubTexture name="KB_DanceRight0006" x="3296.0" y="340.5" width="403.0" height="340.5" frameX="-30.5" frameY="-1.5" frameWidth="438.5" frameHeight="342.5"/>
+	<SubTexture name="KB_DanceRight0007" x="2.0" y="682.0" width="417.5" height="338.5" frameX="-17.5" frameY="-3.5" frameWidth="438.5" frameHeight="342.5"/>
+	<SubTexture name="KB_DanceRight0008" x="420.5" y="682.0" width="433.5" height="342.0" frameX="-3.0" frameY="0.0" frameWidth="438.5" frameHeight="342.5"/>
+	<SubTexture name="KB_DanceRight0009" x="855.0" y="682.0" width="438.5" height="336.0" frameX="0.0" frameY="-6.0" frameWidth="438.5" frameHeight="342.5"/>
+	<SubTexture name="KB_Down0000" x="1294.5" y="682.0" width="371.0" height="301.0" frameX="-31.0" frameY="0.0" frameWidth="438.0" frameHeight="301.0"/>
+	<SubTexture name="KB_Down0001" x="1666.5" y="682.0" width="393.5" height="300.5" frameX="-13.0" frameY="-0.5" frameWidth="438.0" frameHeight="301.0"/>
+	<SubTexture name="KB_Down0002" x="2061.0" y="682.0" width="401.5" height="301.0" frameX="-15.5" frameY="0.0" frameWidth="438.0" frameHeight="301.0"/>
+	<SubTexture name="KB_Down0003" x="2463.5" y="682.0" width="421.5" height="298.5" frameX="-4.5" frameY="-2.0" frameWidth="438.0" frameHeight="301.0"/>
+	<SubTexture name="KB_Down0004" x="2886.0" y="682.0" width="438.0" height="289.5" frameX="0.0" frameY="-10.5" frameWidth="438.0" frameHeight="301.0"/>
+	<SubTexture name="KB_Left0000" x="3325.0" y="682.0" width="389.0" height="396.5" frameX="-18.0" frameY="-16.5" frameWidth="407.0" frameHeight="413.0"/>
+	<SubTexture name="KB_Left0001" x="2.0" y="1079.5" width="399.5" height="392.5" frameX="-4.0" frameY="-15.5" frameWidth="407.0" frameHeight="413.0"/>
+	<SubTexture name="KB_Left0002" x="402.5" y="1079.5" width="401.0" height="390.5" frameX="0.0" frameY="-17.0" frameWidth="407.0" frameHeight="413.0"/>
+	<SubTexture name="KB_Left0003" x="804.5" y="1079.5" width="394.5" height="404.0" frameX="-4.0" frameY="-3.5" frameWidth="407.0" frameHeight="413.0"/>
+	<SubTexture name="KB_Left0004" x="1200.0" y="1079.5" width="381.0" height="409.0" frameX="-12.0" frameY="0.0" frameWidth="407.0" frameHeight="413.0"/>
+	<SubTexture name="KB_Right0000" x="1582.0" y="1079.5" width="329.5" height="323.0" frameX="-4.0" frameY="0.0" frameWidth="333.5" frameHeight="324.0"/>
+	<SubTexture name="KB_Right0001" x="1912.5" y="1079.5" width="330.0" height="322.5" frameX="-3.0" frameY="-0.5" frameWidth="333.5" frameHeight="324.0"/>
+	<SubTexture name="KB_Right0002" x="2243.5" y="1079.5" width="324.5" height="322.5" frameX="-3.0" frameY="-1.0" frameWidth="333.5" frameHeight="324.0"/>
+	<SubTexture name="KB_Right0003" x="2569.0" y="1079.5" width="319.5" height="322.5" frameX="-2.0" frameY="-1.5" frameWidth="333.5" frameHeight="324.0"/>
+	<SubTexture name="KB_Right0004" x="2889.5" y="1079.5" width="311.0" height="320.5" frameX="0.0" frameY="-3.5" frameWidth="333.5" frameHeight="324.0"/>
+	<SubTexture name="KB_Up0000" x="3201.5" y="1079.5" width="449.5" height="412.5" frameX="-0.5" frameY="-2.5" frameWidth="452.0" frameHeight="415.0"/>
+	<SubTexture name="KB_Up0001" x="2.0" y="1493.0" width="452.0" height="415.0"/>
+	<SubTexture name="KB_Up0002" x="455.0" y="1493.0" width="446.0" height="395.0" frameX="-2.5" frameY="-20.0" frameWidth="452.0" frameHeight="415.0"/>
+	<SubTexture name="KB_Up0003" x="902.0" y="1493.0" width="436.0" height="400.5" frameX="-7.0" frameY="-14.0" frameWidth="452.0" frameHeight="415.0"/>
+	<SubTexture name="KB_Up0004" x="1339.0" y="1493.0" width="432.5" height="397.5" frameX="-10.0" frameY="-17.0" frameWidth="452.0" frameHeight="415.0"/>
+	<SubTexture name="KB_idleTired0000" x="1772.5" y="1493.0" width="391.5" height="329.0" frameX="-4.0" frameY="-1.5" frameWidth="395.5" frameHeight="331.0"/>
+	<SubTexture name="KB_idleTired0001" x="2165.0" y="1493.0" width="395.0" height="327.5" frameX="-0.5" frameY="-3.5" frameWidth="395.5" frameHeight="331.0"/>
+	<SubTexture name="KB_idleTired0002" x="2561.0" y="1493.0" width="395.5" height="325.5" frameX="0.0" frameY="-5.0" frameWidth="395.5" frameHeight="331.0"/>
+	<SubTexture name="KB_idleTired0003" x="2957.5" y="1493.0" width="394.0" height="327.0" frameX="-1.5" frameY="-3.5" frameWidth="395.5" frameHeight="331.0"/>
+	<SubTexture name="KB_idleTired0004" x="3352.5" y="1493.0" width="386.0" height="328.0" frameX="-9.5" frameY="-2.5" frameWidth="395.5" frameHeight="331.0"/>
+	<SubTexture name="KB_idleTired0005" x="2.0" y="1909.0" width="391.0" height="329.5" frameX="-4.5" frameY="-1.0" frameWidth="395.5" frameHeight="331.0"/>
+	<SubTexture name="KB_idleTired0006" x="394.0" y="1909.0" width="385.0" height="329.5" frameX="-10.5" frameY="-1.0" frameWidth="395.5" frameHeight="331.0"/>
+	<SubTexture name="KB_idleTired0007" x="780.0" y="1909.0" width="385.5" height="330.5" frameX="-10.0" frameY="0.0" frameWidth="395.5" frameHeight="331.0"/>
+	<SubTexture name="KB_idleTired0008" x="1166.5" y="1909.0" width="388.0" height="330.5" frameX="-7.5" frameY="0.0" frameWidth="395.5" frameHeight="331.0"/>
+	<SubTexture name="KB_idleTired0009" x="1555.5" y="1909.0" width="388.0" height="330.5" frameX="-7.5" frameY="0.0" frameWidth="395.5" frameHeight="331.0"/>
+</TextureAtlas>

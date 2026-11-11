@@ -1,17 +1,117 @@
 {
   "branch": "html-error-audit-fixes-2026-11-10",
   "supported_host": "freeonlinewebtools.github.io",
-  "found_this_scan": 386,
-  "imported_this_batch": 15,
-  "imported": 43,
-  "downloaded_bytes_this_batch": 706107180,
-  "downloaded_bytes": 1424265622,
+  "found_this_scan": 371,
+  "imported_this_batch": 25,
+  "imported": 68,
+  "downloaded_bytes_this_batch": 645144142,
+  "downloaded_bytes": 2069409764,
   "limits": {
     "max_games": 75,
     "max_game_bytes": 157286400,
     "max_total_bytes": 734003200
   },
   "results": [
+    {
+      "game": "A-Dark-Room",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "A-Dark-Room",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/A-Dark-Room/",
+      "files": 227,
+      "bytes": 10277716,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://www.doublespeakgames.com"
+        },
+        {
+          "file": "mobileWarning.html",
+          "url": "https://itunes.apple.com/app/apple-store/id736683061?pt=2073437&ct=mobilesplash&mt=8"
+        },
+        {
+          "file": "mobileWarning.html",
+          "url": "http://i.imgur.com/DMdnDYq.png"
+        },
+        {
+          "file": "mobileWarning.html",
+          "url": "https://play.google.com/store/apps/details?id=com.yourcompany.adarkroom&hl=en"
+        },
+        {
+          "file": "mobileWarning.html",
+          "url": "http://i.imgur.com/bLWWj4r.png"
+        },
+        {
+          "file": "browserWarning.html",
+          "url": "http://browsehappy.com"
+        },
+        {
+          "file": "browserWarning.html",
+          "url": "http://www.mozilla.org/en-US/firefox/new/"
+        },
+        {
+          "file": "browserWarning.html",
+          "url": "https://www.google.com/intl/en/chrome/browser/"
+        },
+        {
+          "file": "browserWarning.html",
+          "url": "http://windows.microsoft.com/en-CA/internet-explorer/download-ie"
+        },
+        {
+          "file": "browserWarning.html",
+          "url": "http://www.opera.com/computer"
+        },
+        {
+          "file": "browserWarning.html",
+          "url": "http://www.apple.com/safari/"
+        },
+        {
+          "file": "script/space.js",
+          "url": "https://itunes.apple.com/app/apple-store/id736683061?pt=2073437&ct=gameover&mt=8"
+        },
+        {
+          "file": "script/space.js",
+          "url": "https://play.google.com/store/apps/details?id=com.yourcompany.adarkroom"
+        },
+        {
+          "file": "script/engine.js",
+          "url": "http://adarkroom.doublespeakgames.com"
+        },
+        {
+          "file": "script/engine.js",
+          "url": "https://itunes.apple.com/app/apple-store/id736683061?pt=2073437&ct=adrproper&mt=8"
+        },
+        {
+          "file": "script/engine.js",
+          "url": "https://play.google.com/store/apps/details?id=com.yourcompany.adarkroom"
+        },
+        {
+          "file": "script/engine.js",
+          "url": "https://www.facebook.com/sharer/sharer.php?u="
+        },
+        {
+          "file": "script/engine.js",
+          "url": "https://plus.google.com/share?url="
+        },
+        {
+          "file": "script/engine.js",
+          "url": "https://twitter.com/intent/tweet?text=A%20Dark%20Room&url="
+        },
+        {
+          "file": "script/engine.js",
+          "url": "http://www.reddit.com/submit?url="
+        },
+        {
+          "file": "script/events/marketing.js",
+          "url": "https://penrose.doublespeakgames.com/?utm_source=adarkroom&utm_medium=crosspromote&utm_campaign=event"
+        }
+      ]
+    },
     {
       "game": "ABaF",
       "status": "source-too-large-or-empty",
@@ -21,12 +121,187 @@
       "bytes": 351234767
     },
     {
+      "game": "Amanda-The-Adventurer",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist13.github.io",
+      "source_path": "Amanda-The-Adventurer",
+      "file_count": 239,
+      "bytes": 2097065702
+    },
+    {
+      "game": "Among-Us",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist16.github.io",
+      "source_path": "Among-Us",
+      "file_count": 70,
+      "bytes": 864883519
+    },
+    {
+      "game": "Among-Us-Legacy",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist15.github.io",
+      "branch": "main",
+      "source_path": "Among-Us-Legacy",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist15.github.io/Among-Us-Legacy/",
+      "files": 17,
+      "bytes": 20601766,
+      "remaining_external_references": []
+    },
+    {
       "game": "Angry-Birds-Epic",
       "status": "source-too-large-or-empty",
       "repo": "freeonlinewebtools/gamelist10.github.io",
       "source_path": "Angry-Birds-Epic",
       "file_count": 68,
       "bytes": 286627696
+    },
+    {
+      "game": "Antimatter-Dimensions",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Antimatter-Dimensions",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Antimatter-Dimensions/",
+      "files": 135,
+      "bytes": 36865981,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://fonts.googleapis.com/css?family=PT+Mono"
+        },
+        {
+          "file": "about.html",
+          "url": "https://www.patreon.com/hevipelle"
+        },
+        {
+          "file": "about.html",
+          "url": "https://www.paypal.com/cgi-bin/webscr"
+        },
+        {
+          "file": "about.html",
+          "url": "https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+        },
+        {
+          "file": "about.html",
+          "url": "https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+        },
+        {
+          "file": "stylesheets/styles.css",
+          "url": "https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBEur64QvLD-0IbiAdTUNXE.woff2"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://www.youtube.com/watch?v=P945A5Tndp8"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://discord.gg/ST9NaXa"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://play.google.com/store/apps/details?id=kajfosz.antimatterdimensions"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://antimatterdimensionspayments.ew.r.appspot.com"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://ivark.github.io/"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://dan-simon.github.io/misc/fe000000/"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://trimps.github.io/"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "http://scholtek.com/minedefense"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://www.kongregate.com/games/Oninou/wami"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://www.kongregate.com/games/Tukkun/anti-idle-the-game"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://synergism.cc/"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://www.decisionproblem.com/paperclips/index2.html"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://sneekxy.nmtechgroup.com/monies2/"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://nagshell.github.io/elemental-inception-incremental/"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://melvoridle.com/"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://antimatter-dimensions-a00f2.firebaseio.com"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://www.reddit.com/r/AntimatterDimensions/"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://store.steampowered.com/app/1399720/Antimatter_Dimensions/"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://www.decisionproblem.com/paperclips/"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://youtu.be/rP42C-4zL3w?t=2"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://www.youtube.com/watch?v=fTaWKbD3UK8"
+        },
+        {
+          "file": "js/app.aefa5ffd.js",
+          "url": "https://www.youtube.com/watch?v=fLbP6qpI1YI"
+        },
+        {
+          "file": "js/chunk-vendors.2f298e3d.js",
+          "url": "https://unpkg.com/chevrotain@"
+        },
+        {
+          "file": "js/chunk-vendors.2f298e3d.js",
+          "url": "http://localhost"
+        },
+        {
+          "file": "fungame/depression.html",
+          "url": "https://cdn.jsdelivr.net/npm/vue@2.6.10"
+        },
+        {
+          "file": "fungame/depression.html",
+          "url": "https://cdn.jsdelivr.net/npm/break_infinity.js@1.2.0/dist/break_infinity.min.js"
+        },
+        {
+          "file": "fungame/depression.html",
+          "url": "https://cdn.jsdelivr.net/npm/@antimatter-dimensions/notations@1.1.1/dist/ad-notations.min.js"
+        }
+      ]
     },
     {
       "game": "Apotheon",
@@ -495,6 +770,22 @@
       "remaining_external_references": []
     },
     {
+      "game": "Cannon-Basketball-4",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Cannon-Basketball-4",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Cannon-Basketball-4/",
+      "files": 28,
+      "bytes": 5974176,
+      "remaining_external_references": [
+        {
+          "file": "js/index.js",
+          "url": "http://www.facebook.com/ArmorGames"
+        }
+      ]
+    },
+    {
       "game": "Cat-Connection-V2",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist12.github.io",
@@ -598,6 +889,38 @@
         {
           "file": "Build/DrawJoustAB.loader.js",
           "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Eggy-Car",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Eggy-Car",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Eggy-Car/",
+      "files": 104,
+      "bytes": 8547271,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "http://www.whatbrowser.org"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.mozilla.com/firefox/"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.google.com/chrome/"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.apple.com/safari/download/"
         }
       ]
     },
@@ -710,6 +1033,14 @@
       ]
     },
     {
+      "game": "Fallout",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist13.github.io",
+      "source_path": "Fallout",
+      "file_count": 220,
+      "bytes": 3715382228
+    },
+    {
       "game": "Fashion-Battle",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist12.github.io",
@@ -814,6 +1145,94 @@
       ]
     },
     {
+      "game": "Football-Bros",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Football-Bros",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Football-Bros/",
+      "files": 151,
+      "bytes": 12104152,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://wrestlebros.io"
+        },
+        {
+          "file": "index.html",
+          "url": "https://iogames.space"
+        },
+        {
+          "file": "FootballBros.js",
+          "url": "https://discord.com/invite/bluewizard"
+        },
+        {
+          "file": "firebase-firestore.js",
+          "url": "https://www.google.com/images/cleardot.gif"
+        },
+        {
+          "file": "firebase-firestore.js",
+          "url": "https://securetoken.google.com/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://staging-identitytoolkit.sandbox.googleapis.com/identitytoolkit/v3/relyingparty/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://staging-securetoken.sandbox.googleapis.com/v1/token"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://staging-identitytoolkit.sandbox.googleapis.com/v2/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://www.googleapis.com/identitytoolkit/v3/relyingparty/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://securetoken.googleapis.com/v1/token"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://identitytoolkit.googleapis.com/v2/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://staging-www.sandbox.googleapis.com/identitytoolkit/v3/relyingparty/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://www-googleapis-test.sandbox.google.com/identitytoolkit/v3/relyingparty/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://test-securetoken.sandbox.googleapis.com/v1/token"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://test-identitytoolkit.sandbox.googleapis.com/v2/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "http://localhost"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://apis.google.com/js/client.js?onload=%{onload}"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://apis.google.com/js/api.js?onload=%{onload}"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://www.google.com/recaptcha/api.js?onload=%{onload}&render=explicit&hl=%{hl}"
+        }
+      ]
+    },
+    {
       "game": "Force-Race",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist12.github.io",
@@ -898,6 +1317,50 @@
       ]
     },
     {
+      "game": "Golf-Battle",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Golf-Battle",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Golf-Battle/",
+      "files": 739,
+      "bytes": 24098515,
+      "remaining_external_references": [
+        {
+          "file": "__start__.js",
+          "url": "http://get.webgl.org\\"
+        },
+        {
+          "file": "__start__.js",
+          "url": "http://get.webgl.org/troubleshooting/\\"
+        }
+      ]
+    },
+    {
+      "game": "Golf-Orbit",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Golf-Orbit",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Golf-Orbit/",
+      "files": 15,
+      "bytes": 42076147,
+      "remaining_external_references": [
+        {
+          "file": "Build/9853637125e801e9aae48e78dbbdcfca.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Granny-3",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist15.github.io",
+      "source_path": "Granny-3",
+      "file_count": 27,
+      "bytes": 419382114
+    },
+    {
       "game": "HTML5-Doodle-Jump",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist11.github.io",
@@ -956,6 +1419,14 @@
           "url": "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@c8207b769940d128480c318e32b5d366a665db5b/highway%20racer%202/Build/game.loader.js"
         }
       ]
+    },
+    {
+      "game": "How-To-Fish",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist15.github.io",
+      "source_path": "How-To-Fish",
+      "file_count": 14,
+      "bytes": 190596700
     },
     {
       "game": "I-WANNA-BE-THE-GUY-THE-GAME-THE-MOVIE",
@@ -1397,6 +1868,98 @@
       ]
     },
     {
+      "game": "Incremancer",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Incremancer",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Incremancer/",
+      "files": 77,
+      "bytes": 1391135,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://discord.gg/TxPyNDh"
+        },
+        {
+          "file": "js/angular.min.js",
+          "url": "http://[::1]"
+        }
+      ]
+    },
+    {
+      "game": "Karate-Bros",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Karate-Bros",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Karate-Bros/",
+      "files": 85,
+      "bytes": 10314943,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://footballbros.io"
+        },
+        {
+          "file": "index.html",
+          "url": "https://soccerbros.gg"
+        },
+        {
+          "file": "index.html",
+          "url": "https://basketbros.io"
+        },
+        {
+          "file": "index.html",
+          "url": "https://crazygames.com"
+        },
+        {
+          "file": "index.html",
+          "url": "https://iogames.space"
+        },
+        {
+          "file": "index.html",
+          "url": "https://poki.com"
+        },
+        {
+          "file": "index.html",
+          "url": "https://silvergames.com"
+        },
+        {
+          "file": "index.html",
+          "url": "https://freegames.io/game/wrestle-bros"
+        },
+        {
+          "file": "index.html",
+          "url": "https://iogames.space/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://silvergames.com/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://bluewizard.com/subscribe-to-bbros/"
+        },
+        {
+          "file": "KarateBros.js",
+          "url": "https://www.crazygames.com/game/basketbros"
+        },
+        {
+          "file": "KarateBros.js",
+          "url": "https://soccerbros.gg/?utm_source=wrestlebros_housead&utm_medium=referral"
+        },
+        {
+          "file": "KarateBros.js",
+          "url": "https://bluewizard.com/privacypolicy/"
+        },
+        {
+          "file": "KarateBros.js",
+          "url": "https://bluewizard.com/terms/"
+        }
+      ]
+    },
+    {
       "game": "Kitchen-Bazar",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist11.github.io",
@@ -1492,6 +2055,86 @@
       ]
     },
     {
+      "game": "Magic-Tiles-3",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Magic-Tiles-3",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Magic-Tiles-3/",
+      "files": 184,
+      "bytes": 5083320,
+      "remaining_external_references": [
+        {
+          "file": "com4japi.min.v1.9.6.js",
+          "url": "https://w.4j.com/html5games"
+        },
+        {
+          "file": "com4japi.min.v1.9.6.js",
+          "url": "https://help.stan.com.au/hc/en-us/articles/204778087-How-do-I-disable-AdBlock-"
+        },
+        {
+          "file": "com4japi.min.v1.9.6.js",
+          "url": "http://www.gamessumo.com"
+        },
+        {
+          "file": "com4japi.min.v1.9.6.js",
+          "url": "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url="
+        },
+        {
+          "file": "com4japi.min.v1.9.6.js",
+          "url": "https://service.weibo.com/share/share.php?url="
+        },
+        {
+          "file": "com4japi.min.v1.9.6.js",
+          "url": "https://twitter.com/share?text="
+        },
+        {
+          "file": "eui.min-01102cff952e1e8d9ef72db17ea75b3b.js",
+          "url": "http://ns.egret.com/eui"
+        },
+        {
+          "file": "eui.min-01102cff952e1e8d9ef72db17ea75b3b.js",
+          "url": "http://ns.egret.com/wing"
+        },
+        {
+          "file": "game.css",
+          "url": "https://h5.4j.com/forgame/img/loading.gif"
+        }
+      ]
+    },
+    {
+      "game": "Melon-Playground",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Melon-Playground",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Melon-Playground/",
+      "files": 71,
+      "bytes": 96033367,
+      "remaining_external_references": [
+        {
+          "file": "Build/93_release-web-38.1_melon_webgl_4084d0b80653715623144af6b4f5d3381e2d2c40_v38_1.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        },
+        {
+          "file": "Modules/Lame/lame.all.js",
+          "url": "http://www.mp3dev.org/"
+        },
+        {
+          "file": "Modules/Firebase/firebase-analytics-8.10.1.js",
+          "url": "https://firebaseinstallations.googleapis.com/v1"
+        },
+        {
+          "file": "Modules/Firebase/firebase-analytics-8.10.1.js",
+          "url": "https://firebase.googleapis.com/v1alpha/projects/-/apps/{app-id}/webConfig"
+        },
+        {
+          "file": "Modules/Firebase/firebase-analytics-8.10.1.js",
+          "url": "https://www.googletagmanager.com/gtag/js"
+        }
+      ]
+    },
+    {
       "game": "Midnight-Shift-12",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist12.github.io",
@@ -1511,6 +2154,22 @@
       "bytes": 189453200
     },
     {
+      "game": "Noob-Steve-Parkour",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Noob-Steve-Parkour",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Noob-Steve-Parkour/",
+      "files": 11,
+      "bytes": 29481471,
+      "remaining_external_references": [
+        {
+          "file": "Build/Build.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
       "game": "Nothing",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist10.github.io",
@@ -1523,6 +2182,66 @@
         {
           "file": "Build/nothing-web-build.loader.js",
           "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Om-Nom-Bounce",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Om-Nom-Bounce",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Om-Nom-Bounce/",
+      "files": 179,
+      "bytes": 29035280,
+      "remaining_external_references": [
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://html5.api.gamedistribution.com/main.min.js"
+        },
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://yandex.ru/games/sdk/v2"
+        },
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://download.gameanalytics.com/js/GameAnalytics-4.4.5.min.js"
+        },
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://www.googletagmanager.com/gtm.js?id="
+        },
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://www.googletagmanager.com/ns.html?id="
+        },
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://phaser.io"
+        },
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://media.admeen.com/branding/link.php"
+        },
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://ext.minijuegosgratis.com/external-host/main.js"
+        },
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://cdn1.kongregate.com/javascripts/kongregate_api.js"
+        },
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://cdn.fbrq.io/@azerion/splash/assets/scripts/newgroundsio.min.js"
+        },
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://cdn.fbrq.io/@azerion/splash/assets/"
+        },
+        {
+          "file": "om_nom_bounce.min.js",
+          "url": "https://www.googletagmanager.com/gtag/js?id="
         }
       ]
     },
@@ -1742,6 +2461,110 @@
       "bytes": 287942100
     },
     {
+      "game": "Progress-Knight-Quest",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Progress-Knight-Quest",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Progress-Knight-Quest/",
+      "files": 21,
+      "bytes": 1123399,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://www.w3schools.com/w3css/4/w3.css"
+        },
+        {
+          "file": "index.html",
+          "url": "https://symb1.github.io/progress_knight_2/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://ihtasham42.github.io/progress-knight/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://discord.gg/fTRS4pHGka"
+        },
+        {
+          "file": "index.html",
+          "url": "https://github.com/indomit/progress_knight_2"
+        }
+      ]
+    },
+    {
+      "game": "Ragdoll-Drop",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Ragdoll-Drop",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Ragdoll-Drop/",
+      "files": 15,
+      "bytes": 35050650,
+      "remaining_external_references": [
+        {
+          "file": "Build/813700ccfaf64a0a3c57e3aa3166490b.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        },
+        {
+          "file": "JS/poki/unity-2020.js",
+          "url": "https://fonts.invalid/torus-bold-webfont.woff2"
+        },
+        {
+          "file": "JS/poki/unity-2020.js",
+          "url": "https://fonts.invalid/torus-bold-webfont.woff"
+        },
+        {
+          "file": "JS/poki/unity-2020.js",
+          "url": "https://img.poki.com/cdn-cgi/image/quality=80,width=100,height=100,fit=cover,g=0.5x0.5,f=auto/a398cd4e645b76810031bd97f8697414.png"
+        },
+        {
+          "file": "JS/poki/unity-2020.js",
+          "url": "https://img.poki.com/"
+        },
+        {
+          "file": "JS/poki/unity-2020.js",
+          "url": "https://img.poki.com/cdn-cgi/image/quality=78,width=40,height=40,fit=cover,g=0.5x0.5,f=auto/"
+        }
+      ]
+    },
+    {
+      "game": "Ragdoll-Hit",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Ragdoll-Hit",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Ragdoll-Hit/",
+      "files": 17,
+      "bytes": 39777023,
+      "remaining_external_references": [
+        {
+          "file": "unity-2020.js",
+          "url": "https://fonts.invalid/torus-bold-webfont.woff2"
+        },
+        {
+          "file": "unity-2020.js",
+          "url": "https://fonts.invalid/torus-bold-webfont.woff"
+        },
+        {
+          "file": "unity-2020.js",
+          "url": "https://img.poki.com/cdn-cgi/image/quality=80,width=100,height=100,fit=cover,g=0.5x0.5,f=auto/a398cd4e645b76810031bd97f8697414.png"
+        },
+        {
+          "file": "unity-2020.js",
+          "url": "https://img.poki.com/"
+        },
+        {
+          "file": "unity-2020.js",
+          "url": "https://img.poki.com/cdn-cgi/image/quality=78,width=40,height=40,fit=cover,g=0.5x0.5,f=auto/"
+        },
+        {
+          "file": "Build/v84.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
       "game": "Royal-Towers-YouTube-Playable",
       "status": "imported",
       "repo": "freeonlinewebtools/gamelist12.github.io",
@@ -1758,6 +2581,42 @@
         {
           "file": "index.html",
           "url": "https://get.webgl.org/"
+        }
+      ]
+    },
+    {
+      "game": "Run-3",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Run-3",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Run-3/",
+      "files": 344,
+      "bytes": 18780047,
+      "remaining_external_references": [
+        {
+          "file": "Run3.js",
+          "url": "http://ad-x.co.uk/API/click/Kon285mf20DP/web3537fc2a77d850"
+        },
+        {
+          "file": "Run3.js",
+          "url": "https://itunes.apple.com/app/run!!!/id907239855"
+        },
+        {
+          "file": "Run3.js",
+          "url": "http://www.webupd8.org/2014/01/enable-hardware-acceleration-in-chrome.html"
+        },
+        {
+          "file": "Run3.js",
+          "url": "http://jessevalentinemusic.bandcamp.com/album/run-3-ost"
+        },
+        {
+          "file": "Run3.js",
+          "url": "https://run.wikia.com/wiki/"
+        },
+        {
+          "file": "Run3.js",
+          "url": "https://\\x20AGAL\\x20"
         }
       ]
     },
@@ -1794,6 +2653,178 @@
         {
           "file": "sketch.js",
           "url": "https://fanrco.pythonanywhere.com"
+        }
+      ]
+    },
+    {
+      "game": "Sand-Game",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Sand-Game",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Sand-Game/",
+      "files": 14,
+      "bytes": 140136,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://github.com/3kh0/"
+        }
+      ]
+    },
+    {
+      "game": "Soccer-Bros",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Soccer-Bros",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Soccer-Bros/",
+      "files": 111,
+      "bytes": 10568053,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://footballbros.io"
+        },
+        {
+          "file": "index.html",
+          "url": "https://baseballbros.io"
+        },
+        {
+          "file": "index.html",
+          "url": "https://basketbros.io"
+        },
+        {
+          "file": "index.html",
+          "url": "https://karatebros.io"
+        },
+        {
+          "file": "index.html",
+          "url": "https://crazygames.com"
+        },
+        {
+          "file": "index.html",
+          "url": "https://iogames.space"
+        },
+        {
+          "file": "index.html",
+          "url": "https://poki.com"
+        },
+        {
+          "file": "index.html",
+          "url": "https://silvergames.com"
+        },
+        {
+          "file": "index.html",
+          "url": "https://wrestlebros.io"
+        },
+        {
+          "file": "index.html",
+          "url": "https://iogames.space/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://silvergames.com/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://soccerbros.io/mirrors.php"
+        },
+        {
+          "file": "index.html",
+          "url": "https://bluewizard.com/subscribe-to-bbros/"
+        },
+        {
+          "file": "SoccerBros.js",
+          "url": "https://discord.com/invite/bluewizard"
+        },
+        {
+          "file": "SoccerBros.js",
+          "url": "https://www.crazygames.com/game/basketbros"
+        },
+        {
+          "file": "SoccerBros.js",
+          "url": "https://kartbros.io/?utm_source=soccerbros_housead&utm_medium=referral"
+        },
+        {
+          "file": "SoccerBros.js",
+          "url": "https://footballbros.io/?utm_source=soccerbros_housead&utm_medium=referral"
+        },
+        {
+          "file": "SoccerBros.js",
+          "url": "https://basketbros.io/?utm_source=soccerbros_housead&utm_medium=referral"
+        },
+        {
+          "file": "SoccerBros.js",
+          "url": "https://bluewizard.com/privacypolicy/"
+        },
+        {
+          "file": "SoccerBros.js",
+          "url": "https://bluewizard.com/terms/"
+        },
+        {
+          "file": "firebase-firestore.js",
+          "url": "https://www.google.com/images/cleardot.gif"
+        },
+        {
+          "file": "firebase-firestore.js",
+          "url": "https://securetoken.google.com/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://staging-identitytoolkit.sandbox.googleapis.com/identitytoolkit/v3/relyingparty/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://staging-securetoken.sandbox.googleapis.com/v1/token"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://staging-identitytoolkit.sandbox.googleapis.com/v2/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://www.googleapis.com/identitytoolkit/v3/relyingparty/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://securetoken.googleapis.com/v1/token"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://identitytoolkit.googleapis.com/v2/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://staging-www.sandbox.googleapis.com/identitytoolkit/v3/relyingparty/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://www-googleapis-test.sandbox.google.com/identitytoolkit/v3/relyingparty/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://test-securetoken.sandbox.googleapis.com/v1/token"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://test-identitytoolkit.sandbox.googleapis.com/v2/"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "http://localhost"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://apis.google.com/js/client.js?onload=%{onload}"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://apis.google.com/js/api.js?onload=%{onload}"
+        },
+        {
+          "file": "firebase-auth.js",
+          "url": "https://www.google.com/recaptcha/api.js?onload=%{onload}&render=explicit&hl=%{hl}"
         }
       ]
     },
@@ -2045,12 +3076,252 @@
       ]
     },
     {
+      "game": "Unity-Web-Player-Flying-Gorilla",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Unity-Web-Player-Flying-Gorilla",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Unity-Web-Player-Flying-Gorilla/",
+      "files": 14,
+      "bytes": 74761238,
+      "remaining_external_references": [
+        {
+          "file": "Build/vb.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
       "game": "Unity-Web-Player-Roulette",
       "status": "source-too-large-or-empty",
       "repo": "freeonlinewebtools/gamelist11.github.io",
       "source_path": "Unity-Web-Player-Roulette",
       "file_count": 25,
       "bytes": 291120187
+    },
+    {
+      "game": "Vex-X3M",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Vex-X3M",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Vex-X3M/",
+      "files": 35,
+      "bytes": 10726111,
+      "remaining_external_references": [
+        {
+          "file": "azerion-libs.min.js",
+          "url": "https://yandex.ru/games/sdk/v2"
+        },
+        {
+          "file": "azerion-libs.min.js",
+          "url": "https://media.admeen.com/branding/link.php"
+        },
+        {
+          "file": "azerion-libs.min.js",
+          "url": "https://ext.minijuegosgratis.com/external-host/main.js"
+        },
+        {
+          "file": "azerion-libs.min.js",
+          "url": "https://cdn1.kongregate.com/javascripts/kongregate_api.js"
+        },
+        {
+          "file": "azerion-libs.min.js",
+          "url": "https://cdn.fbrq.io/@azerion/splash/assets/scripts/newgroundsio.min.js"
+        },
+        {
+          "file": "azerion-libs.min.js",
+          "url": "https://cdn.fbrq.io/@azerion/splash/assets/"
+        },
+        {
+          "file": "vex-x3m.min.js",
+          "url": "https://phaser.io"
+        }
+      ]
+    },
+    {
+      "game": "Vs-QT-Mod",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Vs-QT-Mod",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Vs-QT-Mod/",
+      "files": 425,
+      "bytes": 91964495,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://gamesgo.net/game/friday-night-funkin-vs-qt-mod"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/Hazard248"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/CountNightshade"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/Shadow_Mario_"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/river_oaken"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/bbsub3"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/yoshubs"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/gedehari"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/flicky_i"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/polybiusproxy"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/Keoiki_"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/Smokey_5_"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/ninja_muffin99"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/PhantomArcade3K"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/evilsk8r"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://twitter.com/kawaisprite"
+        },
+        {
+          "file": "QT.js",
+          "url": "https://ninja-muffin24.itch.io/funkin"
+        }
+      ]
+    },
+    {
+      "game": "Weapon-Upgrade-Rush",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Weapon-Upgrade-Rush",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Weapon-Upgrade-Rush/",
+      "files": 8,
+      "bytes": 20762305,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/gn-math/assets@main/yandex-sdk.js?lol"
+        },
+        {
+          "file": "Build/WeaponUpgradeRush.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Wrestle-Bros",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist14.github.io",
+      "branch": "main",
+      "source_path": "Wrestle-Bros",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist14.github.io/Wrestle-Bros/",
+      "files": 85,
+      "bytes": 9605445,
+      "remaining_external_references": [
+        {
+          "file": "WrestleBros.js",
+          "url": "https://www.crazygames.com/game/basketbros"
+        },
+        {
+          "file": "WrestleBros.js",
+          "url": "https://karatebros.io/?utm_source=wrestlebros_housead&utm_medium=referral"
+        },
+        {
+          "file": "WrestleBros.js",
+          "url": "https://footballbros.io/?utm_source=wrestlebros_housead&utm_medium=referral"
+        },
+        {
+          "file": "WrestleBros.js",
+          "url": "https://basketbros.io/?utm_source=wrestlebros_housead&utm_medium=referral"
+        },
+        {
+          "file": "WrestleBros.js",
+          "url": "https://bluewizard.com/privacypolicy/"
+        },
+        {
+          "file": "WrestleBros.js",
+          "url": "https://bluewizard.com/terms/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://footballbros.io"
+        },
+        {
+          "file": "index.html",
+          "url": "https://soccerbros.gg"
+        },
+        {
+          "file": "index.html",
+          "url": "https://basketbros.io"
+        },
+        {
+          "file": "index.html",
+          "url": "https://crazygames.com"
+        },
+        {
+          "file": "index.html",
+          "url": "https://iogames.space"
+        },
+        {
+          "file": "index.html",
+          "url": "https://poki.com"
+        },
+        {
+          "file": "index.html",
+          "url": "https://silvergames.com"
+        },
+        {
+          "file": "index.html",
+          "url": "https://freegames.io/game/wrestle-bros"
+        },
+        {
+          "file": "index.html",
+          "url": "https://iogames.space/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://silvergames.com/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://wrestlebros.io/mirrors.php"
+        },
+        {
+          "file": "index.html",
+          "url": "https://bluewizard.com/subscribe-to-bbros/"
+        }
+      ]
     },
     {
       "game": "journey-downhill",

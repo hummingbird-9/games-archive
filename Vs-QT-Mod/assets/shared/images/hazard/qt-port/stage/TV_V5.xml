@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TV_V5.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TV_Attention0000" x="4.0" y="4.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Attention0001" x="757.5" y="4.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Attention0002" x="4.0" y="141.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Attention0003" x="757.5" y="141.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Attention0004" x="4.0" y="278.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Attention0005" x="757.5" y="278.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Attention0006" x="4.0" y="415.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Attention0007" x="757.5" y="415.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Attention0008" x="4.0" y="552.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Bluescreen0000" x="757.5" y="552.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Drop0000" x="4.0" y="689.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Drop0001" x="757.5" y="689.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Drop0002" x="4.0" y="826.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_End0000" x="757.5" y="826.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_End0001" x="4.0" y="963.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_End0002" x="757.5" y="963.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_End0003" x="4.0" y="1100.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_End0004" x="757.5" y="1100.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_End0005" x="4.0" y="1237.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Error0000" x="757.5" y="1237.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_GoodLuck0000" x="4.0" y="1374.0" width="752.0" height="135.5"/>
+	<SubTexture name="TV_GoodLuck0001" x="758.0" y="1374.0" width="752.0" height="135.5"/>
+	<SubTexture name="TV_GoodLuck0002" x="4.0" y="1511.5" width="752.0" height="135.5"/>
+	<SubTexture name="TV_Idle0000" x="758.0" y="1511.5" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Idle0001" x="4.0" y="1649.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Idle0002" x="757.5" y="1649.0" width="751.5" height="135.0"/>
+	<SubTexture name="TV_Instructions-Normal0000" x="4.0" y="1786.0" width="752.0" height="135.5"/>
+	<SubTexture name="TV_Instructions-Normal0001" x="758.0" y="1786.0" width="752.0" height="135.5"/>
+	<SubTexture name="TV_Instructions-Normal0002" x="4.0" y="1923.5" width="752.0" height="135.5"/>
+	<SubTexture name="TV_Watchout0000" x="758.0" y="1923.5" width="752.0" height="136.0"/>
+	<SubTexture name="TV_Watchout0001" x="4.0" y="2061.5" width="752.0" height="136.0"/>
+	<SubTexture name="TV_Watchout0002" x="758.0" y="2061.5" width="752.0" height="136.0"/>
+	<SubTexture name="TV_brutality0000" x="4.0" y="2199.5" width="752.0" height="135.0"/>
+	<SubTexture name="TV_brutality0001" x="758.0" y="2199.5" width="752.0" height="135.0"/>
+	<SubTexture name="TV_brutality0002" x="4.0" y="2336.5" width="752.0" height="135.0"/>
+	<SubTexture name="TV_eyeLeft0000" x="758.0" y="2336.5" width="751.5" height="135.0"/>
+	<SubTexture name="TV_eyeLeft0001" x="4.0" y="2473.5" width="751.5" height="135.0"/>
+	<SubTexture name="TV_eyeLeft0002" x="757.5" y="2473.5" width="751.5" height="135.0"/>
+	<SubTexture name="TV_eyeRight0000" x="4.0" y="2610.5" width="751.5" height="135.0"/>
+	<SubTexture name="TV_eyeRight0001" x="757.5" y="2610.5" width="751.5" height="135.0"/>
+	<SubTexture name="TV_eyeRight0002" x="4.0" y="2747.5" width="751.5" height="135.0"/>
+	<SubTexture name="TV_eyes-OLD0000" x="757.5" y="2747.5" width="751.5" height="135.0"/>
+	<SubTexture name="TV_eyes-OLD0001" x="4.0" y="2884.5" width="751.5" height="135.0"/>
+	<SubTexture name="TV_eyes-OLD0002" x="757.5" y="2884.5" width="751.5" height="135.0"/>
+	<SubTexture name="TV_sus0000" x="4.0" y="3021.5" width="751.5" height="135.0"/>
+</TextureAtlas>
