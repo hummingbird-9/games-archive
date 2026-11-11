@@ -5,6 +5,9 @@ on:
     branches:
       - html-error-audit-fixes-2026-11-10
   workflow_dispatch:
+  repository_dispatch:
+    types:
+      - continue-offline-import
 
 permissions:
   contents: write
@@ -28,6 +31,7 @@ jobs:
             **/index.html
             scripts
             .github
+            offline-import-report.json
           sparse-checkout-cone-mode: false
           persist-credentials: true
 
