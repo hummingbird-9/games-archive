@@ -1,0 +1,16 @@
+STAGED GAME COLLECTION
+======================
+FreeEducation game pages kept: 207
+Nebula catalog records originally: 3074
+Nebula catalog records kept: 2945
+Nebula HTML paths excluded: 129
+FreeEducation overlap records: 128
+Remaining Nebula same-slug collision records: 16
+Nebula streamed records kept (not offline-verified): 834
+Uncatalogued Nebula HTML files preserved: 11
+
+FreeEducation copies take priority over matching Nebula pages.
+Nebula shared assets and original source files are retained.
+Same-slug but different-content Nebula pages are retained for review.
+No existing repository was changed and nothing was pushed to GitHub.
+Imported Nebula games have NOT been verified to work offline.
