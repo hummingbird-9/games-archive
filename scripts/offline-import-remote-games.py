@@ -46,8 +46,14 @@ def raw_url(repo: str, branch: str, path: str) -> str:
     return "https://raw.githubusercontent.com/" + repo + "/" + urllib.parse.quote(branch, safe="") + "/" + encoded
 
 def run_git(*args: str, check: bool = True):
-    return subprocess.run(["git", *args], cwd=ROOT, check=check, text=True,
-                          stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    result = subprocess.run(["git", *args], cwd=ROOT, check=False, text=True,
+                            stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if check and result.returncode:
+        print(result.stdout)
+        print(result.stderr, file=sys.stderr)
+        raise subprocess.CalledProcessError(result.returncode, result.args,
+                                             output=result.stdout, stderr=result.stderr)
+    return result
 
 def find_iframe_src(text: str):
     return re.findall(r"<iframe\b[^>]*?\bsrc\s*=\s*(['\"])(.*?)\1",
@@ -116,9 +122,7 @@ def sanitize_imported_files(target: Path, source_url: str):
             '"//download.gameanalytics.com/js/GameAnalytics-4.4.5.min.js"',
             '""')
         gi.write_text(body, encoding="utf-8")
-    # Record provenance in a harmless HTML comment.
-    if "offline-import-source:" not in text:
-        text = text.replace("<html", "<!-- offline-import-source: " + source_url + " -->\n<html", 1)
+    # Keep source provenance in offline-import-report.json, not runtime HTML.
     index.write_text(text, encoding="utf-8")
 
 def runtime_external_refs(folder: Path):
@@ -173,6 +177,7 @@ def main():
 
     reports = []
     imported = 0
+    imported_targets = []
     total_downloaded = 0
     stop = False
     for repo, games in sorted(groups.items()):
@@ -212,6 +217,10 @@ def main():
             prefix = source_path + "/"
             files = [e for e in blobs if e["path"].startswith(prefix)]
             total_size = sum(int(e.get("size", 0)) for e in files)
+            if total_downloaded + total_size > MAX_TOTAL_BYTES:
+                print("Batch byte limit reached; stopping before", game)
+                stop = True
+                break
             if not files or total_size > MAX_GAME_BYTES or any(int(e.get("size", 0)) > MAX_FILE_BYTES for e in files):
                 reports.append({"game": game, "status": "source-too-large-or-empty",
                                 "repo": repo, "source_path": source_path,
@@ -219,11 +228,6 @@ def main():
                 continue
 
             target = ROOT / game
-            try:
-                # Expand this game folder from the blob-filtered sparse checkout.
-                run_git("sparse-checkout", "add", "--no-cone", "/" + game + "/**", check=False)
-            except Exception:
-                pass
 
             def download_one(entry):
                 rel = entry["path"][len(prefix):]
@@ -250,6 +254,7 @@ def main():
                                 "bytes": sum(x[1] for x in downloaded),
                                 "remaining_external_references": remaining})
                 imported += 1
+                imported_targets.append(game)
                 total_downloaded += sum(x[1] for x in downloaded)
                 print("Imported", game, "from", repo + "/" + source_path,
                       "files=", len(downloaded), "bytes=", sum(x[1] for x in downloaded),
@@ -273,7 +278,7 @@ def main():
     (ROOT / "offline-import-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     changed = run_git("status", "--porcelain").stdout.strip()
     if changed:
-        run_git("add", "-A")
+        run_git("add", "--sparse", "-A", "--", *imported_targets, "offline-import-report.json")
         run_git("config", "user.name", "github-actions[bot]")
         run_git("config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com")
         run_git("commit", "-m", "Import local builds for externally embedded games")
