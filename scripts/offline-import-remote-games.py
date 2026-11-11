@@ -176,6 +176,13 @@ def main():
         groups.setdefault(item[1], []).append(item)
 
     reports = []
+    report_path = ROOT / "offline-import-report.json"
+    prior_results = []
+    if report_path.exists():
+        try:
+            prior_results = json.loads(report_path.read_text(encoding="utf-8")).get("results", [])
+        except (OSError, ValueError, TypeError):
+            prior_results = []
     imported = 0
     imported_targets = []
     total_downloaded = 0
@@ -265,17 +272,25 @@ def main():
         if stop:
             break
 
+    combined = {item.get("game"): item for item in prior_results if isinstance(item, dict) and item.get("game")}
+    for item in reports:
+        if item.get("game"):
+            combined[item["game"]] = item
+    all_results = [combined[name] for name in sorted(combined)]
+    imported_total = [item for item in all_results if item.get("status") == "imported"]
     report = {
         "branch": BRANCH,
         "supported_host": "freeonlinewebtools.github.io",
-        "found": len(candidates),
-        "imported": imported,
-        "downloaded_bytes": total_downloaded,
+        "found_this_scan": len(candidates),
+        "imported_this_batch": imported,
+        "imported": len(imported_total),
+        "downloaded_bytes_this_batch": total_downloaded,
+        "downloaded_bytes": sum(int(item.get("bytes", 0)) for item in imported_total),
         "limits": {"max_games": MAX_GAMES, "max_game_bytes": MAX_GAME_BYTES,
                    "max_total_bytes": MAX_TOTAL_BYTES},
-        "results": reports
+        "results": all_results
     }
-    (ROOT / "offline-import-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    report_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     changed = run_git("status", "--porcelain").stdout.strip()
     if changed:
         run_git("add", "--sparse", "-A", "--", *imported_targets, "offline-import-report.json")
@@ -286,6 +301,32 @@ def main():
         print("Committed imported local game builds and offline-import-report.json")
     else:
         print("No import changes to commit.")
+
+    # GITHUB_TOKEN pushes do not automatically start another push workflow.
+    # Use repository_dispatch to continue one bounded batch at a time.
+    if imported > 0 and stop and TOKEN:
+        dispatch_url = "https://api.github.com/repos/hummingbird-9/games/dispatches"
+        payload = json.dumps({
+            "event_type": "continue-offline-import",
+            "client_payload": {"branch": BRANCH}
+        }).encode("utf-8")
+        request = urllib.request.Request(
+            dispatch_url,
+            data=payload,
+            headers={
+                "Authorization": "Bearer " + TOKEN,
+                "Accept": "application/vnd.github+json",
+                "Content-Type": "application/json",
+                "X-GitHub-Api-Version": "2022-11-28",
+                "User-Agent": USER_AGENT
+            },
+            method="POST"
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                print("Queued next offline import batch:", response.status)
+        except Exception as exc:
+            print("Could not queue next offline import batch:", exc, file=sys.stderr)
 
 if __name__ == "__main__":
     main()
