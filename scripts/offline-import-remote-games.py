@@ -20,7 +20,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path.cwd()
-BRANCH = os.environ.get("GITHUB_REF_NAME", "html-error-audit-fixes-2026-11-10")
+BRANCH = os.environ.get("OFFLINE_IMPORT_BRANCH") or os.environ.get("GITHUB_REF_NAME", "html-error-audit-fixes-2026-11-10")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 SKIP = {"20 Minutes Till Dawn", "Do-Not-Take-This-Cat-Home"}
 MAX_GAMES = int(os.environ.get("OFFLINE_IMPORT_MAX_GAMES", "75"))
