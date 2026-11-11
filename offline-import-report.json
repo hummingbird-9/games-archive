@@ -2,8 +2,8 @@
   "branch": "html-error-audit-fixes-2026-11-10",
   "supported_host": "freeonlinewebtools.github.io",
   "found": 414,
-  "imported": 0,
-  "downloaded_bytes": 0,
+  "imported": 28,
+  "downloaded_bytes": 718158442,
   "limits": {
     "max_games": 75,
     "max_game_bytes": 157286400,
@@ -17,6 +17,1235 @@
       "source_path": "Angry-Birds-Epic",
       "file_count": 68,
       "bytes": 286627696
+    },
+    {
+      "game": "Apotheon",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist10.github.io",
+      "source_path": "Apotheon",
+      "file_count": 123,
+      "bytes": 1191259970
+    },
+    {
+      "game": "Brotato",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist10.github.io",
+      "branch": "main",
+      "source_path": "Brotato",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist10.github.io/Brotato/",
+      "files": 10,
+      "bytes": 154649656,
+      "remaining_external_references": []
+    },
+    {
+      "game": "Dawnfolk",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist10.github.io",
+      "source_path": "Dawnfolk",
+      "file_count": 16,
+      "bytes": 325709739
+    },
+    {
+      "game": "Nothing",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist10.github.io",
+      "branch": "main",
+      "source_path": "Nothing",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist10.github.io/Nothing/",
+      "files": 19,
+      "bytes": 33658570,
+      "remaining_external_references": [
+        {
+          "file": "Build/nothing-web-build.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "PVZ-Fusion",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist10.github.io",
+      "source_path": "PVZ-Fusion",
+      "file_count": 7,
+      "bytes": 227304551
+    },
+    {
+      "game": "ABaF",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "source_path": "ABaF",
+      "file_count": 24,
+      "bytes": 351234767
+    },
+    {
+      "game": "Block-Blast-Puzzle",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "Block-Blast-Puzzle",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/Block-Blast-Puzzle/",
+      "files": 1,
+      "bytes": 4460,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/bl/TemplateData/favicon.ico"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/bl/TemplateData/style.css"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/bl/manifest.webmanifest"
+        }
+      ]
+    },
+    {
+      "game": "Cell-Machine",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "Cell-Machine",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/Cell-Machine/",
+      "files": 1,
+      "bytes": 1342,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/Nailington/3kh0-assets@aeb371b7e88542fd5e61eeed9e967a446d84fe1b/cell-machine/TemplateData/style.css"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/Nailington/3kh0-assets@aeb371b7e88542fd5e61eeed9e967a446d84fe1b/cell-machine/TemplateData/UnityProgress.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/Nailington/3kh0-assets@aeb371b7e88542fd5e61eeed9e967a446d84fe1b/cell-machine/Build/UnityLoader.js"
+        }
+      ]
+    },
+    {
+      "game": "Elastic-Face",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "Elastic-Face",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/Elastic-Face/",
+      "files": 6,
+      "bytes": 536210,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "http://david.li"
+        },
+        {
+          "file": "index.html",
+          "url": "http://dolphinclub.website/audio"
+        },
+        {
+          "file": "face.js",
+          "url": "https://cdn.jsdelivr.net/gh/bobydob/godotpack@01c15bb632197abd316bf5d403617258469fcd99/side/eman/pull.png"
+        }
+      ]
+    },
+    {
+      "game": "Fears-To-Fathom-Home-Alone",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "source_path": "Fears-To-Fathom-Home-Alone",
+      "file_count": 44,
+      "bytes": 824745710
+    },
+    {
+      "game": "Fireboy-and-Watergirl-3-Ice-Temple",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "Fireboy-and-Watergirl-3-Ice-Temple",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/Fireboy-and-Watergirl-3-Ice-Temple/",
+      "files": 1,
+      "bytes": 2110,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/Edward358-AI/HTML5-games@3c35856e44aea5d93ebe781cb1af84570dd8512c/html5/fireboy-and-watergirl-3/play/bower_components/requirejs/require.js"
+        }
+      ]
+    },
+    {
+      "game": "Five-Nights-at-Freddys-Sister-Location",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "source_path": "Five-Nights-at-Freddys-Sister-Location",
+      "file_count": 45,
+      "bytes": 829600021
+    },
+    {
+      "game": "Five-Nights-at-Freddys-UCN",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "source_path": "Five-Nights-at-Freddys-UCN",
+      "file_count": 24,
+      "bytes": 323265129
+    },
+    {
+      "game": "Five-Nights-at-Shreks-Hotel",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "Five-Nights-at-Shreks-Hotel",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/Five-Nights-at-Shreks-Hotel/",
+      "files": 1,
+      "bytes": 4951,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/shayderrr/newports@501858e7d2d24dad4467463cdad972db0b19cd37/fivenightsatshrek/TemplateData/favicon.ico"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/shayderrr/newports@501858e7d2d24dad4467463cdad972db0b19cd37/fivenightsatshrek/TemplateData/style.css"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/shayderrr/newports@501858e7d2d24dad4467463cdad972db0b19cd37/fivenightsatshrek/logo.png"
+        },
+        {
+          "file": "index.html",
+          "url": "https://fonts.googleapis.com/css2?family=Heebo:wght@200;500&display=swap"
+        },
+        {
+          "file": "index.html",
+          "url": "https://fonts.googleapis.com/css2?family=Heebo:wght@200;500&family=MuseoModerno:wght@600&display=swap"
+        }
+      ]
+    },
+    {
+      "game": "Gabriels-Awesome-Schoolhouse",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "source_path": "Gabriels-Awesome-Schoolhouse",
+      "file_count": 40,
+      "bytes": 549621316
+    },
+    {
+      "game": "HTML5-Doodle-Jump",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "HTML5-Doodle-Jump",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/HTML5-Doodle-Jump/",
+      "files": 10,
+      "bytes": 146333,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://twitter.com/solitarydesigns/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://twitter.com/_rishabhp"
+        },
+        {
+          "file": "index.html",
+          "url": "https://www.w3technic.com/game/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://doodlejump.io"
+        },
+        {
+          "file": "index.html",
+          "url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        },
+        {
+          "file": "main.js",
+          "url": "http://twitter.com/share?url="
+        },
+        {
+          "file": "main.js",
+          "url": "http://facebook.com/sharer.php?s=100&p[url]="
+        },
+        {
+          "file": "main.js",
+          "url": "https://doodlejump.io"
+        }
+      ]
+    },
+    {
+      "game": "Highway-Racer-2",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "Highway-Racer-2",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/Highway-Racer-2/",
+      "files": 1,
+      "bytes": 9325,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@c8207b769940d128480c318e32b5d366a665db5b/highway%20racer%202/Build/game.loader.js"
+        }
+      ]
+    },
+    {
+      "game": "Kitchen-Bazar",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "Kitchen-Bazar",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/Kitchen-Bazar/",
+      "files": 193,
+      "bytes": 7450634,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://www.googletagmanager.com/gtm.js?id="
+        },
+        {
+          "file": "ytgame_wrapper.js",
+          "url": "https://cdn.jsdelivr.net/npm/eruda"
+        },
+        {
+          "file": "src/project.js",
+          "url": "https://www.gameloft.com/en/privacy-notice/"
+        },
+        {
+          "file": "src/project.js",
+          "url": "https://play.ludigames.com/cookie_policy/ "
+        },
+        {
+          "file": "src/project.js",
+          "url": "http://vntools.sai.gameloft.com/html5/cocos/libs/"
+        },
+        {
+          "file": "src/project.js",
+          "url": "https://graph.facebook.com/"
+        }
+      ]
+    },
+    {
+      "game": "Knights-Arena",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "Knights-Arena",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/Knights-Arena/",
+      "files": 1,
+      "bytes": 27775,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://www.google-analytics.com/analytics.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/st39/sdk@main/ga.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/Sharon-Eva/home@0e6a3e7b393557c56f318855343173b63eac8c21/publ/js/kb.loader.js"
+        }
+      ]
+    },
+    {
+      "game": "OvO-Dimensions",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "OvO-Dimensions",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/OvO-Dimensions/",
+      "files": 1,
+      "bytes": 6243,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/ovo-3-dimension@102179bf4242fd237c46c555ba154c2f325d351c/appmanifest.json"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/ovo-3-dimension@102179bf4242fd237c46c555ba154c2f325d351c/icon-256.png"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/ovo-3-dimension@102179bf4242fd237c46c555ba154c2f325d351c/animate.css"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/ovo-3-dimension@102179bf4242fd237c46c555ba154c2f325d351c/hmmg_layoutTransition.css"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/ovo-3-dimension@102179bf4242fd237c46c555ba154c2f325d351c/jquery.gritter.css"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.whatbrowser.org"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.mozilla.com/firefox/"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.google.com/chrome/"
+        },
+        {
+          "file": "index.html",
+          "url": "http://www.apple.com/safari/download/"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/ovo-3-dimension@102179bf4242fd237c46c555ba154c2f325d351c/jquery-3.4.1.min.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/ovo-3-dimension@102179bf4242fd237c46c555ba154c2f325d351c/Tween.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/ovo-3-dimension@102179bf4242fd237c46c555ba154c2f325d351c/html2canvas.min.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/ovo-3-dimension@102179bf4242fd237c46c555ba154c2f325d351c/jquery.gritter.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/ovo-3-dimension@102179bf4242fd237c46c555ba154c2f325d351c/howler.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/genizy/ovo-3-dimension@102179bf4242fd237c46c555ba154c2f325d351c/c2runtime.js"
+        }
+      ]
+    },
+    {
+      "game": "Soccer-Random-1",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "Soccer-Random-1",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/Soccer-Random-1/",
+      "files": 1,
+      "bytes": 1793,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://471058263-725410472258601738.preview.editmysite.com/uploads/b/139890129-510930859892590631/files/style.css"
+        },
+        {
+          "file": "index.html",
+          "url": "https://471058263-725410472258601738.preview.editmysite.com/uploads/b/139890129-510930859892590631/files/box2d.wasm.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://471058263-725410472258601738.preview.editmysite.com/uploads/b/139890129-510930859892590631/files/scripts/supportcheck.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://471058263-725410472258601738.preview.editmysite.com/uploads/b/139890129-510930859892590631/files/scripts/offlineclient.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://471058263-725410472258601738.preview.editmysite.com/uploads/b/139890129-510930859892590631/files/scripts/main.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://471058263-725410472258601738.preview.editmysite.com/uploads/b/139890129-510930859892590631/files/scripts/register-sw.js"
+        }
+      ]
+    },
+    {
+      "game": "Tiny-Fishing-1",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "Tiny-Fishing-1",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/Tiny-Fishing-1/",
+      "files": 1,
+      "bytes": 5292,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://361820596-851580422716946014.preview.editmysite.com/uploads/b/139890129-473108247243760926/files/gamesnacks.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://361820596-851580422716946014.preview.editmysite.com/uploads/b/139890129-473108247243760926/files/html5game/bg.png"
+        },
+        {
+          "file": "index.html",
+          "url": "https://361820596-851580422716946014.preview.editmysite.com/uploads/b/139890129-473108247243760926/files/html5game/caption.png"
+        },
+        {
+          "file": "index.html",
+          "url": "https://361820596-851580422716946014.preview.editmysite.com/uploads/b/139890129-473108247243760926/files/html5game/bh5logo.png"
+        },
+        {
+          "file": "index.html",
+          "url": "https://361820596-851580422716946014.preview.editmysite.com/uploads/b/139890129-473108247243760926/files/html5game/TinyFishing.js"
+        }
+      ]
+    },
+    {
+      "game": "Unity-Web-Player-3",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "Unity-Web-Player-3",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/Unity-Web-Player-3/",
+      "files": 11,
+      "bytes": 117042686,
+      "remaining_external_references": [
+        {
+          "file": "Build/minus3bog.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Unity-Web-Player-Roulette",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "source_path": "Unity-Web-Player-Roulette",
+      "file_count": 25,
+      "bytes": 291120187
+    },
+    {
+      "game": "journey-downhill",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "branch": "main",
+      "source_path": "journey-downhill",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist11.github.io/journey-downhill/",
+      "files": 1,
+      "bytes": 1448,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/tty67hlt6jf6/j@main/style/favicon.ico"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/tty67hlt6jf6/j@main/style/style.css"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/tty67hlt6jf6/j@main/UnityLoader.js"
+        },
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/tty67hlt6jf6/j@main/UnityProgress.js"
+        }
+      ]
+    },
+    {
+      "game": "split",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist11.github.io",
+      "source_path": "split",
+      "file_count": 15,
+      "bytes": 374463665
+    },
+    {
+      "game": "BART-BLAST-INDEV-VERSION",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "BART-BLAST-INDEV-VERSION",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/BART-BLAST-INDEV-VERSION/",
+      "files": 14,
+      "bytes": 86501927,
+      "remaining_external_references": []
+    },
+    {
+      "game": "Blumgi-Rocket",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Blumgi-Rocket",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Blumgi-Rocket/",
+      "files": 182,
+      "bytes": 17921582,
+      "remaining_external_references": [
+        {
+          "file": "js/analytics_games235.js",
+          "url": "https://www.googletagmanager.com/gtag/js?id="
+        },
+        {
+          "file": "js/analytics_ubg_v1_4.js",
+          "url": "https://www.googletagmanager.com/gtag/js?id="
+        },
+        {
+          "file": "js/slopegame-gitlab-io.js",
+          "url": "https://slopegame.gitlab.io/tunnel-games.html"
+        },
+        {
+          "file": "js/slopegame-gitlab-io.js",
+          "url": "https://slopegame.gitlab.io/jump-games.html"
+        },
+        {
+          "file": "js/slopegame-gitlab-io.js",
+          "url": "https://slopegame.gitlab.io/run-games.html"
+        },
+        {
+          "file": "js/slopegame-gitlab-io.js",
+          "url": "https://ubg98.github.io/DriftBoss/"
+        },
+        {
+          "file": "js/slopegame-gitlab-io.js",
+          "url": "https://madalinstuntcarsunblocked.github.io/"
+        },
+        {
+          "file": "js/slopegame-gitlab-io.js",
+          "url": "https://slopegame.gitlab.io\\"
+        },
+        {
+          "file": "js/ubg235_client_v1_1.js",
+          "url": "https://www.ubg235.com/js/ubg235_server_v1_0.js"
+        },
+        {
+          "file": "js/help.js",
+          "url": "https://ubg98.github.io\\"
+        },
+        {
+          "file": "scripts/c3runtime.js",
+          "url": "https://///////CONTROLS//////////"
+        },
+        {
+          "file": "scripts/supportcheck.js",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.webview"
+        },
+        {
+          "file": "scripts/supportcheck.js",
+          "url": "https://www.google.com/chrome"
+        },
+        {
+          "file": "scripts/supportcheck.js",
+          "url": "https://www.mozilla.org/firefox"
+        },
+        {
+          "file": "patch/unity-2020.js",
+          "url": "https://a.poki.com/fonts/torus-bold-webfont.woff2"
+        },
+        {
+          "file": "patch/unity-2020.js",
+          "url": "https://a.poki.com/fonts/torus-bold-webfont.woff"
+        },
+        {
+          "file": "patch/unity-2020.js",
+          "url": "https://img.poki.com/cdn-cgi/image/quality=80,width=100,height=100,fit=cover,g=0.5x0.5,f=auto/a398cd4e645b76810031bd97f8697414.png"
+        },
+        {
+          "file": "patch/unity-2020.js",
+          "url": "https://img.poki.com/"
+        },
+        {
+          "file": "patch/unity-2020.js",
+          "url": "https://img.poki.com/cdn-cgi/image/quality=78,width=40,height=40,fit=cover,g=0.5x0.5,f=auto/"
+        },
+        {
+          "file": "patch/poki-sdk-core-v2.263.0.js",
+          "url": "https://game-cdn.poki.com/scripts/touchOverlayController.js"
+        },
+        {
+          "file": "patch/poki-sdk-core-v2.263.0.js",
+          "url": "https://a.poki.com/images/thumb_anim_2x.gif"
+        },
+        {
+          "file": "patch/poki-sdk-core-v2.263.0.js",
+          "url": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu=/1053551/Pub-Poki-Generic&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url={url}&description_url={descriptionUrl}&correlator={timestamp}"
+        },
+        {
+          "file": "patch/poki-sdk-core-v2.263.0.js",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads?sz=640x360|640x480&iu="
+        },
+        {
+          "file": "patch/cdn/bootstrap.4.5.0.min.css",
+          "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://w.4j.com/html5games"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://help.stan.com.au/hc/en-us/articles/204778087-How-do-I-disable-AdBlock-"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://h5.4j.com/"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://www.4j.com"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-QLM5P-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-L6S7V-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-G79AA-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-BHENV-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-XQ1YE-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-V317O-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-HZR1V-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-V5I4Y-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-TB6YO-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-3WH6R-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-11R0X-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-RQ5CP-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-FPDUY-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-9DJ3D-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-3AQ7R-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-CNQMO-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-1QX6O-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-6132O-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-0PF3E-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-IAPWE-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-VRVKI-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-6L6S5-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-M6K39-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-WQ9VB-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-KH18E-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-TAFT5-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-CTYI7-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-KTXFS-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-3GVJQ-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-EG48R-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-S35FX-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-651DS-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-HCF64-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-38WO9-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-0QCY2-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-QVHI1-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-5US4L-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-X40A2-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-NQARB-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-3Z2M5-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-J3HSP-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-629QH-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-YFSIE-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-HDE3H-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-73KGU-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-FLA1U-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-1I8PD-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-DE0BE-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-Q8F42-01-h5-bwg&ad_type=video_image&description_url=http%3A%2F%2Fdouyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-5HOYV-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-YDZLC-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-EPA9C-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-NA8HA-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-SIW0G-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-USLAA-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-A7LCK-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-9CMMF-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-PUBGU-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-NUS8I-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-ZAYO0-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-6PGOE-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-GSZK3-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-0RSQJ-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-XIHG1-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-ODX6D-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-HZW07-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-46W8H-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-A41R4-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-G578V-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-20ATU-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-RJUMW-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        },
+        {
+          "file": "patch/4j/com4japi.js",
+          "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-games-pub-3330455067300419&slotname=game-R27NN-01-h5-bwg&ad_type=video_text_image&description_url=http%3A%2F%2Fwww.douyougame.com&max_ad_duration=30000&videoad_start_delay=0&vpmute=0&vpa=0"
+        }
+      ]
+    },
+    {
+      "game": "Cat-Connection-V2",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Cat-Connection-V2",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Cat-Connection-V2/",
+      "files": 10,
+      "bytes": 46958207,
+      "remaining_external_references": []
+    },
+    {
+      "game": "Desmos",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Desmos",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Desmos/",
+      "files": 296,
+      "bytes": 34645236,
+      "remaining_external_references": [
+        {
+          "file": "Funkin.js",
+          "url": "https://ninja-muffin24.itch.io/funkin"
+        },
+        {
+          "file": "Funkin.js",
+          "url": "https://newgrounds.io/gateway_v3.php"
+        }
+      ]
+    },
+    {
+      "game": "Draw-the-Hill",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Draw-the-Hill",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Draw-the-Hill/",
+      "files": 26,
+      "bytes": 2861195,
+      "remaining_external_references": [
+        {
+          "file": "scripts/supportcheck.js",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.webview"
+        },
+        {
+          "file": "scripts/supportcheck.js",
+          "url": "https://www.google.com/chrome"
+        },
+        {
+          "file": "scripts/supportcheck.js",
+          "url": "https://www.mozilla.org/firefox"
+        }
+      ]
+    },
+    {
+      "game": "DrawJoust",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "DrawJoust",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/DrawJoust/",
+      "files": 8,
+      "bytes": 19870830,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/gn-math/assets@main/yandex-sdk.js?lol"
+        },
+        {
+          "file": "Build/DrawJoustAB.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Endless-Aethos",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Endless-Aethos",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Endless-Aethos/",
+      "files": 335,
+      "bytes": 29963487,
+      "remaining_external_references": [
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/Shadow_Mario_"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/RiverOaken"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/yoshubs"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/bbsub3"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/flicky_i"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/gedehari"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/EliteMasterEric"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/polybiusproxy"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/kade0912"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/Keoiki_"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/Nebula_Zorua"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/Smokey_5_"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/ninja_muffin99"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/PhantomArcade3K"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/evilsk8r"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://twitter.com/kawaisprite"
+        },
+        {
+          "file": "PsychEngine.js",
+          "url": "https://ninja-muffin24.itch.io/funkin"
+        },
+        {
+          "file": "index.html",
+          "url": "https://gamesgo.net/game/fnf-sml-movie-jeffys-endless-aethos"
+        }
+      ]
+    },
+    {
+      "game": "Fashion-Battle",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Fashion-Battle",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Fashion-Battle/",
+      "files": 155,
+      "bytes": 26317274,
+      "remaining_external_references": [
+        {
+          "file": "__game-scripts.js",
+          "url": "https://famobi.com/privacy"
+        }
+      ]
+    },
+    {
+      "game": "Five-Nights-at-Freddys-1",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "source_path": "Five-Nights-at-Freddys-1",
+      "file_count": 13,
+      "bytes": 168623009
+    },
+    {
+      "game": "Five-Nights-at-Freddys-World",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "source_path": "Five-Nights-at-Freddys-World",
+      "file_count": 20,
+      "bytes": 263506730
+    },
+    {
+      "game": "Force-Race",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Force-Race",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Force-Race/",
+      "files": 8,
+      "bytes": 26921581,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/gn-math/assets@main/yandex-sdk.js?lol"
+        },
+        {
+          "file": "Build/ProRace.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Friday-Night-Funkin-Sarventes-Mid-Fight-Masses",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Friday-Night-Funkin-Sarventes-Mid-Fight-Masses",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Friday-Night-Funkin-Sarventes-Mid-Fight-Masses/",
+      "files": 347,
+      "bytes": 54438238,
+      "remaining_external_references": [
+        {
+          "file": "Funkin.js",
+          "url": "https://ninja-muffin24.itch.io/funkin"
+        },
+        {
+          "file": "Funkin.js",
+          "url": "https://newgrounds.io/gateway_v3.php"
+        }
+      ]
+    },
+    {
+      "game": "Funny-Puzzles",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Funny-Puzzles",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Funny-Puzzles/",
+      "files": 10,
+      "bytes": 21665418,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://cdn.jsdelivr.net/gh/gn-math/assets@main/yandex-sdk.js?lol"
+        },
+        {
+          "file": "Build/Builds.loader.js",
+          "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1670675"
+        }
+      ]
+    },
+    {
+      "game": "Game-Inside-a-Game",
+      "status": "imported",
+      "repo": "freeonlinewebtools/gamelist12.github.io",
+      "branch": "main",
+      "source_path": "Game-Inside-a-Game",
+      "source_url": "https://freeonlinewebtools.github.io/gamelist12.github.io/Game-Inside-a-Game/",
+      "files": 11,
+      "bytes": 36544639,
+      "remaining_external_references": [
+        {
+          "file": "index.html",
+          "url": "https://static.itch.io/htmlgame.js"
+        }
+      ]
     }
   ]
 }
