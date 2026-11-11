@@ -217,15 +217,15 @@ def main():
             prefix = source_path + "/"
             files = [e for e in blobs if e["path"].startswith(prefix)]
             total_size = sum(int(e.get("size", 0)) for e in files)
-            if total_downloaded + total_size > MAX_TOTAL_BYTES:
-                print("Batch byte limit reached; stopping before", game)
-                stop = True
-                break
             if not files or total_size > MAX_GAME_BYTES or any(int(e.get("size", 0)) > MAX_FILE_BYTES for e in files):
                 reports.append({"game": game, "status": "source-too-large-or-empty",
                                 "repo": repo, "source_path": source_path,
                                 "file_count": len(files), "bytes": total_size})
                 continue
+            if total_downloaded + total_size > MAX_TOTAL_BYTES:
+                print("Batch byte limit reached; stopping before", game)
+                stop = True
+                break
 
             target = ROOT / game
 
