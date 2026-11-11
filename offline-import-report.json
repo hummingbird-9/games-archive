@@ -1,0 +1,22 @@
+{
+  "branch": "html-error-audit-fixes-2026-11-10",
+  "supported_host": "freeonlinewebtools.github.io",
+  "found": 414,
+  "imported": 0,
+  "downloaded_bytes": 0,
+  "limits": {
+    "max_games": 75,
+    "max_game_bytes": 157286400,
+    "max_total_bytes": 734003200
+  },
+  "results": [
+    {
+      "game": "Angry-Birds-Epic",
+      "status": "source-too-large-or-empty",
+      "repo": "freeonlinewebtools/gamelist10.github.io",
+      "source_path": "Angry-Birds-Epic",
+      "file_count": 68,
+      "bytes": 286627696
+    }
+  ]
+}
