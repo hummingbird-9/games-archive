@@ -1,0 +1,43 @@
+name: Import offline game builds
+
+on:
+  push:
+    branches:
+      - html-error-audit-fixes-2026-11-10
+    paths:
+      - .github/workflows/offline-game-builds.yml
+      - scripts/offline-import-remote-games.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: offline-game-import-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  import-supported-remote-games:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout launcher pages with blob filtering
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            **/index.html
+            scripts
+            .github
+          sparse-checkout-cone-mode: false
+          persist-credentials: true
+
+      - name: Import self-hosted game folders
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+          OFFLINE_IMPORT_MAX_GAMES: "75"
+          OFFLINE_IMPORT_MAX_GAME_BYTES: "157286400"
+          OFFLINE_IMPORT_MAX_TOTAL_BYTES: "734003200"
+        run: python3 scripts/offline-import-remote-games.py
