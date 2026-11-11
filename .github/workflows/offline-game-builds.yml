@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - html-error-audit-fixes-2026-11-10
-    paths:
-      - .github/workflows/offline-game-builds.yml
-      - scripts/offline-import-remote-games.py
+  workflow_dispatch:
 
 permissions:
   contents: write
